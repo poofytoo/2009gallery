@@ -1,0 +1,109 @@
+body, html {
+  width: 100%; }
+
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #ccc;
+  margin: 60px 30px 50px; }
+
+h2 {
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #ccc;
+  margin: 30px 30px 0px; }
+
+h3 {
+  margin: 3px 30px 30px;
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #666;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.top-bar .header {
+  background-color: #111;
+  padding: 8px 30px;
+  font-family: sans-serif;
+  color: #ccc;
+  font-size: 15px; }
+  .top-bar .header em {
+    font-weight: 700;
+    color: #ddd; }
+.top-bar .navigation {
+  background-color: #eee;
+  padding: 50px 50px;
+  font-family: sans-serif;
+  color: #333;
+  font-size: 20px;
+  text-align: center; }
+.top-bar .nav-select {
+  border-radius: 5px;
+  border: 1px solid #777;
+  padding: 12px 24px;
+  font-weight: 300px;
+  font-size: 22px;
+  color: #666;
+  display: inline-block;
+  transition: 0.2s color; }
+  .top-bar .nav-select:hover {
+    cursor: pointer;
+    transition: 0.2s color;
+    color: #000;
+    border: 1px solid #000; }
+.top-bar .disabled-select {
+  opacity: 0.3; }
+  .top-bar .disabled-select:hover {
+    cursor: pointer;
+    color: #666;
+    border: 1px solid #777; }
+.top-bar .arrow {
+  transform: scale(0.7, 1);
+  font-weight: bold;
+  display: inline-block;
+  color: #ccc;
+  padding: 5px;
+  font-family: "Arial", sans-serif; }
+.top-bar .dropdown-arrow {
+  transform: rotate(90deg) translate(2px, -4px) scale(0.6, 1);
+  display: inline-block;
+  padding: 5px;
+  font-family: "Arial", sans-serif; }
+
+.thumbnail-container {
+  display: flex;
+  width: calc(100% - 40px);
+  flex-flow: row wrap;
+  padding: 20px; }
+  .thumbnail-container a {
+    display: block;
+    height: 180px;
+    width: calc(100% * (1/4) - 20px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 10px;
+    transition: 0.2s all; }
+    .thumbnail-container a:hover {
+      transition: 0.2s all;
+      opacity: 0.7; }
+  .thumbnail-container .thumbnail-bg {
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+@media screen and (max-width: 760px) {
+  .thumbnail-container a {
+    width: calc(100% * (1/2) - 20px); } }
+@media screen and (max-width: 400px) {
+  .thumbnail-container a {
+    width: calc(100% - 20px); } }
+
+/*# sourceMappingURL=main.css.map */
