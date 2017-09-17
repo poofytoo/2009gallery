@@ -1,3 +1,27 @@
+/*
+
+Laser Kites
+kite game
+Petra
+repelling device
+Trellis
+IV pole
+Vantage
+camera toy
+			
+Letter Bug
+Braille teacher
+Orion
+light tracking system
+SleepTight
+back brace
+touchLess
+door opener
+
+*/
+
+
+
 $(function() {
     var baseUrl = "http://designed.mit.edu/gallery/data/"
     var colors = ['blue', 'orange', 'red', 'pink', 'silver', 'purple', 'green', 'yellow'];
@@ -17,11 +41,18 @@ $(function() {
             console.log(url);
             var $thumbnail = $('<a href=""></a>')
             var $thumbnailBg = $('<div class="thumbnail-bg"></div>')
+            
+            $thumbnailBg.append(`
+            <div class="product-info">
+                <h4>Name of Product</h4>
+                <p>Description of Product</p>
+            </div>
+            `);
 
             $thumbnailBg.css('background-image', 'url(' + url + ')');
             $thumbnail.append($thumbnailBg);
             $thumbnailContainer.append($thumbnail);
         }
-        $('body').append($h2).append($h3).append($thumbnailContainer);
+        $('.gallery-container').append($h2).append($h3).append($thumbnailContainer);
     }
 })
