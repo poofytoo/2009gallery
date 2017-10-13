@@ -31,9 +31,12 @@ function updateSidemenuHighlight() {
         }
     }
     $('h3').each(function() {
-        $('li').removeClass('sidemenu-highlight')
+        $('li').removeClass('sidemenu-highlight');
     })
-    $('li.m-' + section).addClass('sidemenu-highlight')
+    $('li.m-' + section).addClass('sidemenu-highlight');
+
+    window.location.hash = section;
+
 }
 
 function scrollToSection(section) {
