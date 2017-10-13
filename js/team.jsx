@@ -12,128 +12,94 @@ var TeamContent = React.createClass({
                 <input id="foo" value="https://github.com/zenorocha/clipboard.js.git" />
                 <button className="btn" data-clipboard-target="#foo">copy to clipboard</button>
 
-                <h4>
-                    <span className="section-tag">Section
-                    <em>A</em>
-                    </span>
-                </h4>
-                <p className="posters">
-                    <img className="poster" src={project.ideasPic1} />
-                    <img className="poster" src={project.ideasPic2} />
-                    <img className="poster" src={project.ideasPic3} />
-                </p>
-                <h4>
-                    <span className="section-tag">Section
-                    <em>B</em>
-                    </span>
-                </h4>
-                <p className="posters">
-                    <img className="poster" src={project.ideasPic4} />
-                    <img className="poster" src={project.ideasPic5} />
-                    <img className="poster" src={project.ideasPic6} />
-                </p>
-                <h3 className="sketch-models">Sketch Models</h3>
-                <h4>
-                    <span className="section-tag">Section
-                    <em>A-1</em>
-                    </span> {project.sketchName1}</h4>
-                <div className="sketch-model">
-                    <div className="sketch-model-media">
-                    <iframe src={project.sketchMov1} width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                        allowfullscreen></iframe>
-                    <div className="sketch-model-images">
-                        <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_1.jpg" />
-                        <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_2.jpg" />
-                    </div>
-                    </div>
-                    <div className="additional-links">
-                    <a href="">Download Original Video</a>
-                    <a href="">View Presentation Slides</a>
-                    </div>
-                </div>
+                {this.renderIdeaPosters("A")}
+                {this.renderIdeaPosters("B")}
 
-                <h4>
-                    <span className="section-tag">Section
-                    <em>A-2</em>
-                    </span> Revive</h4>
-                <div className="sketch-model">
-                    <div className="sketch-model-media">
-                    <iframe src="https://player.vimeo.com/video/185915828" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                        allowfullscreen></iframe>
-                    <div className="sketch-model-images">
-                        <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_1.jpg" />
-                        <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_2.jpg" />
-                    </div>
-                    </div>
-                    <div className="additional-links">
-                    <a href="">Download Original Video</a>
-                    <a href="">View Presentation Slides</a>
-                    </div>
-                </div>
+                <h3 className="sketch-models">Sketch Models</h3>
+                {this.renderSketchModels("A")}
+                {this.renderSketchModels("B")}
+
                 <h3 className="mock-ups">Mock-ups</h3>
                 <h4>
                     <span className="section-tag">Section
-                    <em>A-1</em>
+                    <em> A-1</em>
                     </span> Catnip</h4>
             </div>
         );
     },
 
-    renderSketchModels: function(teamLetter) {
+    renderIdeaPosters: function(sectionLetter) {
         var project = this.props.project;
+        var teamSection = project.teamSections[sectionLetter];
+        var year = this.props.year;
+
+        var ideasPics = [];
+        for (var s = 1; s <= teamSection.numIdeas; s += 1) {
+            var sectionId = sectionLetter + s;
+            ideasPics.push(
+                <img className="poster" src={`data/${year}/ideas/${project.projColor}${sectionId}.jpg`} key={`idea-${sectionId}`} />
+            );
+        }
+
+        return [
+            <h4 key={`ideas-header-${sectionLetter}`}>
+                <span className="section-tag">Section
+                <em> A</em>
+                </span>
+            </h4>,
+            <p key={`ideas-posters-${sectionLetter}`} className="posters">{ideasPics}</p>,
+        ]
+    },
+
+    renderSketchModels: function(sectionLetter) {
+        var project = this.props.project;
+        var teamSection = project.teamSections[sectionLetter];
         var year = this.props.year;
 
         var sketchModels = [];
-        var index = 0;
-        do {
-            index += 1;
+        for (var s = 1; s <= teamSection.numSketches; s += 1) {
+            var sectionId = sectionLetter + s;
             sketchModels.push(
-                <h4 key={`sketch-${teamLetter}-${index}-header`}>
+                <h4 key={`sketch-${sectionLetter}-${s}-header`}>
                     <span className="section-tag">Section
-                    <em>${teamLetter.toUpperCase()}-${index}</em>
-                    </span> {project[`sketchName${teamLetter}${index}`]}</h4>,
-                <div className="sketch-model" key={`sketch-${teamLetter}-${index}-model`}>
+                    <em> {sectionLetter.toUpperCase()}-{s}</em>
+                    </span> {project[`sketchName${sectionId}`]}</h4>,
+                <div className="sketch-model" key={`sketch-${sectionLetter}-${s}-model`}>
                     <div className="sketch-model-media">
-                    <iframe src={`data/${year}/sketch/movies/${project.projColor}${teamLetter}${index}`} width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                    <iframe src={`https://player.vimeo.com/video/${teamSection.sketchVimeoIds[s - 1]}`} width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
                         allowfullscreen></iframe>
                     <div className="sketch-model-images">
-                        <img src={`data/${year}/sketch/photos/${project.projColor}${teamLetter}${index}_1.jpg`} />
-                        <img src={`data/${year}/sketch/photos/${project.projColor}${teamLetter}${index}_2.jpg`} />
+                        <img src={`data/${year}/sketch/photos/${project.projColor}${sectionId}_1.jpg`} />
+                        <img src={`data/${year}/sketch/photos/${project.projColor}${sectionId}_2.jpg`} />
                     </div>
                     </div>
                     <div className="additional-links">
-                    <a href="">Download Original Video</a>
-                    <a href="">View Presentation Slides</a>
+                    <a href={`data/${year}/sketch/movies/${project.projColor}${sectionId}`} download>Download Original Video</a>
+                    <a href={`data/${year}sketch/slides/${project.projColor}${sectionId}.pdf`}>View Presentation Slides</a>
                     </div>
                 </div>,
-            )
-        } while (project[`sketchNameA${index}`] !== undefined);
+            );
+        }
 
-        // determine the number of B teams there are
-        var maxBIndex = 0;
-        do {
-            maxBIndex += 1;
-        } while (project[`sketchNameB${maxBIndex}`] !== undefined);
-
-
+        return sketchModels;
     }
 });
 
-function parseQuery(qstr) {
-    if (qStr === undefined || qStr.length === 0) {
-        return {};
-    }
-
-    var query = {};
-    var a = (qstr[0] === '?' ? qstr.substr(1) : qstr).split('&');
-    for (var i = 0; i < a.length; i++) {
-        var b = a[i].split('=');
-        query[decodeURIComponent(b[0])] = decodeURIComponent(b[1] || '');
-    }
-    return query;
-}
-
 $(function () {
+    function parseQuery(qstr) {
+        if (qstr === undefined || qstr.length === 0) {
+            return {};
+        }
+
+        var query = {};
+        var a = (qstr[0] === '?' ? qstr.substr(1) : qstr).split('&');
+        for (var i = 0; i < a.length; i++) {
+            var b = a[i].split('=');
+            query[decodeURIComponent(b[0])] = decodeURIComponent(b[1] || '');
+        }
+        return query;
+    }
+
     var urlLocation = parseQuery(window.location.search);
     if (urlLocation.year != null
         && DATA[urlLocation.year] !== undefined

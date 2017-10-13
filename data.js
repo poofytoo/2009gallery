@@ -75,12 +75,31 @@ DATA = {
                 projTeam: "Ben Mattinson, Dabin Choe, Isaac LaJoie, Jack Greenfield, Manny Simpri Elimbi, Marie Moudio, Melody Liu, Mustafa Almuallim, Raudel Hernandez, Brady Enstad, Clare Zhang, Grace Connors, Kale Rogers, Kath Xu, Luis Gasca, Max Molina, Patrick Lowe, Rachel Reed, Rodrigo Marques",
                 projCode: "data/2015/homepage/codeOfEthics/codeOfEthics.html#blue",
 
-                ideasPicA1: "data/2015/ideas/BlueA1.jpg",
-                ideasPicA2: "data/2015/ideas/BlueA2.jpg",
-                ideasPicA3: "data/2015/ideas/BlueA3.jpg",
-                ideasPicB1: "data/2015/ideas/BlueB1.jpg",
-                ideasPicB2: "data/2015/ideas/BlueB2.jpg",
-                ideasPicB3: "data/2015/ideas/BlueB3.jpg",
+                teamSections: {
+                    A: {
+                        numIdeas: 3,
+                        numSketches: 3,
+                        sketchNames: ["Walk and Roll", "Earsight", "Watchful"],
+                        sketchVimeoIds: ["185915828", "185915828", "185915828"],
+                        numMocks: 2,
+                        mockNames: ["Walk & Roll", "Watchful"],
+                    },
+                    B: {
+                        numIdeas: 3,
+                        numSketches: 3,
+                        sketchNames: ["Polaris", "Sky Cab", "Kite Racer"],
+                        sketchVimeoIds: ["185915828", "185915828", "185915828"],
+                        numMocks: 2,
+                        mockNames: ["Polaris", "Laser Kite"],
+                    },
+                },
+
+                ideasPicA1: "data/2015/ideas/blueA1.jpg",
+                ideasPicA2: "data/2015/ideas/blueA2.jpg",
+                ideasPicA3: "data/2015/ideas/blueA3.jpg",
+                ideasPicB1: "data/2015/ideas/blueB1.jpg",
+                ideasPicB2: "data/2015/ideas/blueB2.jpg",
+                ideasPicB3: "data/2015/ideas/blueB3.jpg",
 
                 sketchNameA1: "Walk and Roll",
                 sketchNameA2: "Earsight",
