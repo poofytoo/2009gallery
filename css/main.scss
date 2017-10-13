@@ -283,15 +283,17 @@ a {
             display: inline-block;
             border: 2px solid #4A90E2;
             border-radius: 3px;
-            padding: 6px 10px 6px;
+            padding: 6px 11px 6px;
             color: #333;
-            font-size: 24px;
+            font-size: 18px;
             font-weight: 500;
             margin-bottom: 20px;
             font-family: 'Roboto Slab';
+            position: relative;
+            top: -1px;
+            z-index: -1;
 
             em {
-                font-size: 26px;
                 text-transform: uppercase;
                 color: #000;
                 font-weight: bold;
@@ -339,10 +341,10 @@ a {
         }
     }
 
-    .sketch-model {
+    .milestone-container {
         margin-bottom: 50px;
 
-        .sketch-model-media {
+        .milestone-media {
             display: flex;
             margin-bottom: 15px;
             flex-flow: row wrap;
@@ -360,7 +362,7 @@ a {
                 margin-bottom: 10px;
             }
 
-            .sketch-model-images {
+            .milestone-images {
                 display: inline-block;
             }
         }

@@ -60,14 +60,14 @@ var TeamContent = React.createClass({
             var sectionId = sectionLetter + s;
             sketchModels.push(
                 <h4 key={`sketch-${sectionLetter}-${s}-header`}>
-                    <span className="section-tag">Section
+                    <span className="section-tag">sketch model
                     <em> {sectionLetter.toUpperCase()}-{s}</em>
                     </span> {project[`sketchName${sectionId}`]}</h4>,
-                <div className="sketch-model" key={`sketch-${sectionLetter}-${s}-model`}>
-                    <div className="sketch-model-media">
-                    <iframe src={`https://player.vimeo.com/video/${teamSection.sketchVimeoIds[s - 1]}`} width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                <div className="milestone-container" key={`sketch-${sectionLetter}-${s}-model`}>
+                    <div className="milestone-media">
+                    <iframe src={`https://player.vimeo.com/video/${teamSection.sketchVimeoIds[s - 1]}`} width="400" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
                         allowfullscreen></iframe>
-                    <div className="sketch-model-images">
+                    <div className="milestone-images">
                         <img src={`data/${year}/sketch/photos/${project.projColor}${sectionId}_1.jpg`} />
                         <img src={`data/${year}/sketch/photos/${project.projColor}${sectionId}_2.jpg`} />
                     </div>
@@ -93,14 +93,14 @@ var TeamContent = React.createClass({
             var sectionId = sectionLetter + s;
             mockups.push(
                 <h4 key={`mockup-${sectionLetter}-${s}-header`}>
-                    <span className="section-tag">Section
+                    <span className="section-tag">mock-up
                     <em> {sectionLetter.toUpperCase()}-{s}</em>
                     </span> {project[`sketchName${sectionId}`]}</h4>,
-                <div className="mockup-model" key={`mockup-${sectionLetter}-${s}-model`}>
-                    <div className="sketch-model-media">
-                    <iframe src={`https://player.vimeo.com/video/${teamSection.mockVimeoIds[s - 1]}`} width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                <div className="milestone-container" key={`mockup-${sectionLetter}-${s}-model`}>
+                    <div className="milestone-media">
+                    <iframe src={`https://player.vimeo.com/video/${teamSection.mockVimeoIds[s - 1]}`} width="400" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
                         allowfullscreen></iframe>
-                    <div className="sketch-model-images">
+                    <div className="milestone-images">
                         <img src={`data/${year}/mockup/photos/${project.projColor}${sectionId}_1.jpg`} />
                         <img src={`data/${year}/mockup/photos/${project.projColor}${sectionId}_2.jpg`} />
                     </div>

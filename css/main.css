@@ -200,14 +200,16 @@ a {
       display: inline-block;
       border: 2px solid #4A90E2;
       border-radius: 3px;
-      padding: 6px 10px 6px;
+      padding: 6px 11px 6px;
       color: #333;
-      font-size: 24px;
+      font-size: 18px;
       font-weight: 500;
       margin-bottom: 20px;
-      font-family: 'Roboto Slab'; }
+      font-family: 'Roboto Slab';
+      position: relative;
+      top: -1px;
+      z-index: -1; }
       .project-container h4 .section-tag em {
-        font-size: 26px;
         text-transform: uppercase;
         color: #000;
         font-weight: bold;
@@ -237,22 +239,22 @@ a {
       margin-right: 10px; }
       .project-container .posters .poster:last-child {
         margin-right: 0; }
-  .project-container .sketch-model {
+  .project-container .milestone-container {
     margin-bottom: 50px; }
-    .project-container .sketch-model .sketch-model-media {
+    .project-container .milestone-container .milestone-media {
       display: flex;
       margin-bottom: 15px;
       flex-flow: row wrap; }
-      .project-container .sketch-model .sketch-model-media iframe {
+      .project-container .milestone-container .milestone-media iframe {
         margin-right: 20px;
         margin-bottom: 20px;
         max-width: 400px; }
-      .project-container .sketch-model .sketch-model-media img {
+      .project-container .milestone-container .milestone-media img {
         width: 140px;
         margin-right: 20px;
         float: left;
         margin-bottom: 10px; }
-      .project-container .sketch-model .sketch-model-media .sketch-model-images {
+      .project-container .milestone-container .milestone-media .milestone-images {
         display: inline-block; }
 
 .dropdown-selector {
