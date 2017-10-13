@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300,400,500,700,900" rel="stylesheet">
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
   <script src="js/view.js"></script>
 </head>
 
@@ -19,92 +20,226 @@
     </div>
     <div class="navigation">
       <div class="year-select nav-select">
+        All Projects
+      </div>
+      <span class="arrow">></span>
+      <div class="year-select nav-select">
         Fall 2015
-        <span class="dropdown-arrow">></span>
+        <span class="dropdown-arrow">&#x25BE;</span>
         <div class="dropdown-selector">
           <ul>
-            <li><a href=""><em>Magic</em> Fall 2015 <span class="dim">8 projects</span></a></li>
-            <li><a href=""><em>Adventure</em> Fall 2014 <span class="dim">8 projects</span></a></li>
-            <li><a href=""><em>Outdoors</em> Fall 2013 <span class="dim">8 projects</span></a></li>
-            <li><a href=""><em>Be Well</em> Fall 2012 <span class="dim">8 projects</span></a></li>
-            <li><a href=""><em>Adventure</em> Fall 2011 <span class="dim">8 projects</span></a></li>
-            <li><a href=""><em>Outdoors</em> Fall 2010 <span class="dim">8 projects</span></a></li>
-            <li><a href=""><em>Be Well</em> Fall 2009 <span class="dim">8 projects</span></a></li>
-            <li><a href=""><em>Outdoors</em> Fall 2010 <span class="dim">8 projects</span></a></li>
-            <li><a href=""><em>Be Well</em> Fall 2009 <span class="dim">8 projects</span></a></li>
+            <li>
+              <a href="">
+                <span class="dim">View All Years</span>
+              </a>
+            </li>
+            <li>
+              <a href="" class="selected-dropdown-item">
+                <em>Magic</em> Fall 2015
+                <span class="dim">8 projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <em>Adventure</em> Fall 2014
+                <span class="dim">8 projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <em>Outdoors</em> Fall 2013
+                <span class="dim">8 projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <em>Be Well</em> Fall 2012
+                <span class="dim">8 projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <em>Adventure</em> Fall 2011
+                <span class="dim">8 projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <em>Outdoors</em> Fall 2010
+                <span class="dim">8 projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <em>Be Well</em> Fall 2009
+                <span class="dim">8 projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <em>Outdoors</em> Fall 2010
+                <span class="dim">8 projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <em>Be Well</em> Fall 2009
+                <span class="dim">8 projects</span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
       <span class="arrow">></span>
       <div class="team-select nav-select disabled-select">
         Blue Team
-        <span class="dropdown-arrow">></span>
+        <span class="dropdown-arrow">&#x25BE;</span>
+        <div class="dropdown-selector">
+          <ul>
+            <li>
+              <a class="select-none" href="">
+                <span class="dim">View All Products</span>
+              </a>
+            </li>
+            <li class="selected-dropdown-item">
+              <a href="">
+                <div class="product-image" style="background-image: url('http://designed.mit.edu/gallery/data/2015/final/photos/small/blue1.jpg')"></div>
+                <div class="product-text">
+                  <em>Laser Kites</em> Blue Team
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="product-image" style="background-image: url('http://designed.mit.edu/gallery/data/2015/final/photos/small/red1.jpg')"></div>
+                <div class="product-text">
+                  <em>Trellis</em> Red Team
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="product-image" style="background-image: url('http://designed.mit.edu/gallery/data/2015/final/photos/small/yellow1.jpg')"></div>
+                <div class="product-text">
+                  <em>Petra</em> Yellow Team
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="product-image" style="background-image: url('http://designed.mit.edu/gallery/data/2015/final/photos/small/purple1.jpg')"></div>
+                <div class="product-text">
+                  <em>Dryve</em> Purple Team
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="product-image" style="background-image: url('http://designed.mit.edu/gallery/data/2015/final/photos/small/green1.jpg')"></div>
+                <div class="product-text">
+                  <em>Letterbug</em> Green Team
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+      <!--
       <span class="arrow">></span>
       <div class="milestone-select nav-select disabled-select">
         select a milestone
         <span class="dropdown-arrow">></span>
       </div>
+      -->
     </div>
   </div>
   <div class="project-container">
-    <h1 class="fixed-topbar">Blue Team, Fall 2015</h1>
-    <h2 class="fixed-topbar">Laser Kites</h2>
-    <h3>Team</h3>
-    <p>
-      Ben Mattinson, Dabin Choe, Isaac LaJoie, Jack Greenfield, Manny Simpri Elimbi, Marie Moudio, Melody Liu, Mustafa Almuallim,
-      Raudel Hernandez, Brady Enstad, Clare Zhang, Grace Connors, Kale Rogers, Kath Xu, Luis Gasca, Max Molina, Patrick Lowe,
-      Rachel Reed, Rodrigo Marques
-    </p>
-    <h3>Ideas Presentation</h3>
-    <h4><span class="section-tag">Section <em>A</em></span></h4>
-    <p class="posters">
-      <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueA1.jpg">
-      <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueA2.jpg">
-      <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueA3.jpg">
-    </p>
-    <h4><span class="section-tag">Section <em>B</em></span></h4>
-    <p class="posters">
-      <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueB1.jpg">
-      <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueB2.jpg">
-      <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueB3.jpg">
-    </p>
-    <h3>Sketch Models</h3>
-    <h4><span class="section-tag">Section <em>A-1</em></span> AscendAble</h4>
-    <div class="sketch-model">
-      <div class="sketch-model-media">
-        <iframe src="https://player.vimeo.com/video/185915826" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-          allowfullscreen></iframe>
-        <div class="sketch-model-images">
-          <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_1.jpg" />
-          <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_2.jpg" />
+    <div class="project-sidemenu">
+      <ul>
+        <li data-section="team" class="m-team">Team</li>
+        <li data-section="3-ideas" class="m-3-ideas">3 Ideas</li>
+        <li data-section="sketch-models" class="m-sketch-models">Sketch Models</li>
+        <li data-section="mock-ups" class="m-mock-ups">Mock-ups</li>
+        <li data-section="assembly" class="m-assembly">Assembly</li>
+        <li data-section="technical-review" class="m-technical-review">Technical Review</li>
+        <li data-section="final" class="m-final">Final</li>
+      </ul>
+    </div>
+    <div class="project-content">
+      <h1 class="fixed-topbar">Blue Team, Fall 2015</h1>
+      <h2 class="fixed-topbar">Laser Kites</h2>
+      <h3 class="team">Team</h3>
+      <p>
+        Ben Mattinson, Dabin Choe, Isaac LaJoie, Jack Greenfield, Manny Simpri Elimbi, Marie Moudio, Melody Liu, Mustafa Almuallim,
+        Raudel Hernandez, Brady Enstad, Clare Zhang, Grace Connors, Kale Rogers, Kath Xu, Luis Gasca, Max Molina, Patrick
+        Lowe, Rachel Reed, Rodrigo Marques
+      </p>
+      <h3 class="3-ideas">3 Ideas</h3>
+      <h4>
+        <span class="section-tag">Section
+          <em>A</em>
+        </span>
+      </h4>
+      <p class="posters">
+        <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueA1.jpg">
+        <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueA2.jpg">
+        <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueA3.jpg">
+      </p>
+      <h4>
+        <span class="section-tag">Section
+          <em>B</em>
+        </span>
+      </h4>
+      <p class="posters">
+        <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueB1.jpg">
+        <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueB2.jpg">
+        <img class="poster" src="http://designed.mit.edu/gallery/data/2015/ideas/BlueB3.jpg">
+      </p>
+      <h3 class="sketch-models">Sketch Models</h3>
+      <h4>
+        <span class="section-tag">Section
+          <em>A-1</em>
+        </span> AscendAble</h4>
+      <div class="sketch-model">
+        <div class="sketch-model-media">
+          <iframe src="https://player.vimeo.com/video/185915826" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+            allowfullscreen></iframe>
+          <div class="sketch-model-images">
+            <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_1.jpg" />
+            <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_2.jpg" />
+          </div>
+        </div>
+        <div class="additional-links">
+          <a href="">Download Original Video</a>
+          <a href="">View Presentation Slides</a>
         </div>
       </div>
-      <div class="additional-links">
-        <a href="">Download Original Video</a>
-        <a href="">View Presentation Slides</a>
-      </div>
-    </div>
 
-    <h4><span class="section-tag">Section <em>A-2</em></span> Revive</h4>
-    <div class="sketch-model">
-      <div class="sketch-model-media">
-        <iframe src="https://player.vimeo.com/video/185915828" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-          allowfullscreen></iframe>
-        <div class="sketch-model-images">
-          <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_1.jpg" />
-          <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_2.jpg" />
+      <h4>
+        <span class="section-tag">Section
+          <em>A-2</em>
+        </span> Revive</h4>
+      <div class="sketch-model">
+        <div class="sketch-model-media">
+          <iframe src="https://player.vimeo.com/video/185915828" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+            allowfullscreen></iframe>
+          <div class="sketch-model-images">
+            <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_1.jpg" />
+            <img src="http://designed.mit.edu/gallery/data/2015/sketch/photos/yellowA1_2.jpg" />
+          </div>
+        </div>
+        <div class="additional-links">
+          <a href="">Download Original Video</a>
+          <a href="">View Presentation Slides</a>
         </div>
       </div>
-      <div class="additional-links">
-        <a href="">Download Original Video</a>
-        <a href="">View Presentation Slides</a>
-      </div>
+      <h3 class="mock-ups">Mock-ups</h3>
+      <h4>
+        <span class="section-tag">Section
+          <em>A-1</em>
+        </span> Catnip</h4>
+
     </div>
-    <h3>Mockup Review</h3>
-    <h4><span class="section-tag">Section <em>A-1</em></span> Catnip</h4>
-
-
   </div>
 </body>
 
