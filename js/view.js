@@ -57,6 +57,8 @@ function buildSidemenu() {
 }
 
 $(function () {
+    new Clipboard('.btn');
+    
     $(window).scroll(function () {
         updateSidemenuHighlight();
         updateNavigationBar();

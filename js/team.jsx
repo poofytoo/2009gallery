@@ -1,16 +1,17 @@
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
 var TeamContent = React.createClass({
     render: function() {
         var project = this.props.project;
         return (
             <div className="project-content">
-                <h1 className="fixed-topbar">{project.projColor} Team, Fall 2015</h1>
+                <h1 className="fixed-topbar">{project.projColor.capitalize()} Team, Fall 2015</h1>
                 <h2 className="fixed-topbar">{project.projName}</h2>
                 <h3 className="team">Team</h3>
                 <p>{project.projTeam}</p>
                 <h3 className="3-ideas">3 Ideas</h3>
-
-                <input id="foo" value="https://github.com/zenorocha/clipboard.js.git" />
-                <button className="btn" data-clipboard-target="#foo">copy to clipboard</button>
 
                 {this.renderIdeaPosters("A")}
                 {this.renderIdeaPosters("B")}
@@ -20,10 +21,8 @@ var TeamContent = React.createClass({
                 {this.renderSketchModels("B")}
 
                 <h3 className="mock-ups">Mock-ups</h3>
-                <h4>
-                    <span className="section-tag">Section
-                    <em> A-1</em>
-                    </span> Catnip</h4>
+                {this.renderMockups("A")}
+                {this.renderMockups("B")}
             </div>
         );
     },
@@ -82,6 +81,39 @@ var TeamContent = React.createClass({
         }
 
         return sketchModels;
+    },
+
+    renderMockups: function(sectionLetter) {
+        var project = this.props.project;
+        var teamSection = project.teamSections[sectionLetter];
+        var year = this.props.year;
+
+        var mockups = [];
+        for (var s = 1; s <= teamSection.numMocks; s += 1) {
+            var sectionId = sectionLetter + s;
+            mockups.push(
+                <h4 key={`mockup-${sectionLetter}-${s}-header`}>
+                    <span className="section-tag">Section
+                    <em> {sectionLetter.toUpperCase()}-{s}</em>
+                    </span> {project[`sketchName${sectionId}`]}</h4>,
+                <div className="mockup-model" key={`mockup-${sectionLetter}-${s}-model`}>
+                    <div className="sketch-model-media">
+                    <iframe src={`https://player.vimeo.com/video/${teamSection.mockVimeoIds[s - 1]}`} width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+                    <div className="sketch-model-images">
+                        <img src={`data/${year}/mockup/photos/${project.projColor}${sectionId}_1.jpg`} />
+                        <img src={`data/${year}/mockup/photos/${project.projColor}${sectionId}_2.jpg`} />
+                    </div>
+                    </div>
+                    <div className="additional-links">
+                    <a href={`data/${year}/mockup/movies/${project.projColor}${sectionId}`} download>Download Original Video</a>
+                    <a href={`data/${year}/mockup/slides/${project.projColor}${sectionId}.pdf`}>View Presentation Slides</a>
+                    </div>
+                </div>,
+            );
+        }
+
+        return mockups;
     }
 });
 

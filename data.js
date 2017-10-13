@@ -83,6 +83,7 @@ DATA = {
                         sketchVimeoIds: ["185915828", "185915828", "185915828"],
                         numMocks: 2,
                         mockNames: ["Walk & Roll", "Watchful"],
+                        mockVimeoIds: ["185915828", "185915828"],
                     },
                     B: {
                         numIdeas: 3,
@@ -91,6 +92,7 @@ DATA = {
                         sketchVimeoIds: ["185915828", "185915828", "185915828"],
                         numMocks: 2,
                         mockNames: ["Polaris", "Laser Kite"],
+                        mockVimeoIds: ["185915828", "185915828"],
                     },
                 },
 

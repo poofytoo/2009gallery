@@ -332,6 +332,9 @@ a {
   .project-container .project-content {
     padding-left: 0; } }
 @media screen and (max-width: 400px) {
+  .project-container {
+    padding: 30px; }
+
   .thumbnail-container a {
     width: calc(100% - 20px); } }
 
