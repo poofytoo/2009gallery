@@ -140,8 +140,9 @@ a {
 
 .project-container {
   padding: 50px;
-  padding-top: 320px; }
+  padding-top: 250px; }
   .project-container .project-sidemenu {
+    top: 240px;
     position: fixed;
     left: calc(20% - 220px);
     width: 200px;
@@ -217,24 +218,29 @@ a {
   .project-container p {
     font-family: 'Roboto Slab';
     font-size: 14px;
-    line-height: 1.5; }
+    line-height: 1.5;
+    margin-bottom: 20px; }
+  .project-container .additional-links div {
+    margin-bottom: 12px; }
   .project-container .additional-links a {
     color: #222;
-    background-color: #eee;
-    border-radius: 2px;
-    padding: 5px 10px;
+    padding: 4px 10px 4px 6px;
     font-size: 13px;
     font-weight: 400;
     margin-right: 5px;
-    transition: all 0.3s; }
+    transition: all 0.3s;
+    border-left: #aaa solid 3px;
+    margin-bottom: 4px; }
     .project-container .additional-links a:hover {
-      color: #eee;
-      background-color: #333;
-      transition: all 0.3s; }
+      color: #000;
+      font-weight: 400;
+      border-left: #333 solid 3px;
+      transition: all 0.3s;
+      background-color: #eee; }
   .project-container .posters {
     margin-bottom: 20px; }
     .project-container .posters .poster {
-      width: 30%;
+      width: 25%;
       max-width: 200px;
       margin-right: 10px; }
       .project-container .posters .poster:last-child {
@@ -246,16 +252,21 @@ a {
       margin-bottom: 15px;
       flex-flow: row wrap; }
       .project-container .milestone-container .milestone-media iframe {
-        margin-right: 20px;
-        margin-bottom: 20px;
+        margin-right: 15px;
+        margin-bottom: 15px;
         max-width: 400px; }
       .project-container .milestone-container .milestone-media img {
         width: 140px;
-        margin-right: 20px;
+        margin-right: 15px;
         float: left;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        border: 1px solid #ddd; }
+        .project-container .milestone-container .milestone-media img:hover {
+          opacity: 0.7; }
       .project-container .milestone-container .milestone-media .milestone-images {
         display: inline-block; }
+        .project-container .milestone-container .milestone-media .milestone-images .assembly-image {
+          width: 500px; }
 
 .dropdown-selector {
   display: none;
