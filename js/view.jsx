@@ -1,127 +1,182 @@
-String.prototype.capitalize = function() {
+var baseUrl = "http://designed.mit.edu/gallery/";
+
+String.prototype.capitalize = function () {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
 var TeamContent = React.createClass({
-    render: function() {
+    render: function () {
+        console.log('hey what is htis', this.props.project.deliverables);
         var project = this.props.project;
+        console.log('project', project);
         return (
             <div className="project-content">
-                <h1 className="fixed-topbar">{project.projColor.capitalize()} Team, Fall 2015</h1>
                 <h2 className="fixed-topbar">{project.projName}</h2>
                 <h3 className="team">Team</h3>
                 <p>{project.projTeam}</p>
+                <p></p>
+                <div className="additional-links">
+                    <a href={project.projCode}>Team Code of Ethics</a>
+                </div>
                 <h3 className="3-ideas">3 Ideas</h3>
 
-                {this.renderIdeaPosters("A")}
-                {this.renderIdeaPosters("B")}
+                {this.renderIdeaPosters()}
 
                 <h3 className="sketch-models">Sketch Models</h3>
-                {this.renderSketchModels("A")}
-                {this.renderSketchModels("B")}
+                {this.renderTeamSections("sketch models", "sketch")}
 
                 <h3 className="mock-ups">Mock-ups</h3>
-                {this.renderMockups("A")}
-                {this.renderMockups("B")}
+                {this.renderTeamSections("mock-up", "mockup")}
+
+                <h3 className="assembly">Assembly Review</h3>
+                {this.renderAssemblySection()}
+
+                <h3 className="technical-review">Technical Review</h3>
+                {this.renderTechReviewSection()}
+
+                <h3 className="final">Final Presentation</h3>
+                {this.renderFinalSection()}
             </div>
         );
     },
 
-    renderIdeaPosters: function(sectionLetter) {
+    renderIdeaPosters: function (sectionLetter) {
+        var ideas = this.props.project.deliverables.ideas;
+
         var project = this.props.project;
-        var teamSection = project.teamSections[sectionLetter];
         var year = this.props.year;
 
         var ideasPics = [];
-        for (var s = 1; s <= teamSection.numIdeas; s += 1) {
-            var sectionId = sectionLetter + s;
+        var prevSection = "";
+        var sections = [];
+        for (var s in ideas) {
+            if (prevSection.charAt(0) !== s.charAt(0)) {
+                if (ideasPics.length > 0) {
+                    sections.push(<p className="posters">{ideasPics}</p>);
+                    ideasPics = [];
+                }
+                sections.push(
+                    <h4 key={`ideas-header-${s.charAt(0)}`}>
+                        <span className="section-tag">Section&nbsp;
+                        <em>{s.charAt(0)}</em>
+                        </span>
+                    </h4>,
+                );
+                prevSection = s;
+            }
             ideasPics.push(
-                <img className="poster" src={`data/${year}/ideas/${project.projColor}${sectionId}.jpg`} key={`idea-${sectionId}`} />
+                <img className="poster" src={baseUrl + `data/${year}/ideas/${project.projColor}${s}.jpg`} key={`idea-${s}`} />
             );
         }
+        sections.push(<p className="posters">{ideasPics}</p>);
+        return sections;
+    },
+
+
+    renderTeamSections: function (sectionDisplayName, sectionKey) {
+        var project = this.props.project;
+        var year = this.props.year;
+        var sectionTeams = project.deliverables[sectionKey];
+
+        var elements = [];
+        for (var s in sectionTeams) {
+            elements.push(
+                <h4 key={`${sectionKey}-${s}-header`}>
+                    <span className="section-tag">{sectionDisplayName}
+                        <em> {s}</em>
+                    </span> {sectionTeams[s].name}</h4>,
+                <div className="milestone-container" key={`${sectionKey}-${s}`}>
+                    <div className="milestone-media">
+                        <iframe src={`https://player.vimeo.com/video/${sectionTeams[s].vimeoId}`} width="400" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                            allowfullscreen></iframe>
+                        <div className="milestone-images">
+                            <a href={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_1.jpg`}><img src={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_1_sm.jpg`} /></a>
+                            <a href={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_2.jpg`}><img src={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_2_sm.jpg`} /></a>
+                        </div>
+                    </div>
+                    <div className="additional-links">
+                        <div><a href={baseUrl + `data/${year}/${sectionKey}/slides/${project.projColor}${s}.pdf`}>View Presentation Slides</a></div>
+                        <div><a href={baseUrl + `data/${year}/${sectionKey}/movies/${project.projColor}${s}`} download>Download Original Video</a></div>
+                    </div>
+                </div>,
+            );
+        }
+
+        return elements;
+    },
+
+    renderAssemblySection: function () {
+        var project = this.props.project;
+        var year = this.props.year;
+        var assembly = project.deliverables.assembly;
 
         return [
-            <h4 key={`ideas-header-${sectionLetter}`}>
-                <span className="section-tag">Section
-                <em> A</em>
-                </span>
-            </h4>,
-            <p key={`ideas-posters-${sectionLetter}`} className="posters">{ideasPics}</p>,
-        ]
+            <div className="milestone-container" key="assembly-section">
+                <div className="milestone-media">
+                    <div className="milestone-images">
+                        <a href={baseUrl + `data/${year}/assembly/${project.projColor}Assembly.jpg`}><img className="assembly-image" src={baseUrl + `data/${year}/assembly/${project.projColor}Assembly.jpg`} /></a>
+                    </div>
+                </div>
+                <div className="additional-links">
+                    <div><a href={baseUrl + `data/${year}/assembly/movies/${project.projColor}`} download>Download Original Video</a></div>
+                    <div><a href={baseUrl + `data/${year}/assembly/${project.projColor}Contract.pdf`}>View Product Contract</a></div>
+                </div>
+            </div>,
+        ];
     },
 
-    renderSketchModels: function(sectionLetter) {
+    renderTechReviewSection: function () {
         var project = this.props.project;
-        var teamSection = project.teamSections[sectionLetter];
         var year = this.props.year;
+        var section = project.deliverables.tech;
 
-        var sketchModels = [];
-        for (var s = 1; s <= teamSection.numSketches; s += 1) {
-            var sectionId = sectionLetter + s;
-            sketchModels.push(
-                <h4 key={`sketch-${sectionLetter}-${s}-header`}>
-                    <span className="section-tag">sketch model
-                    <em> {sectionLetter.toUpperCase()}-{s}</em>
-                    </span> {project[`sketchName${sectionId}`]}</h4>,
-                <div className="milestone-container" key={`sketch-${sectionLetter}-${s}-model`}>
-                    <div className="milestone-media">
-                    <iframe src={`https://player.vimeo.com/video/${teamSection.sketchVimeoIds[s - 1]}`} width="400" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
+        return [
+            <div className="milestone-container" key="assembly-section">
+                <div className="milestone-media">
+                    <iframe src={`https://player.vimeo.com/video/${section.vimeoId}`} width="400" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
                         allowfullscreen></iframe>
                     <div className="milestone-images">
-                        <img src={`data/${year}/sketch/photos/${project.projColor}${sectionId}_1.jpg`} />
-                        <img src={`data/${year}/sketch/photos/${project.projColor}${sectionId}_2.jpg`} />
+                        <a href={baseUrl + `data/${year}/tech/photos/${project.projColor.capitalize()}1.jpg`}><img src={baseUrl + `data/${year}/tech/photos/${project.projColor.capitalize()}1_sm.jpg`} /></a>
+                        <a href={baseUrl + `data/${year}/tech/photos/${project.projColor.capitalize()}2.jpg`}><img src={baseUrl + `data/${year}/tech/photos/${project.projColor.capitalize()}2_sm.jpg`} /></a>
                     </div>
-                    </div>
-                    <div className="additional-links">
-                    <a href={`data/${year}/sketch/movies/${project.projColor}${sectionId}`} download>Download Original Video</a>
-                    <a href={`data/${year}sketch/slides/${project.projColor}${sectionId}.pdf`}>View Presentation Slides</a>
-                    </div>
-                </div>,
-            );
-        }
-
-        return sketchModels;
+                </div>
+                <div className="additional-links">
+                    <div><a href={baseUrl + `data/${year}/tech/movies/${project.projColor}`} download>Download Original Video</a></div>
+                </div>
+            </div>,
+        ];
     },
 
-    renderMockups: function(sectionLetter) {
+    renderFinalSection: function () {
         var project = this.props.project;
-        var teamSection = project.teamSections[sectionLetter];
         var year = this.props.year;
+        var section = project.deliverables.final;
 
-        var mockups = [];
-        for (var s = 1; s <= teamSection.numMocks; s += 1) {
-            var sectionId = sectionLetter + s;
-            mockups.push(
-                <h4 key={`mockup-${sectionLetter}-${s}-header`}>
-                    <span className="section-tag">mock-up
-                    <em> {sectionLetter.toUpperCase()}-{s}</em>
-                    </span> {project[`sketchName${sectionId}`]}</h4>,
-                <div className="milestone-container" key={`mockup-${sectionLetter}-${s}-model`}>
-                    <div className="milestone-media">
-                    <iframe src={`https://player.vimeo.com/video/${teamSection.mockVimeoIds[s - 1]}`} width="400" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
+        return [
+            <div className="milestone-container" key="assembly-section">
+                <div className="milestone-media">
+                    <iframe src={`https://player.vimeo.com/video/${section.vimeoId}`} width="400" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
                         allowfullscreen></iframe>
                     <div className="milestone-images">
-                        <img src={`data/${year}/mockup/photos/${project.projColor}${sectionId}_1.jpg`} />
-                        <img src={`data/${year}/mockup/photos/${project.projColor}${sectionId}_2.jpg`} />
+                        <a href={baseUrl + `data/${year}/final/photos/original/${project.projColor}1.jpg`}><img src={baseUrl + `data/${year}/final/photos/small/${project.projColor}1.jpg`} /></a>
+                        <a href={baseUrl + `data/${year}/final/photos/original/${project.projColor}2.jpg`}><img src={baseUrl + `data/${year}/final/photos/small/${project.projColor}2.jpg`} /></a>
                     </div>
-                    </div>
-                    <div className="additional-links">
-                    <a href={`data/${year}/mockup/movies/${project.projColor}${sectionId}`} download>Download Original Video</a>
-                    <a href={`data/${year}/mockup/slides/${project.projColor}${sectionId}.pdf`}>View Presentation Slides</a>
-                    </div>
-                </div>,
-            );
-        }
-
-        return mockups;
+                </div>
+                <div className="additional-links">
+                    <div><a href={baseUrl + `data/${year}/final/slides/${project.projColor}.pdf`}>View Presentation Slides</a></div>
+                    <div><a href={baseUrl + `data/${year}/final/extras/${project.projColor}_brochure.pdf`}>View Product Brochure</a></div>
+                    <div><a href={baseUrl + `data/${year}/tech/movies/${project.projColor}`} download>Download Original Video</a></div>
+                </div>
+            </div>,
+        ];
     }
 });
 
 var sections = {
-    'team' : 1,
-    '3-ideas' : 2,
-    'sketch-models' : 3,
-    'mock-ups' : 4
+    'team': 1,
+    '3-ideas': 2,
+    'sketch-models': 3,
+    'mock-ups': 4
 }
 
 var scrollBreaks = [];
@@ -145,11 +200,11 @@ function updateSidemenuHighlight() {
     var offset = 200
     for (var i in sections) {
         if (sections[i] < scrollTop + offset && closestSection < sections[i]) {
-            closestSection = sections[i] ;
+            closestSection = sections[i];
             section = i;
         }
     }
-    $('h3').each(function() {
+    $('h3').each(function () {
         $('li').removeClass('sidemenu-highlight');
     })
     $('li.m-' + section).addClass('sidemenu-highlight');
@@ -167,7 +222,7 @@ function scrollToSection(section) {
 }
 
 function buildSidemenu() {
-    $('h3').each(function() {
+    $('h3').each(function () {
         sections[$(this).attr('class')] = $(this).offset().top;
     })
     $('.project-sidemenu').on('click', 'li', function () {
@@ -197,9 +252,8 @@ $(function () {
         && DATA[urlLocation.year] !== undefined
         && urlLocation.team != null
         && DATA[urlLocation.year].projects !== undefined) {
-        var teamProject = DATA[urlLocation.year].projects.find(function(project) {
-            return project.projColor.toLowerCase() === urlLocation.team.toLowerCase();
-        });
+
+        var teamProject = DATA[urlLocation.year].projects[urlLocation.team]
 
         if (teamProject !== undefined) {
             ReactDOM.render(
