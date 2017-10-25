@@ -128,7 +128,296 @@ DATA = {
                         vimeoId: "231479817",
                     }
                 }
-            }
+            },
+            yellow: {
+                projName: "Petra",
+                projDesc: "repelling device",
+                projColor: "yellow",
+                projTeam: "Faisal Alaskar, Graham Francis, Isabella DiDio, Jonah Hessels, Kate Tatar, Langston Fitts, Lauren St. Hilaire, Milly Helmick, Paul Cohen, Skyler Adams, Tony DiBlasi, Abdulrahman Alhabaidi, Christopher Chapman, Danny Joh, Deron Browne, Emma Steinhardt, James Tsao, Julia Huang, Lena Yang, Paige Grody, Tobi Rudoltz, Victoria Tam",
+                projCode: "data/2015/homepage/codeOfEthics/codeOfEthics.html#yellow",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "AscendAble",
+                            vimeoId: "231478735",
+                        },
+                        A2: {
+                            name: "Smooth Operator",
+                            vimeoId: "231478749"
+                        },
+                        A3: {
+                            name: "Simple Solar",
+                            vimeoId: "231478760"
+                        },
+                        B1: {
+                            name: "UniMask",
+                            vimeoId: "231478777"
+                        },
+                        B2: {
+                            name: "Simul-Climber",
+                            vimeoId: "231478799"
+                        },
+                        B3: {
+                            name: "Unfoltable",
+                            vimeoId: "231478818"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "FallNot",
+                            vimeoId: "231479546"
+                        },
+                        A2: {
+                            name: "Smooth Operator",
+                            vimeoId: "231479555",
+                        },
+                        B1: {
+                            name: "Caravan",
+                            vimeoId: "231479564",
+                        },
+                        B2: {
+                            name: "Simul",
+                            vimeoId: "231479572",
+                        },
+                    },
+                    assembly: {
+                        name: "Petra",
+                    },
+                    tech: {
+                        name: "Petra",
+                        vimeoId: "231477268",
+                    },
+                    final: {
+                        name: "Petra",
+                        vimeoId: "231482550",
+                    }
+                }
+            },
+            red: {
+                projName: "Trellis",
+                projDesc: "IV pole",
+                projColor: "red",
+                projTeam: "Design Team: Amando Antonini, Amy Ishiguro, Chris McPherson, Christine Jiang, Josh Acosta, Kira Street, McCall Huston, Meaghan Fitzgerald, Paige Kennedy, States Lee, Sunnie Lampl, Tori Jensen, Alex Konradi, Beth Cholst, Claire Patterson, Katy Kem, Michael Wymer, Morgan Gilliver, Negin Abdolrahim Poorheravi, Rachel Nations, Sophia Jaffe, Teddy Ort",
+                projCode: "data/2015/homepage/codeOfEthics/codeOfEthics.html#red",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Fresherizer",
+                            vimeoId: "231478325",
+                        },
+                        A2: {
+                            name: "Trellis",
+                            vimeoId: "231478349"
+                        },
+                        A3: {
+                            name: "Harmonius",
+                            vimeoId: "231478394"
+                        },
+                        B1: {
+                            name: "Snail Express",
+                            vimeoId: "231478427"
+                        },
+                        B2: {
+                            name: "Pocket Knob",
+                            vimeoId: "231478465"
+                        },
+                        B3: {
+                            name: "Tatsu",
+                            vimeoId: "231478504"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Trellis",
+                            vimeoId: "231479483"
+                        },
+                        A2: {
+                            name: "Fresherizer",
+                            vimeoId: "231479499",
+                        },
+                        B1: {
+                            name: "Cool Baby",
+                            vimeoId: "231479506",
+                        },
+                        B2: {
+                            name: "Tatsu",
+                            vimeoId: "231479518",
+                        },
+                    },
+                    assembly: {
+                        name: "Trellis",
+                    },
+                    tech: {
+                        name: "Trellis",
+                        vimeoId: "231477138",
+                    },
+                    final: {
+                        name: "Trellis",
+                        vimeoId: "231481785",
+                    }
+                }
+            },
+            orange: {
+                projName: "Vantage",
+                projDesc: "camera toy",
+                projColor: "orange",
+                projTeam: "Akash Salgado-Agarwal, Andres Bierman, Ben Spiro, Brady Knight, Connie Liu, Ife Bakare, Jacob Tims, Lucas Moura Santana, Michael Portas, Michelle Navarro, Russell Johnson, Yi Zhong, Alex Lednev, Anthony Pennes, Jacob Rothman, Jenny Kim, Kalin Malouf Mestres, Lucas Mendes, Luke Schlueter, Roala Ruiz, Tyler Clayton, Yazir Alsharif",
+                projCode: "data/2015/homepage/codeOfEthics/codeOfEthics.html#orange",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "SpectR",
+                            vimeoId: "231477736",
+                        },
+                        A2: {
+                            name: "ImagiDome",
+                            vimeoId: "231477791"
+                        },
+                        A3: {
+                            name: "Bumble",
+                            vimeoId: "231477850"
+                        },
+                        B1: {
+                            name: "E-Strip",
+                            vimeoId: "231477892"
+                        },
+                        B2: {
+                            name: "Taply",
+                            vimeoId: "231477912"
+                        },
+                        B3: {
+                            name: "Cool Couch",
+                            vimeoId: "231477935"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "doodle dome",
+                            vimeoId: "231479359"
+                        },
+                        A2: {
+                            name: "bumble",
+                            vimeoId: "231479364",
+                        },
+                        B1: {
+                            name: "taply",
+                            vimeoId: "231479378",
+                        },
+                        B2: {
+                            name: "e-strip",
+                            vimeoId: "231479388",
+                        },
+                    },
+                    assembly: {
+                        name: "Vantage",
+                    },
+                    tech: {
+                        name: "Vantage",
+                        vimeoId: "231476992",
+                    },
+                    final: {
+                        name: "Vantage",
+                        vimeoId: "231480596",
+                    }
+                }
+            },
+            green: {
+                projName: "Letter Bug",
+                projDesc: "Braille teacher",
+                projColor: "green",
+                projTeam: "Alex Romero Gomez, David Afolabi, Guilherme Mello, Kristen Manning, Lucien Morales, Rachel Lathe, Reko Ahmed, Rhyse Bendell, Scott McDonald, Colt Richter, Fernando Cunha, Jessica Anderson, Joe Sandoval, John Bolaji, Mario Prado, Nihala Thanikkal, Silvia Vazquez, Stephen Rodan",
+                projCode: "data/2015/homepage/codeOfEthics/codeOfEthics.html#green",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "MagneTrain",
+                            vimeoId: "231477484",
+                        },
+                        A2: {
+                            name: "Ball Buddy",
+                            vimeoId: "231477535"
+                        },
+                        A3: {
+                            name: "VibraTunes",
+                            vimeoId: "231477574"
+                        },
+                        B1: {
+                            name: "NorthPull",
+                            vimeoId: "231477625"
+                        },
+                        B2: {
+                            name: "Phanhaptic",
+                            vimeoId: "231477669"
+                        },
+                        B3: {
+                            name: "Master Mixer",
+                            vimeoId: "231477701"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "MagneTrain",
+                            vimeoId: "231479317"
+                        },
+                        A2: {
+                            name: "VibraTunes",
+                            vimeoId: "231479325",
+                        },
+                        B1: {
+                            name: "NorthSense",
+                            vimeoId: "231479337",
+                        },
+                        B2: {
+                            name: "InstaBraille",
+                            vimeoId: "231479351",
+                        },
+                    },
+                    assembly: {
+                        name: "Letter Bug",
+                    },
+                    tech: {
+                        name: "Letter Bug",
+                        vimeoId: "231476941",
+                    },
+                    final: {
+                        name: "Letter Bug",
+                        vimeoId: "231480046",
+                    }
+                }
+            },
+            // NEXT
         }
     }
 }
