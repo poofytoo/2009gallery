@@ -43,17 +43,17 @@ DATA = {
             {
                 linkLabel: "Yellow team: How did they get there?",
                 linkUrl: "data/2015/highlights/yellow_team_2015.mp4",
-                onClick: "window.open('data/2015/highlights/yellow_team_2015.mp4', 'movieWin', 'width=640,height=360,scrollbars=no,resizable=no');return false",
+                onClick: "window.open('data/2015/highlights/yellow_team_2015.mp4', 'movieWin', 'width=640,height=360,scrollbars=no,resizable=no');return false"
             },
             {
                 linkLabel: "Project theme of 2015",
-                linkUrl: "data/2015/homepage/project/projectTheme.html",
+                linkUrl: "data/2015/homepage/project/projectTheme.html"
             },
             {
                 linkLabel: "Thank you, Prof. Wallace!",
                 linkUrl: "data/2015/highlights/thankyou_2015.mp4",
-                onClick: "window.open('data/2015/highlights/thankyou_2015.mp4', 'movieWin', 'width=640,height=360,scrollbars=no,resizable=no');return false",
-            },
+                onClick: "window.open('data/2015/highlights/thankyou_2015.mp4', 'movieWin', 'width=640,height=360,scrollbars=no,resizable=no');return false"
+            }
 
         ],
         projects: {
@@ -75,7 +75,7 @@ DATA = {
                     sketch: {
                         A1: {
                             name: "Walk and Roll",
-                            vimeoId: "231477369",
+                            vimeoId: "231477369"
                         },
                         A2: {
                             name: "Earsight",
@@ -105,27 +105,27 @@ DATA = {
                         },
                         A2: {
                             name: "Watchful",
-                            vimeoId: "231479287",
+                            vimeoId: "231479287"
                         },
                         B1: {
                             name: "Polaris",
-                            vimeoId: "231479272",
+                            vimeoId: "231479272"
                         },
                         B2: {
                             name: "Laser Kite",
-                            vimeoId: "231479301",
-                        },
+                            vimeoId: "231479301"
+                        }
                     },
                     assembly: {
-                        name: "Laser Kites",
+                        name: "Laser Kites"
                     },
                     tech: {
                         name: "Laser Kites",
-                        vimeoId: "231476886",
+                        vimeoId: "231476886"
                     },
                     final: {
                         name: "Laser Kites",
-                        vimeoId: "231479817",
+                        vimeoId: "231479817"
                     }
                 }
             },
@@ -147,7 +147,7 @@ DATA = {
                     sketch: {
                         A1: {
                             name: "AscendAble",
-                            vimeoId: "231478735",
+                            vimeoId: "231478735"
                         },
                         A2: {
                             name: "Smooth Operator",
@@ -177,27 +177,27 @@ DATA = {
                         },
                         A2: {
                             name: "Smooth Operator",
-                            vimeoId: "231479555",
+                            vimeoId: "231479555"
                         },
                         B1: {
                             name: "Caravan",
-                            vimeoId: "231479564",
+                            vimeoId: "231479564"
                         },
                         B2: {
                             name: "Simul",
-                            vimeoId: "231479572",
-                        },
+                            vimeoId: "231479572"
+                        }
                     },
                     assembly: {
-                        name: "Petra",
+                        name: "Petra"
                     },
                     tech: {
                         name: "Petra",
-                        vimeoId: "231477268",
+                        vimeoId: "231477268"
                     },
                     final: {
                         name: "Petra",
-                        vimeoId: "231482550",
+                        vimeoId: "231482550"
                     }
                 }
             },
@@ -219,7 +219,7 @@ DATA = {
                     sketch: {
                         A1: {
                             name: "Fresherizer",
-                            vimeoId: "231478325",
+                            vimeoId: "231478325"
                         },
                         A2: {
                             name: "Trellis",
@@ -249,27 +249,27 @@ DATA = {
                         },
                         A2: {
                             name: "Fresherizer",
-                            vimeoId: "231479499",
+                            vimeoId: "231479499"
                         },
                         B1: {
                             name: "Cool Baby",
-                            vimeoId: "231479506",
+                            vimeoId: "231479506"
                         },
                         B2: {
                             name: "Tatsu",
-                            vimeoId: "231479518",
-                        },
+                            vimeoId: "231479518"
+                        }
                     },
                     assembly: {
-                        name: "Trellis",
+                        name: "Trellis"
                     },
                     tech: {
                         name: "Trellis",
-                        vimeoId: "231477138",
+                        vimeoId: "231477138"
                     },
                     final: {
                         name: "Trellis",
-                        vimeoId: "231481785",
+                        vimeoId: "231481785"
                     }
                 }
             },
@@ -291,7 +291,7 @@ DATA = {
                     sketch: {
                         A1: {
                             name: "SpectR",
-                            vimeoId: "231477736",
+                            vimeoId: "231477736"
                         },
                         A2: {
                             name: "ImagiDome",
@@ -321,27 +321,27 @@ DATA = {
                         },
                         A2: {
                             name: "bumble",
-                            vimeoId: "231479364",
+                            vimeoId: "231479364"
                         },
                         B1: {
                             name: "taply",
-                            vimeoId: "231479378",
+                            vimeoId: "231479378"
                         },
                         B2: {
                             name: "e-strip",
-                            vimeoId: "231479388",
-                        },
+                            vimeoId: "231479388"
+                        }
                     },
                     assembly: {
-                        name: "Vantage",
+                        name: "Vantage"
                     },
                     tech: {
                         name: "Vantage",
-                        vimeoId: "231476992",
+                        vimeoId: "231476992"
                     },
                     final: {
                         name: "Vantage",
-                        vimeoId: "231480596",
+                        vimeoId: "231480596"
                     }
                 }
             },
@@ -363,7 +363,7 @@ DATA = {
                     sketch: {
                         A1: {
                             name: "MagneTrain",
-                            vimeoId: "231477484",
+                            vimeoId: "231477484"
                         },
                         A2: {
                             name: "Ball Buddy",
@@ -393,31 +393,246 @@ DATA = {
                         },
                         A2: {
                             name: "VibraTunes",
-                            vimeoId: "231479325",
+                            vimeoId: "231479325"
                         },
                         B1: {
                             name: "NorthSense",
-                            vimeoId: "231479337",
+                            vimeoId: "231479337"
                         },
                         B2: {
                             name: "InstaBraille",
-                            vimeoId: "231479351",
-                        },
+                            vimeoId: "231479351"
+                        }
                     },
                     assembly: {
-                        name: "Letter Bug",
+                        name: "Letter Bug"
                     },
                     tech: {
                         name: "Letter Bug",
-                        vimeoId: "231476941",
+                        vimeoId: "231476941"
                     },
                     final: {
                         name: "Letter Bug",
-                        vimeoId: "231480046",
+                        vimeoId: "231480046"
                     }
                 }
             },
-            // NEXT
+            pink: {
+                projName: "Orion",
+                projDesc: "light tracking system",
+                projColor: "pink",
+                projTeam: "Abdullah Alomari, Alana Peters, Conrad Sanborn, Jacqueline Kuo, Joy Park, Justin Pedley, Katie Ward, Laura Standley, Meiji Yue, Ronald Heisser, Bassey James, Chris Kwok, Emad Baata, Joe Corilla, Eurah Ko, Krithika Swaminathan, Lauren Wright, Matt Hole, Sammi Bray, Titan Hartono",
+                projCode: "data/2015/homepage/codeOfEthics/codeOfEthics.html#pink",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "AnySpace",
+                            vimeoId: "231477952"
+                        },
+                        A2: {
+                            name: "RightLight",
+                            vimeoId: "231477978"
+                        },
+                        A3: {
+                            name: "fLoorED",
+                            vimeoId: "231477994"
+                        },
+                        B1: {
+                            name: "ModCase",
+                            vimeoId: "231478014"
+                        },
+                        B2: {
+                            name: "Ziplite",
+                            vimeoId: "231478020"
+                        },
+                        B3: {
+                            name: "Synesthesia",
+                            vimeoId: "231478044"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Rubble Ready",
+                            vimeoId: "231479399"
+                        },
+                        A2: {
+                            name: "AnySpace",
+                            vimeoId: "231479406"
+                        },
+                        B1: {
+                            name: "Synesthesia",
+                            vimeoId: "231479424"
+                        },
+                        B2: {
+                            name: "ZipLite",
+                            vimeoId: "231479431"
+                        }
+                    },
+                    assembly: {
+                        name: "Orion"
+                    },
+                    tech: {
+                        name: "Orion",
+                        vimeoId: "231477053"
+                    },
+                    final: {
+                        name: "Orion",
+                        vimeoId: "231480874"
+                    }
+                }
+            },
+            silver: {
+                projName: "SleepTight",
+                projDesc: "back brace",
+                projColor: "silver",
+                projTeam: "Alex Breton, Anna Leonard, Christina Sung, Ian Tolan, Louis Segall, Luther Banner III, Matt Tancik, Natasha Gunther, Noam Buckman, Pedro Brito, Brian Wilcox, Chrystal Chern, Jow Schuman, Joyce Zhang, Lucas Lancellotti Sanches, Mohammed Aljuzayri, Morgan Moroi, Neil Borja, Sergio Falcon, Sydney Carter, Zach Mikaya",
+                projCode: "data/2015/homepage/codeOfEthics/codeOfEthics.html#silver",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Epilepsy Detector",
+                            vimeoId: "231478531"
+                        },
+                        A2: {
+                            name: "Interactive Countertop",
+                            vimeoId: "231478571"
+                        },
+                        A3: {
+                            name: "Water Washer Recycling Unit",
+                            vimeoId: "231478612"
+                        },
+                        B1: {
+                            name: "Smart Brace for Scoliosis",
+                            vimeoId: "231478641"
+                        },
+                        B2: {
+                            name: "Worldly Window",
+                            vimeoId: "231478678"
+                        },
+                        B3: {
+                            name: "Sweet Spotter",
+                            vimeoId: "231478721"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Hotpause",
+                            vimeoId: "231479520"
+                        },
+                        A2: {
+                            name: "RecyClean",
+                            vimeoId: "231479529"
+                        },
+                        B1: {
+                            name: "Sweet Spotter",
+                            vimeoId: "231479536"
+                        },
+                        B2: {
+                            name: "Smart Back Brace for Scoliosis",
+                            vimeoId: "231479542"
+                        }
+                    },
+                    assembly: {
+                        name: "SleepTight"
+                    },
+                    tech: {
+                        name: "SleepTight",
+                        vimeoId: "231477212"
+                    },
+                    final: {
+                        name: "SleepTight",
+                        vimeoId: "231482217"
+                    }
+                }
+            },
+            purple: {
+                projName: "touchLess",
+                projDesc: "door opener",
+                projColor: "purple",
+                projTeam: "Adrian Samsel, Aquil Fannis, Camilo Ruiz, Eric Kline, Eric Shirley, Isabella Stuopis, Jarrod Smith, Max Malinowski, Roger Hartman II, Sally Miller, Sophia Wu, Carrington Motley, Eric Johnson, Hannah Hoffman, Joshua Born, Kristen Augdahl, Lesley Wang, Michael Cheung, Nathan Varady, Serena Pan, Valentina Chamorro",
+                projCode: "data/2015/homepage/codeOfEthics/codeOfEthics.html#purple",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "RUSTore",
+                            vimeoId: "231478064"
+                        },
+                        A2: {
+                            name: "Kontrol",
+                            vimeoId: "231478139"
+                        },
+                        A3: {
+                            name: "Virtual Flyer",
+                            vimeoId: "231478174"
+                        },
+                        B1: {
+                            name: "Word and Seek",
+                            vimeoId: "231478203"
+                        },
+                        B2: {
+                            name: "Touchless Handle",
+                            vimeoId: "231478249"
+                        },
+                        B3: {
+                            name: "Tidy Table",
+                            vimeoId: "231478292"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "RUSTore",
+                            vimeoId: "231479439"
+                        },
+                        A2: {
+                            name: "Rock'em Reality",
+                            vimeoId: "231479451"
+                        },
+                        B1: {
+                            name: "Wordie",
+                            vimeoId: "231479461"
+                        },
+                        B2: {
+                            name: "Touchless Handle",
+                            vimeoId: "231479470"
+                        }
+                    },
+                    assembly: {
+                        name: "touchLess"
+                    },
+                    tech: {
+                        name: "touchLess",
+                        vimeoId: "231477103"
+                    },
+                    final: {
+                        name: "touchLess",
+                        vimeoId: "231481274"
+                    }
+                }
+            },
         }
     }
 }
