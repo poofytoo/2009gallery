@@ -267,7 +267,7 @@ $(function () {
 
             ReactDOM.render(
                 <Navigation />,
-                document.getElementById('dropdown-selector-list')
+                document.getElementById('navigation')
             );
 
             // TODO: Figure out Clipboardy

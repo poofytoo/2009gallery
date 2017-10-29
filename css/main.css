@@ -280,12 +280,12 @@ a {
   transition: all 0.4s;
   position: absolute;
   z-index: 1992;
-  left: 0;
   background-color: #fff;
   border-radius: 5px;
   width: 300px;
   height: 300px;
   top: 70px;
+  right: 0;
   padding: 20px;
   text-align: left;
   overflow: scroll;
@@ -297,8 +297,6 @@ a {
   .dropdown-selector .dim {
     color: #aaa;
     font-size: 12px; }
-  .dropdown-selector ul {
-    margin-bottom: 100px; }
   .dropdown-selector li {
     border-top: 1px solid #ddd; }
   .dropdown-selector a {
