@@ -1,33 +1,37 @@
 var baseUrl = "http://designed.mit.edu/gallery/data/"
 
 export const Navigation = React.createClass({
-    getInitialState: function() {
-      return {
-        isYearDropdownVisible: false,
-        isTeamDropdownVisible: false,
-      };
-    },
-    componentDidMount: function() {
-      // Disable Parent Scrolling with Child
-      var _this = this;
-      $('.dropdown-selector').on('mousewheel', function (e) {
-        var event = e.originalEvent,
-            d = event.wheelDelta || -event.detail;
-
-        _this.scrollTop += (d < 0 ? 1 : -1) * 30;
-        e.preventDefault();
-      });
-      $("body").on("click", function(event) {
-        // react and jquery events aren't playing nice with each other
-        if (!$(event.target).hasClass("nav-select")) {
-          _this.setState({
+    getInitialState: function () {
+        return {
             isYearDropdownVisible: false,
             isTeamDropdownVisible: false,
-          });
-        }
-      });
+        };
+    },
+    componentDidMount: function () {
+        
+        var _this = this;
+
+        $("body").on("click", function (event) {
+            // react and jquery events aren't playing nice with each other
+            if (!$(event.target).hasClass("nav-select")) {
+                _this.setState({
+                    isYearDropdownVisible: false,
+                    isTeamDropdownVisible: false,
+                });
+            }
+        });
     },
     render: function () {
+        
+        // Disable Parent Scrolling with Child
+        $(document).on('mousewheel', '.dropdown-selector', function (e) {
+            var event = e.originalEvent,
+                d = event.wheelDelta || -event.detail;
+
+            $('.dropdown-selector').scrollTop += (d < 0 ? 1 : -1) * 30;
+            e.preventDefault();
+        });
+
 
         return (<div>
             <div className="year-select nav-select">
@@ -49,27 +53,27 @@ export const Navigation = React.createClass({
 
         </div>);
     },
-    maybeRenderYearDropdown: function() {
-      if (this.state.isYearDropdownVisible) {
-        return (
-          <div className="dropdown-selector">
-              <ul>{this.renderYearList()}</ul>
-          </div>
-        );
-      }
-      return undefined;
+    maybeRenderYearDropdown: function () {
+        if (this.state.isYearDropdownVisible) {
+            return (
+                <div className="dropdown-selector">
+                    <ul>{this.renderYearList()}</ul>
+                </div>
+            );
+        }
+        return undefined;
     },
     maybeRenderTeamDropdown: function () {
-      if (this.state.isTeamDropdownVisible) {
-        return (
-          <div className="dropdown-selector">
-              <ul id="dropdown-selector-list">
-                  {this.renderProductList()}
-              </ul>
-          </div>
-        );
-      }
-      return undefined;
+        if (this.state.isTeamDropdownVisible) {
+            return (
+                <div className="dropdown-selector">
+                    <ul id="dropdown-selector-list">
+                        {this.renderProductList()}
+                    </ul>
+                </div>
+            );
+        }
+        return undefined;
     },
     renderProductList: function () {
         var projectList = [(
@@ -97,17 +101,17 @@ export const Navigation = React.createClass({
         }
         return <div>{projectList}</div>
     },
-    renderYearList: function() {
+    renderYearList: function () {
         return <div>hi</div>
     },
-    toggleYearDropdown: function(event) {
-      event.stopPropagation();
-      this.setState({ isYearDropdownVisible: !this.state.isYearDropdownVisible });
+    toggleYearDropdown: function (event) {
+        event.stopPropagation();
+        this.setState({ isYearDropdownVisible: !this.state.isYearDropdownVisible });
     },
-    toggleTeamDropdown: function(event) {
-      event.stopPropagation();
-      console.log('toggle')
-      this.setState({ isTeamDropdownVisible: !this.state.isTeamDropdownVisible });
+    toggleTeamDropdown: function (event) {
+        event.stopPropagation();
+        console.log('toggle')
+        this.setState({ isTeamDropdownVisible: !this.state.isTeamDropdownVisible });
     }
 });
 
