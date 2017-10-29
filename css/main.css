@@ -79,22 +79,25 @@ a {
   padding: 0;
   font-family: "Arial", sans-serif; }
 
-.gallery-container h1 {
-  font-size: 40px;
-  font-weight: 500;
-  color: #ccc;
-  margin: 60px 30px 50px; }
-.gallery-container h2 {
-  font-size: 80px;
-  font-weight: 700;
-  color: #ccc;
-  margin: 30px 30px 0px; }
-.gallery-container h3 {
-  margin: 3px 30px 30px;
-  font-size: 24px;
-  color: #666;
-  font-weight: 700;
-  text-transform: uppercase; }
+.gallery-container {
+  padding: 50px;
+  padding-top: 250px; }
+  .gallery-container h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #ccc;
+    margin: 60px 30px 50px; }
+  .gallery-container h2 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #ccc;
+    margin: 30px 30px 0px; }
+  .gallery-container h3 {
+    margin: 3px 30px 30px;
+    font-size: 24px;
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase; }
 
 .thumbnail-container {
   display: flex;
@@ -274,7 +277,6 @@ a {
           width: 500px; }
 
 .dropdown-selector {
-  display: none;
   transition: all 0.4s;
   position: absolute;
   z-index: 1992;

@@ -256,11 +256,20 @@ $(function () {
         var teamProject = DATA[urlLocation.year].projects[urlLocation.team]
 
         if (teamProject !== undefined) {
+
             ReactDOM.render(
                 <TeamContent project={teamProject} year={urlLocation.year} />,
                 document.getElementById('project-content')
             );
 
+            // TODO: Move 
+
+            ReactDOM.render(
+                <Navigation />,
+                document.getElementById('dropdown-selector-list')
+            );
+
+            // TODO: Figure out Clipboardy
             new Clipboard('.btn');
 
             // handle scrolling after the DOM has rendered our elements
@@ -273,7 +282,8 @@ $(function () {
             buildSidemenu();
 
             locationHash = window.location.hash;
-            if (locationHash !== undefined) {
+            console.log(locationHash)
+            if (locationHash !== undefined && locationHash !== "") {
                 if ('scrollRestoration' in history) {
                     history.scrollRestoration = 'manual';
                 }

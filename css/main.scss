@@ -120,6 +120,9 @@ a {
 }
 
 .gallery-container {
+    padding: 50px;
+    padding-top: 250px;
+
     h1 {
         font-size: 40px;
         font-weight: 500;
@@ -397,7 +400,8 @@ a {
 }
 
 .dropdown-selector {
-    display: none;
+    //display: none;
+    
     transition: all 0.4s;
     position: absolute;
     z-index: 1992;
