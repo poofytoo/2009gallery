@@ -97,7 +97,7 @@ a {
             color: #666;
 
             // border: 1px solid #777;
-       
+
         }
     }
 
@@ -403,9 +403,13 @@ a {
     }
 }
 
+.dropdown-selector-container {
+    transition: all 0.4s;
+}
+
 .dropdown-selector {
     //display: none;
-    
+
     transition: all 0.4s;
     position: absolute;
     z-index: 1992;

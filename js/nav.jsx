@@ -8,8 +8,17 @@ export const Navigation = React.createClass({
         };
     },
     componentDidMount: function () {
-        
+
         var _this = this;
+
+        // Disable Parent Scrolling with Child
+        $(document).on('mousewheel', '.dropdown-selector', function (e) {
+            var event = e.originalEvent,
+                d = event.wheelDelta || -event.detail;
+
+            $('.dropdown-selector').scrollTop += (d < 0 ? 1 : -1) * 30;
+            e.preventDefault();
+        });
 
         $("body").on("click", function (event) {
             // react and jquery events aren't playing nice with each other
@@ -22,17 +31,6 @@ export const Navigation = React.createClass({
         });
     },
     render: function () {
-        
-        // Disable Parent Scrolling with Child
-        $(document).on('mousewheel', '.dropdown-selector', function (e) {
-            var event = e.originalEvent,
-                d = event.wheelDelta || -event.detail;
-
-            $('.dropdown-selector').scrollTop += (d < 0 ? 1 : -1) * 30;
-            e.preventDefault();
-        });
-
-
         return (<div>
             <div className="year-select nav-select">
                 All Projects

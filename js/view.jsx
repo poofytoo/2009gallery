@@ -203,7 +203,8 @@ function updateNavigationBar() {
         $('.navigation').removeClass('condensed');
         $('h1').removeClass('condensed');
         $('h2').removeClass('condensed');
-    } else {
+    } else if (!$('.navigation').hasClass('condensed')){
+        console.log('here')
         $('.navigation').addClass('condensed');
         $('h1').addClass('condensed');
         $('h2').addClass('condensed');
