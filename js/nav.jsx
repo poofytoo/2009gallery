@@ -11,15 +11,6 @@ export const Navigation = React.createClass({
 
         var _this = this;
 
-        // Disable Parent Scrolling with Child
-        $(document).on('mousewheel', '.dropdown-selector', function (e) {
-            var event = e.originalEvent,
-                d = event.wheelDelta || -event.detail;
-
-            $('.dropdown-selector').scrollTop += (d < 0 ? 1 : -1) * 30;
-            e.preventDefault();
-        });
-
         $("body").on("click", function (event) {
             // react and jquery events aren't playing nice with each other
             if (!$(event.target).hasClass("nav-select")) {
@@ -29,6 +20,30 @@ export const Navigation = React.createClass({
                 });
             }
         });
+    },
+    componentDidUpdate: function(oldProps, oldState) {
+      if (!oldState.isYearDropdownVisible && this.state.isYearDropdownVisible) {
+            // Disable Parent Scrolling with Child
+        $(document).on('mousewheel', '.year-selector', function (e) {
+
+          var event = e.originalEvent,
+              d = event.wheelDelta || -event.detail;
+
+          $('.year-selector').scrollTop($('.year-selector').scrollTop() + (d < 0 ? 1 : -1) * 30);
+          e.preventDefault();
+        });
+      }
+
+      if (!oldState.isTeamDropdownVisible && this.state.isTeamDropdownVisible) {
+        $(document).on('mousewheel', '.team-selector', function (e) {
+
+          var event = e.originalEvent,
+              d = event.wheelDelta || -event.detail;
+
+          $('.team-selector').scrollTop($('.team-selector').scrollTop() + (d < 0 ? 1 : -1) * 30);
+          e.preventDefault();
+        });
+      }
     },
     render: function () {
         return (<div>
@@ -54,7 +69,7 @@ export const Navigation = React.createClass({
     maybeRenderYearDropdown: function () {
         if (this.state.isYearDropdownVisible) {
             return (
-                <div className="dropdown-selector">
+                <div className="dropdown-selector year-selector">
                     <ul>{this.renderYearList()}</ul>
                 </div>
             );
@@ -64,7 +79,7 @@ export const Navigation = React.createClass({
     maybeRenderTeamDropdown: function () {
         if (this.state.isTeamDropdownVisible) {
             return (
-                <div className="dropdown-selector">
+                <div className="dropdown-selector team-selector">
                     <ul id="dropdown-selector-list">
                         {this.renderProductList()}
                     </ul>
@@ -104,12 +119,17 @@ export const Navigation = React.createClass({
     },
     toggleYearDropdown: function (event) {
         event.stopPropagation();
-        this.setState({ isYearDropdownVisible: !this.state.isYearDropdownVisible });
+        this.setState({
+          isYearDropdownVisible: !this.state.isYearDropdownVisible,
+          isTeamDropdownVisible: !this.state.isYearDropdownVisible ? false : this.state.isTeamDropdownVisible,
+        });
     },
     toggleTeamDropdown: function (event) {
         event.stopPropagation();
-        console.log('toggle')
-        this.setState({ isTeamDropdownVisible: !this.state.isTeamDropdownVisible });
+        this.setState({
+          isTeamDropdownVisible: !this.state.isTeamDropdownVisible,
+          isYearDropdownVisible: !this.state.isTeamDropdownVisible ? false : this.state.isYearDropdownVisible,
+        });
     }
 });
 
