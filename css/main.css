@@ -279,6 +279,9 @@ a {
         .project-container .milestone-container .milestone-media .milestone-images .assembly-image {
           width: 500px; }
 
+.dropdown-selector-container {
+  transition: all 0.4s; }
+
 .dropdown-selector {
   transition: all 0.4s;
   position: absolute;
