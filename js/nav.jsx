@@ -21,28 +21,7 @@ export const Navigation = React.createClass({
             }
         });
     },
-    render: function () {
-        var _this = this;
-
-        // Disable Parent Scrolling with Child
-        $(document).on('mousewheel', '.dropdown-selector', function (e) {
-            var event = e.originalEvent,
-                d = event.wheelDelta || -event.detail;
-
-            $('.dropdown-selector').scrollTop += (d < 0 ? 1 : -1) * 30;
-            e.preventDefault();
-        });
-
-
-        $(document).on('scroll', function () {
-            if (_this.state.isYearDropdownVisible || _this.state.isTeamDropdownVisible) {
-                _this.setState({
-                    isYearDropdownVisible: false,
-                    isTeamDropdownVisible: false
-                });
-            }
-        })
-
+    componentDidUpdate: function (oldProps, oldState) {
         if (!oldState.isTeamDropdownVisible && this.state.isTeamDropdownVisible) {
             $(document).on('mousewheel', '.team-selector', function (e) {
 
@@ -52,6 +31,17 @@ export const Navigation = React.createClass({
                 e.preventDefault();
             });
         }
+
+        if (!oldState.isYearDropdownVisible && this.state.isYearDropdownVisible) {
+          $(document).on('mousewheel', '.year-selector', function (e) {
+
+              var event = e.originalEvent,
+                  d = event.wheelDelta || -event.detail;
+
+              $('.year-selector').scrollTop($('.year-selector').scrollTop() + (d < 0 ? 1 : -1) * 30);
+              e.preventDefault();
+          });
+      }
     },
     render: function () {
         return (<div>
@@ -148,14 +138,11 @@ export const Navigation = React.createClass({
     },
     toggleYearDropdown: function (event) {
         event.stopPropagation();
-        this.setState({ isTeamDropdownVisible: false });
-        this.setState({ isYearDropdownVisible: !this.state.isYearDropdownVisible });
+        this.setState({ isYearDropdownVisible: !this.state.isTeamDropdownVisible, isTeamDropdownVisible: false });
     },
     toggleTeamDropdown: function (event) {
         event.stopPropagation();
-        console.log('toggle')
-        this.setState({ isYearDropdownVisible: false });
-        this.setState({ isTeamDropdownVisible: !this.state.isTeamDropdownVisible });
+        this.setState({ isTeamDropdownVisible: !this.state.isTeamDropdownVisible, isYearDropdownVisible: false });
     }
 });
 

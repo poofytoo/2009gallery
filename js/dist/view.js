@@ -575,14 +575,9 @@ $(function () {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-
-var _React$createClass;
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 var baseUrl = "http://designed.mit.edu/gallery/data/";
 
-var Navigation = exports.Navigation = React.createClass((_React$createClass = {
+var Navigation = exports.Navigation = React.createClass({
     displayName: "Navigation",
 
     getInitialState: function getInitialState() {
@@ -605,27 +600,7 @@ var Navigation = exports.Navigation = React.createClass((_React$createClass = {
             }
         });
     },
-    render: function render() {
-        var _this = this;
-
-        // Disable Parent Scrolling with Child
-        $(document).on('mousewheel', '.dropdown-selector', function (e) {
-            var event = e.originalEvent,
-                d = event.wheelDelta || -event.detail;
-
-            $('.dropdown-selector').scrollTop += (d < 0 ? 1 : -1) * 30;
-            e.preventDefault();
-        });
-
-        $(document).on('scroll', function () {
-            if (_this.state.isYearDropdownVisible || _this.state.isTeamDropdownVisible) {
-                _this.setState({
-                    isYearDropdownVisible: false,
-                    isTeamDropdownVisible: false
-                });
-            }
-        });
-
+    componentDidUpdate: function componentDidUpdate(oldProps, oldState) {
         if (!oldState.isTeamDropdownVisible && this.state.isTeamDropdownVisible) {
             $(document).on('mousewheel', '.team-selector', function (e) {
 
@@ -635,175 +610,190 @@ var Navigation = exports.Navigation = React.createClass((_React$createClass = {
                 e.preventDefault();
             });
         }
-    }
-}, _defineProperty(_React$createClass, "render", function render() {
-    return React.createElement(
-        "div",
-        null,
-        React.createElement(
-            "div",
-            { className: "year-select nav-select" },
-            "All Projects"
-        ),
-        React.createElement(
-            "span",
-            { className: "arrow" },
-            ">"
-        ),
-        React.createElement(
-            "div",
-            { className: "year-select nav-select", onClick: this.toggleYearDropdown },
-            "Fall 2015",
-            React.createElement(
-                "span",
-                { className: "dropdown-arrow" },
-                "\u25BE"
-            ),
-            this.maybeRenderYearDropdown()
-        ),
-        React.createElement(
-            "span",
-            { className: "arrow" },
-            ">"
-        ),
-        React.createElement(
-            "div",
-            { className: "team-select nav-select disabled-select", onClick: this.toggleTeamDropdown },
-            "Blue Team",
-            React.createElement(
-                "span",
-                { className: "dropdown-arrow" },
-                "\u25BE"
-            ),
-            this.maybeRenderTeamDropdown()
-        )
-    );
-}), _defineProperty(_React$createClass, "maybeRenderYearDropdown", function maybeRenderYearDropdown() {
-    if (this.state.isYearDropdownVisible) {
+
+        if (!oldState.isYearDropdownVisible && this.state.isYearDropdownVisible) {
+            $(document).on('mousewheel', '.year-selector', function (e) {
+
+                var event = e.originalEvent,
+                    d = event.wheelDelta || -event.detail;
+
+                $('.year-selector').scrollTop($('.year-selector').scrollTop() + (d < 0 ? 1 : -1) * 30);
+                e.preventDefault();
+            });
+        }
+    },
+    render: function render() {
         return React.createElement(
             "div",
-            { className: "dropdown-selector year-selector" },
+            null,
             React.createElement(
-                "ul",
-                null,
-                this.renderYearList()
-            )
-        );
-    }
-    return undefined;
-}), _defineProperty(_React$createClass, "maybeRenderTeamDropdown", function maybeRenderTeamDropdown() {
-    if (this.state.isTeamDropdownVisible) {
-        return React.createElement(
-            "div",
-            { className: "dropdown-selector team-selector" },
-            React.createElement(
-                "ul",
-                { id: "dropdown-selector-list" },
-                this.renderProductList()
-            )
-        );
-    }
-    return undefined;
-}), _defineProperty(_React$createClass, "renderProductList", function renderProductList() {
-    var projectList = [React.createElement(
-        "li",
-        null,
-        React.createElement(
-            "a",
-            { className: "select-none", href: "" },
+                "div",
+                { className: "year-select nav-select" },
+                "All Projects"
+            ),
             React.createElement(
                 "span",
-                { className: "dim" },
-                "View All Products"
-            )
-        )
-    )];
-    var year = 2015; // dynamically loaded
-    var projects = DATA[year].projects;
-    for (var i in projects) {
-        var backgroundUrl = "url('" + baseUrl + year + "/final/photos/small/" + i + "1.jpg')";
-        var teamUrl = "view.html?year=" + year + "&team=" + i;
-        projectList.push(React.createElement(
-            "li",
-            { className: "selected-dropdown-item" },
+                { className: "arrow" },
+                ">"
+            ),
             React.createElement(
-                "a",
-                { href: teamUrl },
-                React.createElement("div", { className: "product-image", style: { backgroundImage: backgroundUrl } }),
+                "div",
+                { className: "year-select nav-select", onClick: this.toggleYearDropdown },
+                "Fall 2015",
                 React.createElement(
-                    "div",
-                    { className: "product-text" },
-                    React.createElement(
-                        "em",
-                        null,
-                        projects[i].projName
-                    ),
-                    " ",
-                    i,
-                    " Team"
-                )
-            )
-        ));
-    }
-    return React.createElement(
-        "div",
-        null,
-        projectList
-    );
-}), _defineProperty(_React$createClass, "renderYearList", function renderYearList() {
-    var yearsList = [React.createElement(
-        "li",
-        null,
-        React.createElement(
-            "a",
-            { href: "" },
+                    "span",
+                    { className: "dropdown-arrow" },
+                    "\u25BE"
+                ),
+                this.maybeRenderYearDropdown()
+            ),
             React.createElement(
                 "span",
-                { "class": "dim" },
-                "View All Years"
+                { className: "arrow" },
+                ">"
+            ),
+            React.createElement(
+                "div",
+                { className: "team-select nav-select disabled-select", onClick: this.toggleTeamDropdown },
+                "Blue Team",
+                React.createElement(
+                    "span",
+                    { className: "dropdown-arrow" },
+                    "\u25BE"
+                ),
+                this.maybeRenderTeamDropdown()
             )
-        )
-    )];
-    var years = DATA;
-    for (var i in years) {
-        // var backgroundUrl = `url('${baseUrl}${year}/final/photos/small/${i}1.jpg')`;
-        // var teamUrl = `view.html?year=${year}&team=${i}`
-        yearsList.push(React.createElement(
+        );
+    },
+    maybeRenderYearDropdown: function maybeRenderYearDropdown() {
+        if (this.state.isYearDropdownVisible) {
+            return React.createElement(
+                "div",
+                { className: "dropdown-selector year-selector" },
+                React.createElement(
+                    "ul",
+                    null,
+                    this.renderYearList()
+                )
+            );
+        }
+        return undefined;
+    },
+    maybeRenderTeamDropdown: function maybeRenderTeamDropdown() {
+        if (this.state.isTeamDropdownVisible) {
+            return React.createElement(
+                "div",
+                { className: "dropdown-selector team-selector" },
+                React.createElement(
+                    "ul",
+                    { id: "dropdown-selector-list" },
+                    this.renderProductList()
+                )
+            );
+        }
+        return undefined;
+    },
+    renderProductList: function renderProductList() {
+        var projectList = [React.createElement(
             "li",
             null,
             React.createElement(
                 "a",
-                { href: "asdf" },
-                React.createElement(
-                    "em",
-                    null,
-                    "Adventure"
-                ),
-                " Fall 2014",
+                { className: "select-none", href: "" },
                 React.createElement(
                     "span",
                     { className: "dim" },
-                    "8 projects"
+                    "View All Products"
                 )
             )
-        ));
-    }
+        )];
+        var year = 2015; // dynamically loaded
+        var projects = DATA[year].projects;
+        for (var i in projects) {
+            var backgroundUrl = "url('" + baseUrl + year + "/final/photos/small/" + i + "1.jpg')";
+            var teamUrl = "view.html?year=" + year + "&team=" + i;
+            projectList.push(React.createElement(
+                "li",
+                { className: "selected-dropdown-item" },
+                React.createElement(
+                    "a",
+                    { href: teamUrl },
+                    React.createElement("div", { className: "product-image", style: { backgroundImage: backgroundUrl } }),
+                    React.createElement(
+                        "div",
+                        { className: "product-text" },
+                        React.createElement(
+                            "em",
+                            null,
+                            projects[i].projName
+                        ),
+                        " ",
+                        i,
+                        " Team"
+                    )
+                )
+            ));
+        }
+        return React.createElement(
+            "div",
+            null,
+            projectList
+        );
+    },
+    renderYearList: function renderYearList() {
+        var yearsList = [React.createElement(
+            "li",
+            null,
+            React.createElement(
+                "a",
+                { href: "" },
+                React.createElement(
+                    "span",
+                    { "class": "dim" },
+                    "View All Years"
+                )
+            )
+        )];
+        var years = DATA;
+        for (var i in years) {
+            // var backgroundUrl = `url('${baseUrl}${year}/final/photos/small/${i}1.jpg')`;
+            // var teamUrl = `view.html?year=${year}&team=${i}`
+            yearsList.push(React.createElement(
+                "li",
+                null,
+                React.createElement(
+                    "a",
+                    { href: "asdf" },
+                    React.createElement(
+                        "em",
+                        null,
+                        "Adventure"
+                    ),
+                    " Fall 2014",
+                    React.createElement(
+                        "span",
+                        { className: "dim" },
+                        "8 projects"
+                    )
+                )
+            ));
+        }
 
-    return React.createElement(
-        "div",
-        null,
-        yearsList
-    );
-}), _defineProperty(_React$createClass, "toggleYearDropdown", function toggleYearDropdown(event) {
-    event.stopPropagation();
-    this.setState({ isTeamDropdownVisible: false });
-    this.setState({ isYearDropdownVisible: !this.state.isYearDropdownVisible });
-}), _defineProperty(_React$createClass, "toggleTeamDropdown", function toggleTeamDropdown(event) {
-    event.stopPropagation();
-    console.log('toggle');
-    this.setState({ isYearDropdownVisible: false });
-    this.setState({ isTeamDropdownVisible: !this.state.isTeamDropdownVisible });
-}), _React$createClass));
+        return React.createElement(
+            "div",
+            null,
+            yearsList
+        );
+    },
+    toggleYearDropdown: function toggleYearDropdown(event) {
+        event.stopPropagation();
+        this.setState({ isYearDropdownVisible: !this.state.isTeamDropdownVisible, isTeamDropdownVisible: false });
+    },
+    toggleTeamDropdown: function toggleTeamDropdown(event) {
+        event.stopPropagation();
+        this.setState({ isTeamDropdownVisible: !this.state.isTeamDropdownVisible, isYearDropdownVisible: false });
+    }
+});
 
 // dropdown-selector-list
 
