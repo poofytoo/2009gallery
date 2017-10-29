@@ -34,20 +34,20 @@ export const Navigation = React.createClass({
         });
 
 
+        $(document).on('scroll', function () {
+            if (_this.state.isYearDropdownVisible || _this.state.isTeamDropdownVisible) {
+                _this.setState({
+                    isYearDropdownVisible: false,
+                    isTeamDropdownVisible: false
+                });
+            }
+        })
+
         if (!oldState.isTeamDropdownVisible && this.state.isTeamDropdownVisible) {
             $(document).on('mousewheel', '.team-selector', function (e) {
 
                 var event = e.originalEvent,
                     d = event.wheelDelta || -event.detail;
-                $(document).on('scroll', function () {
-                    if (_this.state.isYearDropdownVisible || _this.state.isTeamDropdownVisible) {
-                        _this.setState({
-                            isYearDropdownVisible: false,
-                            isTeamDropdownVisible: false
-                        });
-                    }
-                })
-
                 $('.team-selector').scrollTop($('.team-selector').scrollTop() + (d < 0 ? 1 : -1) * 30);
                 e.preventDefault();
             });
