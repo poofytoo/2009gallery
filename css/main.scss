@@ -14,7 +14,6 @@ a {
 .top-bar {
     .header {
         background-color: #111;
-        padding: 8px 30px;
         color: #ccc;
         font-size: 15px;
         position: fixed;
@@ -25,6 +24,16 @@ a {
         em {
             font-weight: 700;
             color: #ddd;
+        }
+
+        a {
+            padding: 8px 30px;
+            display: inline-block;
+            color: #ddd;
+
+            &:hover {
+                background-color: #333;
+            }
         }
     }
 

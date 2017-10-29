@@ -4,13 +4,25 @@
   <title></title>
   <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300,400,500,700,900" rel="stylesheet">
+  
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="js/scripts.js"></script>
+
+  <script src="js/react.min.js"></script>
+  <script src="js/react-dom.min.js"></script>
+  <script src="js/browser.min.js"></script>
+  <script src="data.js"></script>
+
+  <script type="text/babel" src="js/home.jsx"></script>
+  <!-- <script src="js/scripts.js"></script> -->
 </head>
 <body>
   <div class="top-bar">
     <div class="header">
-      <em>2.009</em> Product Engineering Process Gallery
+      <a href="/">
+        <em>2.009</em> Product Engineering Process Gallery
+      </a>
     </div>
     <div class="navigation condensed">
       <div class="year-select nav-select">
@@ -28,7 +40,7 @@
           <span class="dropdown-arrow">></span>
         </div></div>
     </div>
-    <div class="gallery-container">
+    <div id="gallery-content" class="gallery-container">
     </div>
   </div>
 </body>

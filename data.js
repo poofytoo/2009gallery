@@ -61,7 +61,7 @@ DATA = {
                 projName: "Laser Kites",
                 projDesc: "kite game",
                 projColor: "blue",
-                projTeam: "Ben Mattinson, Dabin Choe, Isaac LaJoie, Jack Greenfield, Manny Simpri Elimbi, Marie Moudio, Melody Liu, Mustafa Almuallim, Raudel Hernandez, Brady Enstad, Clare Zhang, Grace Connors, Kale Rogers, Kath Xu, Luis Gasca, Max Molina, Patrick Lowe, Rachel Reed, Rodrigo Marques",
+                projTeam: "Ben Mattinson, Dabin Cho, Isaac LaJoie, Jack Greenfield, Manny Simpri Elimbi, Marie Moudio, Melody Liu, Mustafa Almuallim, Raudel Hernandez, Brady Enstad, Clare Zhang, Grace Connors, Kale Rogers, Kath Xu, Luis Gasca, Max Molina, Patrick Lowe, Rachel Reed, Rodrigo Marques",
                 projCode: "data/2015/homepage/codeOfEthics/codeOfEthics.html#blue",
                 deliverables: {
                     ideas: {
