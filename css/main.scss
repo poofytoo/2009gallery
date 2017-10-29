@@ -223,7 +223,7 @@ a {
         text-align: right;
         font-size: 16px;
         line-height: 22px;
-        color: #666;
+        color: #888;
 
         li {
             &:hover {
@@ -232,8 +232,10 @@ a {
             }
 
             &.sidemenu-highlight {
-                color: #4A90E2;
-                font-weight: 600;
+                color: #000;
+                font-weight: 700;
+                font-size: 1.1em;
+                margin: 3px 0;
             }
         }
     }
@@ -294,7 +296,9 @@ a {
             margin-right: 5px;
             text-transform: lowercase;
             display: inline-block;
-            border: 2px solid #4A90E2;
+            // border: 2px solid #4A90E2;
+            border-width: 2px;
+            border-style: solid;
             border-radius: 3px;
             padding: 6px 11px 6px;
             color: #333;

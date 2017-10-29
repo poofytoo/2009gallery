@@ -83,6 +83,18 @@ var _nav = __webpack_require__(4);
 
 var baseUrl = "http://designed.mit.edu/gallery/";
 
+// TODO: Move into global variables
+
+var classColors = {
+    blue: "blue",
+    red: "red",
+    orange: "orange",
+    yellow: "yellow",
+    silver: "silver",
+    pink: "pink",
+    purple: "purple",
+    green: "green"
+};
 
 String.prototype.capitalize = function () {
     return this.charAt(0).toUpperCase() + this.slice(1);
@@ -181,12 +193,13 @@ var TeamContent = React.createClass({
                     ));
                     ideasPics = [];
                 }
+                var highlightColor = classColors[project.projColor];
                 sections.push(React.createElement(
                     "h4",
                     { key: "ideas-header-" + s.charAt(0) },
                     React.createElement(
                         "span",
-                        { className: "section-tag" },
+                        { className: "section-tag", style: { borderColor: highlightColor } },
                         "Section\xA0",
                         React.createElement(
                             "em",
@@ -214,12 +227,13 @@ var TeamContent = React.createClass({
 
         var elements = [];
         for (var s in sectionTeams) {
+            var highlightColor = classColors[project.projColor];
             elements.push(React.createElement(
                 "h4",
                 { key: sectionKey + "-" + s + "-header" },
                 React.createElement(
                     "span",
-                    { className: "section-tag" },
+                    { className: "section-tag", style: { borderColor: highlightColor } },
                     sectionDisplayName,
                     React.createElement(
                         "em",

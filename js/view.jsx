@@ -1,5 +1,19 @@
 var baseUrl = "http://designed.mit.edu/gallery/";
+
 import { Navigation } from "./nav.jsx";
+
+// TODO: Move into global variables
+
+var classColors = {
+    blue: "blue",
+    red: "red",
+    orange: "orange",
+    yellow: "yellow",
+    silver: "silver",
+    pink: "pink",
+    purple: "purple",
+    green: "green"
+}
 
 String.prototype.capitalize = function () {
     return this.charAt(0).toUpperCase() + this.slice(1);
@@ -56,9 +70,10 @@ var TeamContent = React.createClass({
                     sections.push(<p className="posters">{ideasPics}</p>);
                     ideasPics = [];
                 }
+                var highlightColor = classColors[project.projColor];
                 sections.push(
                     <h4 key={`ideas-header-${s.charAt(0)}`}>
-                        <span className="section-tag">Section&nbsp;
+                        <span className="section-tag" style={{borderColor: highlightColor}}>Section&nbsp;
                         <em>{s.charAt(0)}</em>
                         </span>
                     </h4>,
@@ -81,9 +96,10 @@ var TeamContent = React.createClass({
 
         var elements = [];
         for (var s in sectionTeams) {
+            var highlightColor = classColors[project.projColor];
             elements.push(
                 <h4 key={`${sectionKey}-${s}-header`}>
-                    <span className="section-tag">{sectionDisplayName}
+                    <span className="section-tag" style={{borderColor: highlightColor}}>{sectionDisplayName}
                         <em> {s}</em>
                     </span> {sectionTeams[s].name}</h4>,
                 <div className="milestone-container" key={`${sectionKey}-${s}`}>
