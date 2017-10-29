@@ -302,7 +302,8 @@ a {
   box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1); }
   .dropdown-selector .dim {
     color: #aaa;
-    font-size: 12px; }
+    font-size: 12px;
+    margin-left: 10px; }
   .dropdown-selector li {
     border-top: 1px solid #ddd; }
   .dropdown-selector a {
