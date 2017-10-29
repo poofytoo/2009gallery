@@ -1,4 +1,5 @@
 var baseUrl = "http://designed.mit.edu/gallery/";
+import { Navigation } from "./nav.jsx";
 
 String.prototype.capitalize = function () {
     return this.charAt(0).toUpperCase() + this.slice(1);
@@ -262,7 +263,7 @@ $(function () {
                 document.getElementById('project-content')
             );
 
-            // TODO: Move 
+            // TODO: Move
 
             ReactDOM.render(
                 <Navigation />,

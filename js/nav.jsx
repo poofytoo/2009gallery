@@ -1,6 +1,6 @@
 var baseUrl = "http://designed.mit.edu/gallery/data/"
 
-var Navigation = React.createClass({
+export const Navigation = React.createClass({
     render: function () {
         return <div>hello</div>;
     },
