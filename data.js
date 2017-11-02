@@ -1,17 +1,92 @@
 DATA = {
     2016: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "Rough, Tough, and Messy",
+        themeDesc: "Any viable, meaningful product idea related to 'rough, tough, and messy' is a potential candidate—compelling products that...",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
                 linkUrl: "data/2016/homepage/index.html"
             },
             {
-                linkLabel: "Student Tribute",
-                linkUrl: "data/2016/highlights/",
-                vimeoId: ""
+                linkLabel: "Kresge Timelapse",
+                linkUrl: "data/2016/highlights/kresge_timelapse_2016.mp4",
+                vimeoId: "196257275"
             },
+            {
+                linkLabel: "Student Thank You",
+                linkUrl: "data/2016/highlights/student_thank_you_2016.mp4",
+                vimeoId: "195904362"
+            },
+            {
+                linkLabel: "Can't Stop Designing",
+                linkUrl: "data/2016/highlights/cant_stop_designing_2016.mp4",
+                vimeoId: "195900416"
+            },
+            {
+                linkLabel: "Student Tribute without Names",
+                linkUrl: "data/2016/highlights/student_tribute_without_names_2016.mp4",
+                vimeoId: "195658004"
+            },
+            {
+                linkLabel: "2.009 Syllabus Highlights",
+                linkUrl: "data/2016/highlights/syllabus_highlights_2016.mp4",
+                vimeoId: "195644744"
+            },
+            {
+                linkLabel: "Yellow Team Process",
+                linkUrl: "data/2016/highlights/yellow_process_2016.mp4",
+                vimeoId: "195640879"
+            },
+            {
+                linkLabel: "Build Challenge",
+                linkUrl: "data/2016/highlights/build_challenge_2016.mp4",
+                vimeoId: "195640763"
+            },
+            {
+                linkLabel: "Countdown",
+                linkUrl: "data/2016/highlights/countdown_2016.mp4",
+                vimeoId: "195571519"
+            },
+            {
+                linkLabel: "Quad",
+                linkUrl: "data/2016/highlights/quad_2016.mp4",
+                vimeoId: "195571478"
+            },
+            {
+                linkLabel: "Inattentional Blindness",
+                linkUrl: "data/2016/highlights/inattentional_blindness_2016.mp4",
+                vimeoId: "191488480"
+            },
+            {
+                linkLabel: "Debugging Skit",
+                linkUrl: "data/2016/highlights/debuggin_skit_2016.mp4",
+                vimeoId: "191433516"
+            },
+            {
+                linkLabel: "Ghostbusters Video",
+                linkUrl: "data/2016/highlights/ghostbusters_video_2016.mp4",
+                vimeoId: "191087611"
+            },
+            {
+                linkLabel: "Why Can't We Be Friendly?",
+                linkUrl: "data/2016/highlights/why_cant_we_be_friendly_2016.mp4",
+                vimeoId: "190177772"
+            },
+            {
+                linkLabel: "Subtheme Beavers-The Making Of",
+                linkUrl: "data/2016/highlights/subtheme_beavers_2016.mp4",
+                vimeoId: "185422112"
+            },
+            {
+                linkLabel: "Theme Reveal",
+                linkUrl: "data/2016/highlights/theme_reveal_2016.mp4",
+                vimeoId: "183373875"
+            },
+            {
+                linkLabel: "Balloon Challenge",
+                linkUrl: "data/2016/highlights/balloon_challenge_2016.mp4",
+                vimeoId: "183354682"
+            }
         ],
         projects: {
         //2016 teams here
@@ -652,70 +727,246 @@ DATA = {
         }
     },
     2014: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "Adventure",
+        themeDesc: "Any viable, meaningful product idea related to 'adventure' is a potential candidate—exploration, recreation, entertainment, extreme sports, medical devices, manufacturing, family, story telling and life touch upon the theme.",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/XXXX/homepage/index.html"
+                linkUrl: "data/2014/homepage/index.html"
             },
             {
-                linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                linkLabel: "Student Tribute",
+                linkUrl: "data/2014/highlights/student_tribute_2014",
+                vimeoId: "231926756"
+            },
+            {
+                linkLabel: "Final Presentation: Program",
+                linkUrl: "data/2014/highlights/program2014.pdf"
+            },
+            {
+                linkLabel: "Final Presentation: 5-min Compendium",
+                linkUrl: "data/2014/highlights/5_min_web_360p.mp4",
+                vimeoId: "231925886"
+            },
+            {
+                linkLabel: "Final Presentation: Full Show",
+                linkUrl: "data/2014/highlights/full_show_2014.mp4",
                 vimeoId: ""
             },
+            {
+                linkLabel: "Final Presentation: Timelapse",
+                linkUrl: "data/2014/highlights/finalPresentationDay_2014.mp4",
+                vimeoId: "231926006"
+            },
+            {
+                linkLabel: "Final Presentation: Projection Mapping",
+                linkUrl: "data/2014/highlights/projection_mapping_process.mp4",
+                vimeoId: "231926119"
+            },
+            {
+                linkLabel: "Balloon Challenge 2014",
+                linkUrl: "data/2014/highlights/balloon_2014.mp4",
+                vimeoId: "231925908"
+            },
+            {
+                linkLabel: "Build Challenge 2014: Hot Lava",
+                linkUrl: "data/2014/highlights/challenge_2014.mp4",
+                vimeoId: "231926652"
+            },
+            {
+                linkLabel: "Pink team: How did they get there?",
+                linkUrl: "data/2014/highlights/pink_team_2014.mp4",
+                vimeoId: "231926741"
+            },
+            {
+                linkLabel: "Project Theme of 2014",
+                linkUrl: "data/2014/homepage/project/projectTheme.html",
+            },
+            {
+                linkLabel: "Thank you, Prof. Wallace!",
+                linkUrl: "data/2014/highlights/thankyou_2014.mp4",
+                vimeoId: "231926630"
+            },
+            {
+                linkLabel: "2014 Syllabus",
+                linkUrl: "",
+                vimeoId: "231926152"
+            },
+            {
+                linkLabel: "2014 Teardown",
+                linkUrl: "",
+                vimeoId: "231926602"
+            },
+            {
+                linkLabel: "That'll Do, Quad",
+                linkUrl: "",
+                vimeoId: "231926636"
+            },
+            {
+                linkLabel: "2.009 in the Boston Globe",
+                linkUrl: ""  //http://www.bostonglobe.com/business/2015/02/05/learning-art-pitch-mit/9LR1q7PT1KvjS1mpzNBoRL/story.html
+            }
         ],
         projects: {
         //2014 teams here
         }
     },
     2013: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "Be Well",
+        themeDesc: "Any viable, meaningful product idea related to 'be well' is a potential candidate—medicine, mental health and wellness, recreation, entertainment, sport, agriculture, ranching, manufacturing, family, global heath and sustainability might touch upon the theme.",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/XXXX/homepage/index.html"
+                linkUrl: "data/2013/homepage/index.html"
             },
             {
                 linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
-                vimeoId: ""
+                linkUrl: "data/2013/highlights/student_tribute_2013.mov",
+                vimeoId: "231923073"
             },
+            {
+                linkLabel: "Final Presentation Program",
+                linkUrl: "data/2013/highlights/program2013.pdf"
+            },
+            {
+                linkLabel: "Final Presentation: 4-min Compendium",
+                linkUrl: "data/2013/highlights/4_min_web_360p.mov",
+                vimeoId: "231922923"
+            },
+            {
+                linkLabel: "Final Presentation: Full Show",
+                linkUrl: "data/2013/highlights/full_show_2013.mov",
+                vimeoId: "231922966"
+            },
+            {
+                linkLabel: "Final Presentation Day",
+                linkUrl: "data/2013/highlights/finalPresentationDay_2013.mov",
+                vimeoId: "231922950"
+            },
+            {
+                linkLabel: "Human-powered Vehicles!",
+                linkUrl: "data/2013/highlights/challenge_2013mov",
+                vimeoId: "231922937"
+            },
+            {
+                linkLabel: "Orange Team: How did they get there?",
+                linkUrl: "data/2013/highlights/orange_team_2013.mov",
+                vimeoId: "231923056"
+            },
+            {
+                linkLabel: "Project Theme of 2013",
+                linkUrl: "data/2013/homepage/project/projectTheme.html"
+            },
+            {
+                linkLabel: "Course Syllabus",
+                linkUrl: "data/2013/highlights/syllabus.mov",
+                vimeoId: "231923077"
+            },
+            {
+                linkLabel: "Product Teardown Exercise",
+                linkUrl: "data/2013/highlights/teardown_2013.mov",
+                vimeoId: "231923083"
+            },
+            {
+                linkLabel: "Thank you, Prof. Wallace",
+                linkUrl: "data/2013/highlights/thankyou_2013mov",
+                vimeoId: "231923094"
+            },
+            {
+                linkLabel: "2.009 in The Tech",
+                linkUrl: "" //http://tech.mit.edu/V133/N60/two009.html
+            },
+            {
+                linkLabel: "2.009 in MIT News",
+                linkUrl: "" //http://newsoffice.mit.edu/2013/engineering-students-demonstrate-product-prototypes-1211
+            }
         ],
         projects: {
         //2013 teams here
         }
     },
     2012: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "Outdoors",
+        themeDesc: "Any viable, meaningful product idea related to the 'outdoors' is a potential candidate—transportation, mobility and assistive technology, computing, medical devices, food-related products, sports and recreation, play, and travel all might touch upon the theme.",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/XXXX/homepage/index.html"
+                linkUrl: "data/2012/homepage/index.html"
             },
             {
                 linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                linkUrl: "data/2012/highlights/student_tribute_2012.mov",
+                vimeoId: "231921921"
+            },
+            {
+                linkLabel: "Final Presentation Program",
+                linkUrl: "data/2012/highlights/program2012.pdf",
+            },
+            {
+                linkLabel: "Final Presentation: 3-min Compendium",
+                linkUrl: "data/2012/highlights/3min_web_fs.mov",
+                vimeoId: "231921648"
+            },
+            {
+                linkLabel: "Final Presentation: Full Show",
+                linkUrl: "data/2012/highlights/ShowForPublic.mov",
+                vimeoId: "231921754"
+            },
+            {
+                linkLabel: "Polar Bears!",
+                linkUrl: "data/2012/highlights/challenge_2012mov",
+                vimeoId: "231921714"
+            },
+            {
+                linkLabel: "Orange Team: How did they get there?",
+                linkUrl: "/data/2012/highlights/orange_team_2012.mov",
+                vimeoId: "231921740"
+            },
+            {
+                linkLabel: "Project Theme of 2012",
+                linkUrl: "data/2012/homepage/project/projectTheme.html",
+            },
+            {
+                linkLabel: "Course Syllabus",
+                linkUrl: "data/2012/highlights/syllabus.mov",
+                vimeoId: "231921941"
+            },
+            {
+                linkLabel: "Product Teardown Exercise",
+                linkUrl: "data/2012/highlights/Teardown2012Small.mov",
+                vimeoId: "231921960"
+            },
+            {
+                linkLabel: "Thank you, Prof. Wallace!",
+                linkUrl: "data/2012/highlights/WallaceThankYou2012.mov",
+                vimeoId: "231921986"
+            },
+            {
+                linkLabel: "2.009 in The Tech",
+                linkUrl: "", //http://tech.mit.edu/V131/N59/2.009.html
                 vimeoId: ""
             },
+            {
+                linkLabel: "2.009 in The Boston Globe",
+                linkUrl: "", //http://www.boston.com/news/local/massachusetts/articles/2012/12/31/mit_students_design_vending_machine_to_provide_bike_renters_with_helmets/?page=1
+                vimeoId: ""
+            }
         ],
         projects: {
         //2012 teams here
         }
     },
     2011: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "On-the-go",
+        themeDesc: "Any viable, meaningful product idea related to 'on-the-go' is a potential candidate—transportation, mobility and assistive technology, computing, medical devices, food-related products, sports and recreation, play, and travel all might touch upon the theme.",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/XXXX/homepage/index.html"
+                linkUrl: "data/2011/homepage/index.html"
             },
             {
                 linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                linkUrl: "data/2011/highlights/",
                 vimeoId: ""
             },
         ],
@@ -724,16 +975,16 @@ DATA = {
         }
     },
     2010: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "Food",
+        themeDesc: "Any viable, meaningful product idea related to the food industry is a potential candidate—sustainability, security, supply and safety, agriculture, animal welfare, health, manufacturing, distribution, preservation, food services, community farming, restaurants, and housewares.",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/XXXX/homepage/index.html"
+                linkUrl: "data/2010/homepage/index.html"
             },
             {
                 linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                linkUrl: "data/2010/highlights/",
                 vimeoId: ""
             },
         ],
@@ -742,16 +993,16 @@ DATA = {
         }
     },
     2009: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "Emergency",
+        themeDesc: "Any product related to challenging situations may fit, both life and non-life threatening: pandemic; animal welfare; natural disaster; blackouts; poverty; medical; elderly; emotional; crisis; rescue; home.",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/XXXX/homepage/index.html"
+                linkUrl: "data/2009/homepage/index.html"
             },
             {
                 linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                linkUrl: "data/2009/highlights/",
                 vimeoId: ""
             },
         ],
@@ -760,16 +1011,16 @@ DATA = {
         }
     },
     2008: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "Home",
+        themeDesc: "Any product related to a home environment or activities within a home is potentially within scope. Target customers may include those living in developed or developing countries.",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/XXXX/homepage/index.html"
+                linkUrl: "data/2008/homepage/index.html"
             },
             {
                 linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                linkUrl: "data/2008/highlights/",
                 vimeoId: ""
             },
         ],
@@ -778,16 +1029,16 @@ DATA = {
         }
     },
     2007: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "Reduce, Reuse, Recycle",
+        themeDesc: "Products that use less or pollute less. Products designed for reuse or that incorporate reused or remanufactured goods. Products that are designed to be highly recyclable or use recycled materials.",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/XXXX/homepage/index.html"
+                linkUrl: "data/2007/homepage/index.html"
             },
             {
                 linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                linkUrl: "data/2007/highlights/",
                 vimeoId: ""
             },
         ],
@@ -796,16 +1047,16 @@ DATA = {
         }
     },
     2006: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "Independent-living",
+        themeDesc: "Any products that extend independent-living for the ill, disabled, elderly, or otherwise may be considered. Target customers may include both developed and developing countries.",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/XXXX/homepage/index.html"
+                linkUrl: "data/2006/homepage/index.html"
             },
             {
                 linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                linkUrl: "data/2006/highlights/",
                 vimeoId: ""
             },
         ],
@@ -814,16 +1065,16 @@ DATA = {
         }
     },
     2005: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "Agriculture",
+        themeDesc: "Any agriculture or aquaculture-related products may be considered. Target customers may include both developed and developing countries.",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/XXXX/homepage/index.html"
+                linkUrl: "data/2005/homepage/index.html"
             },
             {
                 linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                linkUrl: "data/2005/highlights/",
                 vimeoId: ""
             },
         ],
@@ -832,16 +1083,16 @@ DATA = {
         }
     },
     2004: {
-        themeName: "",
-        themeDesc: "",
+        themeName: "Energy",
+        themeDesc: "Any products related to alternative energy, energy conservation, and products that use cleaner energy.",
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/XXXX/homepage/index.html"
+                linkUrl: "data/2004/homepage/index.html"
             },
             {
                 linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                linkUrl: "data/2015/highlights/",
                 vimeoId: ""
             },
         ],
