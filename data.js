@@ -751,7 +751,7 @@ DATA = {
             {
                 linkLabel: "Final Presentation: Full Show",
                 linkUrl: "data/2014/highlights/full_show_2014.mp4",
-                vimeoId: ""
+                vimeoId: "240994943"
             },
             {
                 linkLabel: "Final Presentation: Timelapse",
@@ -787,7 +787,7 @@ DATA = {
                 linkUrl: "data/2014/highlights/thankyou_2014.mp4",
                 vimeoId: "231926630"
             },
-            {
+            /*{
                 linkLabel: "2014 Syllabus",
                 linkUrl: "",
                 vimeoId: "231926152"
@@ -801,7 +801,7 @@ DATA = {
                 linkLabel: "That'll Do, Quad",
                 linkUrl: "",
                 vimeoId: "231926636"
-            },
+            },*/
             {
                 linkLabel: "2.009 in the Boston Globe",
                 linkUrl: ""  //http://www.bostonglobe.com/business/2015/02/05/learning-art-pitch-mit/9LR1q7PT1KvjS1mpzNBoRL/story.html
@@ -820,7 +820,7 @@ DATA = {
                 linkUrl: "data/2013/homepage/index.html"
             },
             {
-                linkLabel: "Student tribute",
+                linkLabel: "Student Tribute",
                 linkUrl: "data/2013/highlights/student_tribute_2013.mov",
                 vimeoId: "231923073"
             },
@@ -894,7 +894,7 @@ DATA = {
                 linkUrl: "data/2012/homepage/index.html"
             },
             {
-                linkLabel: "Student tribute",
+                linkLabel: "Student Tribute",
                 linkUrl: "data/2012/highlights/student_tribute_2012.mov",
                 vimeoId: "231921921"
             },
@@ -965,9 +965,65 @@ DATA = {
                 linkUrl: "data/2011/homepage/index.html"
             },
             {
-                linkLabel: "Student tribute",
-                linkUrl: "data/2011/highlights/",
-                vimeoId: ""
+                linkLabel: "Student Tribute",
+                linkUrl: "data/2011/highlights/tributePublic_sm.mov",
+                vimeoId: "231920853"
+            },
+            {
+                linkLabel: "Final Presentation Program",
+                linkUrl: "data/2011/highlights/programme.pdf",
+            },
+            {
+                linkLabel: "Final Presentation: 3-min Compendium",
+                linkUrl: "data/2011/highlights/3minWeb.mov",
+                vimeoId: "231920703"
+            },
+            {
+                linkLabel: "Final Presentation: Full Show",
+                linkUrl: "data/2011/highlights/ShowForPublic.mov",
+                vimeoId: "231920726"
+            },
+            {
+                linkLabel: "Angry Birds!",
+                linkUrl: "data/2011/highlights/AngryBirds.mov",
+                vimeoId: "240994256"
+            },
+            {
+                linkLabel: "Orange Team: How did they get there?",
+                linkUrl: "data/2011/highlights/OrangeTeam.mov",
+                vimeoId: "231920714"
+            },
+            {
+                linkLabel: "Project Theme of 2011",
+                linkUrl: "data/2011/homepage/project/projectTheme.html",
+            },
+            {
+                linkLabel: "Course Syllabus",
+                linkUrl: "data/2011/highlights/syllabus.mov",
+                vimeoId: "231920822"
+            },
+            {
+                linkLabel: "Product Teardown Exercise",
+                linkUrl: "data/2011/highlights/teardown.mov",
+                vimeoId: "231920830"
+            },
+            {
+                linkLabel: "Bird Cannon",
+                linkUrl: "data/2011/highlights/bird_cannon.mov",
+                vimeoId: "231920724"
+            },
+            {
+                linkLabel: "Thank you, Prof. Wallace!",
+                linkUrl: "data/2011/highlights/WallaceThankYou.mov",
+                vimeoId: "231920872"
+            },
+            {
+                linkLabel: "2.009 in The Tech",
+                linkUrl: "", //http://tech.mit.edu/V131/N59/2.009.html
+            },
+            {
+                linkLabel: "2.009 in The Boston Globe",
+                linkUrl: "", //http://www.boston.com/news/local/massachusetts/articles/2011/12/31/mit_students_design_vending_machine_to_provide_bike_renters_with_helmets/?page=1
             },
         ],
         projects: {
@@ -983,10 +1039,61 @@ DATA = {
                 linkUrl: "data/2010/homepage/index.html"
             },
             {
-                linkLabel: "Student tribute",
-                linkUrl: "data/2010/highlights/",
-                vimeoId: ""
+                linkLabel: "Student Tribute",
+                linkUrl: "data/2010/highlights/tributePublic_sm.mov",
+                vimeoId: "231919589"
             },
+            {
+                linkLabel: "Final Presentation Program",
+                linkUrl: "data/2010/highlights/programme.pdf",
+            },
+            {
+                linkLabel: "Final Presentation: 8-min Compendium",
+                linkUrl: "data/2010/highlights/8minWeb.mov",
+                vimeoId: "231919418"
+            },
+            {
+                linkLabel: "Final Presentation: Full Show",
+                linkUrl: "data/2010/highlights/ShowForPublic.mov",
+                vimeoId: "231919479"
+            },
+            {
+                linkLabel: "Human-Powered Fire Starting Devices",
+                linkUrl: "data/2010/highlights/firestarting-video-2010-small.mov",
+                vimeoId: "231919453"
+            },
+            {
+                linkLabel: "Red Team: How Did They Get There?",
+                linkUrl: "data/2010/highlights/red-team-2010-small.mov",
+                vimeoId: "231919472"
+            },
+            {
+                linkLabel: "Project Theme of 2010",
+                linkUrl: "data/2010/homepage/project/projectTheme.html",
+            },
+            {
+                linkLabel: "Product Teardown Exercise",
+                linkUrl: "data/2010/highlights/teardown-exercise-2010.mov",
+                vimeoId: "231919560"
+            },
+            {
+                linkLabel: "A Tale of Two Critiques",
+                linkUrl: "data/2010/highlights/tale-of-two-critiques.mov",
+                vimeoId: "231919554"
+            },
+            {
+                linkLabel: "Thank You, Prof. Wallace",
+                linkUrl: "data/2010/highlights/WallaceThankYou.mov",
+                vimeoId: "231919604"
+            },
+            {
+                linkLabel: "2.009 in The Tech",
+                linkUrl: "", //http://tech.mit.edu/V130/N59/project2.009.html
+            },
+            {
+                linkLabel: "2.009 in MIT News",
+                linkUrl: "", //http://web.mit.edu/newsoffice/2010/2-009-presentations-1208.html
+            }
         ],
         projects: {
         //2010 teams here
@@ -1001,9 +1108,19 @@ DATA = {
                 linkUrl: "data/2009/homepage/index.html"
             },
             {
-                linkLabel: "Student tribute",
-                linkUrl: "data/2009/highlights/",
-                vimeoId: ""
+                linkLabel: "Student Tribute",
+                linkUrl: "data/2009/highlights/tributePublic_sm.mov",
+                vimeoId: "231918900"
+            },
+            {
+                linkLabel: "Hovercraft, the Future is Now",
+                linkUrl: "data/2009/highlights/hovercraft_sm.mov",
+                vimeoId: "231918885"
+            },
+            {
+                linkLabel: "Gorilla in the Classroom",
+                linkUrl: "data/2009/highlights/banana09.mov",
+                vimeoId: "231918989"
             },
         ],
         projects: {
@@ -1019,10 +1136,24 @@ DATA = {
                 linkUrl: "data/2008/homepage/index.html"
             },
             {
-                linkLabel: "Student tribute",
-                linkUrl: "data/2008/highlights/",
-                vimeoId: ""
+                linkLabel: "Student Tribute",
+                linkUrl: "data/2008/highlights/studentTribute-NOnames.mov",
+                vimeoId: "231918487"
             },
+            {
+                linkLabel: "Walking on Water",
+                linkUrl: "data/2008/highlights/WOW!.mov",
+                vimeoId: "231918498"
+            },
+            {
+                linkLabel: "Gorilla in the Classroom",
+                linkUrl: "data/2008/highlights/largebanana.mov",
+                vimeoId: "231918478"
+            },
+            {
+                linkLabel: "TechTV Video about the 6dot Braille Labeler",
+                linkUrl: "", //http://techtv.mit.edu/collections/lemelson-mit/videos/4932-braille-labeler-invention
+            }
         ],
         projects: {
         //2008 teams here
@@ -1037,10 +1168,19 @@ DATA = {
                 linkUrl: "data/2007/homepage/index.html"
             },
             {
-                linkLabel: "Student tribute",
-                linkUrl: "data/2007/highlights/",
-                vimeoId: ""
+                linkLabel: "Student Tribute",
+                linkUrl: "data/2007/highlights/studentTribute.mov",
+                vimeoId: "231918128"
             },
+            {
+                linkLabel: "Gorilla in the Classroom",
+                linkUrl: "data/2007/highlights/gorilla.mov",
+                vimeoId: "231918120"
+            },
+            {
+                linkLabel: "MIT News Story about the Projects",
+                linkUrl: "", //http://web.mit.edu/newsoffice/2007/product-design-1218.html
+            }
         ],
         projects: {
         //2007 teams here
@@ -1055,9 +1195,17 @@ DATA = {
                 linkUrl: "data/2006/homepage/index.html"
             },
             {
-                linkLabel: "Student tribute",
-                linkUrl: "data/2006/highlights/",
-                vimeoId: ""
+                linkLabel: "Student Tribute",
+                linkUrl: "data/2005/highlights/studentTribute.mov",
+                vimeoId: "231917994"
+            },
+            {
+                linkLabel: "Archimedes Steam Cannon",
+                linkUrl: "", //http://web.mit.edu/2.009/www/experiments/steamCannon/ArchimedesSteamCannon.html
+            },
+            {
+                linkLabel: "Demise of the Pony Express",
+                linkUrl: "", //http://web.mit.edu/2.009/www/experiments/ponyExpress/PonyExpress.html
             },
         ],
         projects: {
@@ -1073,10 +1221,18 @@ DATA = {
                 linkUrl: "data/2005/homepage/index.html"
             },
             {
-                linkLabel: "Student tribute",
-                linkUrl: "data/2005/highlights/",
-                vimeoId: ""
+                linkLabel: "The Archimededes Death Ray",
+                linkUrl: "" //http://web.mit.edu/2.009_gallery/www/2005_other/archimedes/10_ArchimedesResult.html
             },
+            {
+                linkLabel: "DesignNerds!",
+                linkUrl: "data/2005/highlights/designerdsSmall.mov",
+                vimeoId: "231917363"
+            },
+            {
+                linkLabel: "See the Tech Talk Article",
+                linkUrl: "" //http://web.mit.edu/newsoffice/2005/2009adv-1207.html
+            }
         ],
         projects: {
         //2005 teams here
@@ -1088,13 +1244,12 @@ DATA = {
         highlights: [
             {
                 linkLabel: "Home page and slide show",
-                linkUrl: "data/2004/homepage/index.html"
+                linkUrl: "data/2004/homepage/index.html"  
             },
             {
-                linkLabel: "Student tribute",
-                linkUrl: "data/2015/highlights/",
-                vimeoId: ""
-            },
+                linkLabel: "Older Projects: 2000-2002",
+                linkUrl: "" //http://web.mit.edu/2.009_gallery/www/gallery/
+            }
         ],
         projects: {
         //2004 teams here
