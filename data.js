@@ -1,4 +1,22 @@
 DATA = {
+    2016: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/2016/homepage/index.html"
+            },
+            {
+                linkLabel: "Student Tribute",
+                linkUrl: "data/2016/highlights/",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2016 teams here
+        }
+    },
     2015: {
         themeName: "Magic",
         themeDesc: "Any viable, meaningful product idea related to 'magic' is a potential candidate&mdash;compelling products that afford new memorable experiences or feelings fit under the theme.",
@@ -8,7 +26,7 @@ DATA = {
                 linkUrl: "data/2015/homepage/index.html"
             },
             {
-                linkLabel: "Student tribute",
+                linkLabel: "Student Tribute",
                 linkUrl: "data/2015/highlights/student_tribute_2015.mp4"
             },
             {
@@ -43,7 +61,6 @@ DATA = {
             {
                 linkLabel: "Yellow team: How did they get there?",
                 linkUrl: "data/2015/highlights/yellow_team_2015.mp4",
-                onClick: "window.open('data/2015/highlights/yellow_team_2015.mp4', 'movieWin', 'width=640,height=360,scrollbars=no,resizable=no');return false"
             },
             {
                 linkLabel: "Project theme of 2015",
@@ -52,7 +69,6 @@ DATA = {
             {
                 linkLabel: "Thank you, Prof. Wallace!",
                 linkUrl: "data/2015/highlights/thankyou_2015.mp4",
-                onClick: "window.open('data/2015/highlights/thankyou_2015.mp4', 'movieWin', 'width=640,height=360,scrollbars=no,resizable=no');return false"
             }
 
         ],
@@ -61,7 +77,7 @@ DATA = {
                 projName: "Laser Kites",
                 projDesc: "kite game",
                 projColor: "blue",
-                projTeam: "Ben Mattinson, Dabin Cho, Isaac LaJoie, Jack Greenfield, Manny Simpri Elimbi, Marie Moudio, Melody Liu, Mustafa Almuallim, Raudel Hernandez, Brady Enstad, Clare Zhang, Grace Connors, Kale Rogers, Kath Xu, Luis Gasca, Max Molina, Patrick Lowe, Rachel Reed, Rodrigo Marques",
+                projTeam: "Ben Mattinson, Dabin Choe, Isaac LaJoie, Jack Greenfield, Manny Simpri Elimbi, Marie Moudio, Melody Liu, Mustafa Almuallim, Raudel Hernandez, Brady Enstad, Clare Zhang, Grace Connors, Kale Rogers, Kath Xu, Luis Gasca, Max Molina, Patrick Lowe, Rachel Reed, Rodrigo Marques",
                 projCode: "data/2015/homepage/codeOfEthics/codeOfEthics.html#blue",
                 deliverables: {
                     ideas: {
@@ -632,9 +648,207 @@ DATA = {
                         vimeoId: "231481274"
                     }
                 }
-            },
+            }
         }
-    }
+    },
+    2014: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/XXXX/homepage/index.html"
+            },
+            {
+                linkLabel: "Student tribute",
+                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2014 teams here
+        }
+    },
+    2013: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/XXXX/homepage/index.html"
+            },
+            {
+                linkLabel: "Student tribute",
+                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2013 teams here
+        }
+    },
+    2012: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/XXXX/homepage/index.html"
+            },
+            {
+                linkLabel: "Student tribute",
+                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2012 teams here
+        }
+    },
+    2011: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/XXXX/homepage/index.html"
+            },
+            {
+                linkLabel: "Student tribute",
+                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2011 teams here
+        }
+    },
+    2010: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/XXXX/homepage/index.html"
+            },
+            {
+                linkLabel: "Student tribute",
+                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2010 teams here
+        }
+    },
+    2009: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/XXXX/homepage/index.html"
+            },
+            {
+                linkLabel: "Student tribute",
+                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2009 teams here
+        }
+    },
+    2008: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/XXXX/homepage/index.html"
+            },
+            {
+                linkLabel: "Student tribute",
+                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2008 teams here
+        }
+    },
+    2007: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/XXXX/homepage/index.html"
+            },
+            {
+                linkLabel: "Student tribute",
+                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2007 teams here
+        }
+    },
+    2006: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/XXXX/homepage/index.html"
+            },
+            {
+                linkLabel: "Student tribute",
+                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2006 teams here
+        }
+    },
+    2005: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/XXXX/homepage/index.html"
+            },
+            {
+                linkLabel: "Student tribute",
+                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2005 teams here
+        }
+    },
+    2004: {
+        themeName: "",
+        themeDesc: "",
+        highlights: [
+            {
+                linkLabel: "Home page and slide show",
+                linkUrl: "data/XXXX/homepage/index.html"
+            },
+            {
+                linkLabel: "Student tribute",
+                linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+                vimeoId: ""
+            },
+        ],
+        projects: {
+        //2004 teams here
+        }
+    },
 }
 
 
