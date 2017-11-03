@@ -208,7 +208,8 @@ DATA = {
                         }
                     },
                     assembly: {
-                        name: "Laser Kites"
+                        name: "Laser Kites",
+                        vimeoID: "144699973"
                     },
                     tech: {
                         name: "Laser Kites",
@@ -280,7 +281,8 @@ DATA = {
                         }
                     },
                     assembly: {
-                        name: "Petra"
+                        name: "Petra",
+                        vimeoID: "144699971"
                     },
                     tech: {
                         name: "Petra",
@@ -352,7 +354,8 @@ DATA = {
                         }
                     },
                     assembly: {
-                        name: "Trellis"
+                        name: "Trellis",
+                        vimeoID: "144699975"
                     },
                     tech: {
                         name: "Trellis",
@@ -424,7 +427,8 @@ DATA = {
                         }
                     },
                     assembly: {
-                        name: "Vantage"
+                        name: "Vantage",
+                        vimeoID: "144979600"
                     },
                     tech: {
                         name: "Vantage",
@@ -496,7 +500,8 @@ DATA = {
                         }
                     },
                     assembly: {
-                        name: "Letter Bug"
+                        name: "Letter Bug",
+                        vimeoID: "144699974"
                     },
                     tech: {
                         name: "Letter Bug",
@@ -568,7 +573,8 @@ DATA = {
                         }
                     },
                     assembly: {
-                        name: "Orion"
+                        name: "Orion",
+                        vimeoID: "144979588"
                     },
                     tech: {
                         name: "Orion",
@@ -640,7 +646,8 @@ DATA = {
                         }
                     },
                     assembly: {
-                        name: "SleepTight"
+                        name: "SleepTight",
+                        vimeoID: "144979585"
                     },
                     tech: {
                         name: "SleepTight",
@@ -712,7 +719,8 @@ DATA = {
                         }
                     },
                     assembly: {
-                        name: "touchLess"
+                        name: "touchLess",
+                        vimeoID: "144979586"
                     },
                     tech: {
                         name: "touchLess",
