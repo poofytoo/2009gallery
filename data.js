@@ -3711,7 +3711,444 @@ DATA = {
             }
         ],
         projects: {
-        //2010 teams here
+            blue: {
+                projName: "Happy Egg",
+                projDesc: "egg washing and drying machine",
+                projColor: "blue",
+                projTeam: "Alyse Cardell, Ari Miller, Brian Doyle, Christina Jaworsky, Conor O'Rourke, Ian Tracy, Lim Wannaphahoon, Michelle Nason, Nick Sisler, Romain Teil, Derek Ho, Derek Li, Grace Kane, Jacky Lau, Jessica Bainbridge-Smith, Keri Dixon, Mitch Kelley, Nicole Teague, Omar Abudayyeh, Orlando Saldivar",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Souper Cooler",
+                            vimeoId: "231463118"
+                        },
+                        A2: {
+                            name: "FreezeSafe",
+                            vimeoId: "231463129"
+                        },
+                        B1: {
+                            name: "Bar Mate",
+                            vimeoId: "231463141"
+                        },
+                        B2: {
+                            name: "Happy Egg Washer",
+                            vimeoId: "231463148"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "SouperCooler",
+                            vimeoId: "231462779"
+                        },
+                        B1: {
+                            name: "Happy Egg Washer",
+                            vimeoId: "231462795"
+                        }
+                    },
+                    assembly: {
+                        name: "Happy Egg"
+                    },
+                    tech: {
+                        name: "Happy Egg",
+                        vimeoId: "231463483"
+                    },
+                    final: {
+                        name: "Happy Egg",
+                        vimeoId: "231462257"
+                    }
+                }
+            },
+            green: {
+                projName: "Rensa",
+                projDesc: "water bottle washer and filler",
+                projColor: "green",
+                projTeam: "Allin Resposo, Benjamin Peters, Caroline Hane-Weijman, Jen Tran, Mike Cupelli, Paula Te, Saba Mohsin, Sam Hui, Vazrik Chiloyan, Will Vega-Brown, Annie Kwon, Ben Judge, Caitlin Reyda, Eddie Grinnell, Grant Tomassi, Heather McDonald, Maddie Hickman, Patrick Jupe, Vibin Kundukulam, Yue Li",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Kineto-cup",
+                            vimeoId: "231463161"
+                        },
+                        A2: {
+                            name: "Waste oil converter",
+                            vimeoId: "231463169"
+                        },
+                        B1: {
+                            name: "Sustain-a-bottle",
+                            vimeoId: "231463179"
+                        },
+                        B2: {
+                            name: "Veggie Washer",
+                            vimeoId: "231463187"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Veggiefuel",
+                            vimeoId: "231462808"
+                        },
+                        B1: {
+                            name: "Green Canteen",
+                            vimeoId: "231462822"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Rensa"
+                    },
+                    tech: {
+                        name: "Rensa",
+                        vimeoId: "231463484"
+                    },
+                    final: {
+                        name: "Rensa",
+                        vimeoId: "231578617"
+                    }
+                }
+            },
+            orange: {
+                projName: "Dash",
+                projDesc: "spice mixer and dispenser",
+                projColor: "orange",
+                projTeam: "Amanda Grue, Amy Qian, Emily Shao, Evan Schneider, Ignacio del Pino, Justin Lan, Melody Kuna, Vrajesh Modi, Wayne Hollman, Wendi Zhang, Amber Houghstow, Anne Shen, Dan Fourie, Grant Kadokura, Jesse Thornburg, Karen Hart, Kevin Boehm, Michelle Burroughs, Mitch Westwood, Travis Tucker",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Select-a-Bake",
+                            vimeoId: "231463192"
+                        },
+                        A2: {
+                            name: "Easy Dish",
+                            vimeoId: "231463199"
+                        },
+                        B1: {
+                            name: "Shape Shifter",
+                            vimeoId: "231463204"
+                        },
+                        B2: {
+                            name: "Cup 'N Cake",
+                            vimeoId: "231463211"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Select-a-Spice",
+                            vimeoId: "231462841"
+                        },
+                        B1: {
+                            name: "Cup 'N Cake",
+                            vimeoId: "231462860"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Dash"
+                    },
+                    tech: {
+                        name: "Dash",
+                        vimeoId: "231578436"
+                    },
+                    final: {
+                        name: "Dash",
+                        vimeoId: "231462271"
+                    }
+                }
+            },
+            pink: {
+                projName: "Spence",
+                projDesc: "flour metering device",
+                projColor: "pink",
+                projTeam: "Ade Ogunniyi, Anna Haas, Ben Williams, Bonnie Blackburn, Dan Kubaczyk, Danielle Whited, Elvine Pineda, Julie Henion, Julie Hui, Omar Carrasquillo, Carmen Graves, Joanna Faulk, Jon Reimer, Josh Ramos, Kim Zalatan, Noah Caplan, Parhys Napier, Pete Lu, William Pickeral",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Waste Wobbler",
+                            vimeoId: "231463216"
+                        },
+                        A2: {
+                            name: "Baker's Blaster",
+                            vimeoId: "231463232"
+                        },
+                        B1: {
+                            name: "Scrumptious Sketcher",
+                            vimeoId: "231463238"
+                        },
+                        B2: {
+                            name: "Measure Monster",
+                            vimeoId: "231463245"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Baker's Blaster",
+                            vimeoId: "231462875"
+                        },
+                        B1: {
+                            name: "Flour Pot",
+                            vimeoId: "231462897"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Spence"
+                    },
+                    tech: {
+                        name: "Spence",
+                        vimeoId: "231463493"
+                    },
+                    final: {
+                        name: "Spence",
+                        vimeoId: "231462284"
+                    }
+                }
+            },
+            purple: {
+                projName: "Grocery Mate",
+                projDesc: "wheelchair tray and grocery basket",
+                projColor: "purple",
+                projTeam: "Benji Moncivaiz, Chris Ohlmacher, Emily Conn, Emily Suter, Juliana Velez, My Vu, Stephanie Schmit, Sun Kim, Ben Bersanti, Clark Davenport, Elli Pula, Meagan Roth, Naomi Zabel, Riley Brandt, Taylor Gilbert, Tiffany Jin",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "The Eye Pot",
+                            vimeoId: "231463256"
+                        },
+                        A2: {
+                            name: "Lift-n-Lock Oven Rack",
+                            vimeoId: "231463274"
+                        },
+                        B1: {
+                            name: "Grocery Mate",
+                            vimeoId: "231463285"
+                        },
+                        B2: {
+                            name: "Cooking Board",
+                            vimeoId: "231463290"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Lift-n-Lock",
+                            vimeoId: "231462875"
+                        },
+                        B1: {
+                            name: "Grocery Mate",
+                            vimeoId: "231462897"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Grocery Mate"
+                    },
+                    tech: {
+                        name: "Grocery Mate",
+                        vimeoId: "231463493"
+                    },
+                    final: {
+                        name: "Grocery Mate",
+                        vimeoId: "231462284"
+                    }
+                }
+            },
+            red: {
+                projName: "Gaia",
+                projDesc: "powdered milk dryer",
+                projColor: "red",
+                projTeam: "Andrea Blakemore, Brett van Zuiden, Carter Chang, Matthew Rodriguez, Michael Fraser, Moji Jimoh, Stephan Hawthorne, Tim Grejtak, Tommy Ciesielski, Chiedozie Okafor, Jasmine Florentine, Juan Valdez, Maia Bageant, Michael Dobson, Q Harris, Thi Tran, Travis Hery, Trevor Shannon",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Low-Cost Milk Dryer",
+                            vimeoId: "231463298"
+                        },
+                        A2: {
+                            name: "Cake Transporter",
+                            vimeoId: "231463303"
+                        },
+                        B1: {
+                            name: "Weed Extractor",
+                            vimeoId: "231463315"
+                        },
+                        B2: {
+                            name: "Mechanically Powered UV Water Purifier",
+                            vimeoId: "231463324"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Milk Saver",
+                            vimeoId: "231462955"
+                        },
+                        B1: {
+                            name: "Lightning Jug",
+                            vimeoId: "231462981"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Gaia"
+                    },
+                    tech: {
+                        name: "Gaia",
+                        vimeoId: "231463509"
+                    },
+                    final: {
+                        name: "Gaia",
+                        vimeoId: "231578625"
+                    }
+                }
+            },
+            silver: {
+                projName: "Noribo",
+                projDesc: "sushi deliverying robots",
+                projColor: "silver",
+                projTeam: "Christian Segura-Rivera, Eric Roselli, John Boghossian, Juan Rodriguez, Katy Olesnavage, Kevin Jenks, Lauren Hernley, Liane Fang, Rachel Lewis, Robert Long, Alyssa Roque, Arin Rogers, Charles Guan, Cody Daniel, Jen Rees, Katrina Schoen, Laura Schuhrke, Michael Snively, Yoshi Perez",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Fryer Fuel",
+                            vimeoId: "231463332"
+                        },
+                        A2: {
+                            name: "Tournée-Do",
+                            vimeoId: "231463352"
+                        },
+                        B1: {
+                            name: "Wilbur Wake up",
+                            vimeoId: "231463373"
+                        },
+                        B2: {
+                            name: "Coaster Bot",
+                            vimeoId: "231463384"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Tournée-Do",
+                            vimeoId: "231462992"
+                        },
+                        B1: {
+                            name: "CoasterBot",
+                            vimeoId: "231463012"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Noribo"
+                    },
+                    tech: {
+                        name: "Noribo",
+                        vimeoId: "231463515"
+                    },
+                    final: {
+                        name: "Noribo",
+                        vimeoId: "231462306"
+                    }
+                }
+            },
+            yellow: {
+                projName: "True Tourné",
+                projDesc: "tourné potato cutting device",
+                projColor: "yellow",
+                projTeam: "Dan Hyatt, Eliza Eddison, Jamie Curran, Jonathan Mendoza, Justin Myers, Katelyn Snyder, Pall Kornmayer, Phillip Gonzales, Sarah Lichtblau, Stewart Park, Adam Doroski, Garrett Winther, Hazel Briner, Kevin Kleinguetl, Lily Berger, Nick Leonard, Richard Mancco, Stuart Bermack, Wei Sun",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Press 'n' Test",
+                            vimeoId: "231463400"
+                        },
+                        A2: {
+                            name: "The Individual Cookie Maker",
+                            vimeoId: "231463408"
+                        },
+                        B1: {
+                            name: "Power Rack Oven",
+                            vimeoId: "231463417"
+                        },
+                        B2: {
+                            name: "Easy Tournée",
+                            vimeoId: "231463441"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "The Press 'N' Test",
+                            vimeoId: "231463029"
+                        },
+                        B1: {
+                            name: "Easy Tournée",
+                            vimeoId: "231463056"
+                        }
+
+                    },
+                    assembly: {
+                        name: "True Tourné"
+                    },
+                    tech: {
+                        name: "True Tourné",
+                        vimeoId: "231463521"
+                    },
+                    final: {
+                        name: "True Tourné",
+                        vimeoId: "231462320"
+                    }
+                }
+            }
         }
     },
     2009: {
