@@ -2695,7 +2695,442 @@ DATA = {
             }
         ],
         projects: {
-        //2012 teams here
+            blue: {
+                projName: "StormShield",
+                projDesc: "bicycle rain shield",
+                projColor: "blue",
+                projTeam: "Evie Adams, Jacob Bailey, Matt Barron, Felipe Carrillo, Alex Clayton, Phillip Daniel, Eric Del Castillo, Majid Linjawi, Kenya Mejia, Cindy Oh, Ben Pyle, Sam Reineman, Margie Trevino-Garrido, Wanni Tsai, Jack Wanderman, Shuo Wang, Sam Whittermore, Andrew Yang",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Collapsi-fin",
+                            vimeoId: "231473396"
+                        },
+                        A2: {
+                            name: "Quick Rinse",
+                            vimeoId: "231473405"
+                        },
+                        B1: {
+                            name: "RainDrop",
+                            vimeoId: "231473417"
+                        },
+                        B2: {
+                            name: "SportShare",
+                            vimeoId: "231473426"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "BreakPoint Fin",
+                            vimeoId: "231473208"
+                        },
+                        B1: {
+                            name: "RainDrop",
+                            vimeoId: "231473216"
+                        }
+
+                    },
+                    assembly: {
+                        name: "StormShield"
+                    },
+                    tech: {
+                        name: "StormShield",
+                        vimeoId: "231473700"
+                    },
+                    final: {
+                        name: "StormShield",
+                        vimeoId: "231473072"
+                    }
+                }
+            },
+            green: {
+                projName: "riderguider",
+                projDesc: "on-bicycle navigation system",
+                projColor: "green",
+                projTeam: "Ahmed Alnemer, Audrey Bosquet, Princess Len Carlos, Devin Dee, Stephen Frost, Chris Gerber, Dan Goodman, Chris Hammond, Charlotte Herhold, Tim Jenks, Arash Kani, Julia Kimmerly, Lauren Kuntz, Paul Lazarescu, Paulina Mustafa, Vahe Taamazyan, Megan Uberti, Jackson Wirekoh, Trevor Zinser",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Bike +",
+                            vimeoId: "231473436"
+                        },
+                        A2: {
+                            name: "Search and Rescue Bridge",
+                            vimeoId: "231473441"
+                        },
+                        B1: {
+                            name: "Blood Plasma Freeze Dryer",
+                            vimeoId: "231473448"
+                        },
+                        B2: {
+                            name: "Foam Bricks",
+                            vimeoId: "231473461"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Bike+",
+                            vimeoId: "231473220"
+                        },
+                        B1: {
+                            name: "Blood Plasma Dehydrator",
+                            vimeoId: "231586111"
+                        }
+                    },
+                    assembly: {
+                        name: "riderguider"
+                    },
+                    tech: {
+                        name: "riderguider",
+                        vimeoId: "231473708"
+                    },
+                    final: {
+                        name: "riderguider",
+                        vimeoId: "231587201"
+                    }
+                }
+            },
+            orange: {
+                projName: "Ferno",
+                projDesc: "compact recreational camping stove",
+                projColor: "orange",
+                projTeam: "Kelsey Brigance, Peter Britton, Anna Christensen, Sara Comis, Michelle Deng, Rachel Fernandes, Emi Ferreira-Yang, Rustem Feyzkhanov, Hannah Gramling, Katie Inman, Bethany Lemanski, Daniel de Paula Lopes, Ryan Madson, Janille Maragh, Nate Robert, Ron Rosenberg, Melvin Salinas, Alex Teuffer, Jesse Toapanta",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Clip-N-Snow",
+                            vimeoId: "231473467"
+                        },
+                        A2: {
+                            name: "Comfort Carrier",
+                            vimeoId: "231473475"
+                        },
+                        B1: {
+                            name: "FlexFerno",
+                            vimeoId: "231473487"
+                        },
+                        B2: {
+                            name: "EasyPak",
+                            vimeoId: "231473497"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "SnapNSnow",
+                            vimeoId: "231586121"
+                        },
+                        B1: {
+                            name: "FlexFerno",
+                            vimeoId: "231473229"
+                        }
+                    },
+                    assembly: {
+                        name: "Ferno"
+                    },
+                    tech: {
+                        name: "Ferno",
+                        vimeoId: "231473720"
+                    },
+                    final: {
+                        name: "Ferno",
+                        vimeoId: "231473105"
+                    }
+                }
+            },
+            pink: {
+                projName: "Herc",
+                projDesc: "hygenic efficient receptacle cleaning",
+                projColor: "pink",
+                projTeam: "Kameron Chan, Camille Everhart, Grant Iwamoto, Manuel Legrand, Jeffrey Lin, Bridger Maxwell, Franco Montalvo, Icy Morozova, Nanc Ouyang, Thao Phan, Cory Robinson, Andrew Sommer, Anastasia Uryasheva, Dmitriy Vasilev, Hui Xia, Richard Yoon, Irina Zhelavskaya",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Cargo Assist",
+                            vimeoId: "231473503"
+                        },
+                        A2: {
+                            name: "Jamclam",
+                            vimeoId: "231473517"
+                        },
+                        B1: {
+                            name: "Waste Washer",
+                            vimeoId: "231473529"
+                        },
+                        B2: {
+                            name: "Parcel Pro",
+                            vimeoId: "231473532"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "JamPack",
+                            vimeoId: "231473234"
+                        },
+                        B1: {
+                            name: "Parcel Pro",
+                            vimeoId: "231473236"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Herc"
+                    },
+                    tech: {
+                        name: "Herc",
+                        vimeoId: "231473725"
+                    },
+                    final: {
+                        name: "Herc",
+                        vimeoId: "231473090"
+                    }
+                }
+            },
+            purple: {
+                projName: "Sky Beacon",
+                projDesc: "emergency beacon balloon",
+                projColor: "purple",
+                projTeam: "Alejandro Aguirre, Kuljot Anand, Cecilia Cantu, Jeremy deGuzman, Nifer Fasman, Angela Hojnaki, Elina Hu, Laura Matloff, Frederick Moore, Jill Oliveira, Chase Olle, Jason Pier, Nathan Porter, Madeline Salazar, Sarah Southerland, Nick Torgerson",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Blind Spotter",
+                            vimeoId: "231473537"
+                        },
+                        A2: {
+                            name: "Crusher Trike",
+                            vimeoId: "231473543"
+                        },
+                        B1: {
+                            name: "KnapSack",
+                            vimeoId: "231473553"
+                        },
+                        B2: {
+                            name: "Sky Beacon",
+                            vimeoId: "231473561"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Blind Spotter",
+                            vimeoId: "231473240"
+                        },
+                        B1: {
+                            name: "Sky Beacon",
+                            vimeoId: "231473246"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Sky Beacon"
+                    },
+                    tech: {
+                        name: "Sky Beacon",
+                        vimeoId: "231473731"
+                    },
+                    final: {
+                        name: "Sky Beacon",
+                        vimeoId: "231473108"
+                    }
+                }
+            },
+            red: {
+                projName: "Heatware",
+                projDesc: "flameless camp stove",
+                projColor: "red",
+                projTeam: "Xenia Antipova, Gabriel Blanchet, Daniel Bloch, Michael Buchman, Sebastian Denault, Sean Fannin, Rachel Fraunhoffer, Monica Isava, Brigitte Morales, Ernesto Reza, Oscar Rojas, Julia Titarelli, Vanessa Trevino, Anne Warren, Shannon Yang",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Qook",
+                            vimeoId: "231473576"
+                        },
+                        A2: {
+                            name: "Qook To Go",
+                            vimeoId: "231473594"
+                        },
+                        B1: {
+                            name: "Lumenbrella",
+                            vimeoId: "231473607"
+                        },
+                        B2: {
+                            name: "Duo Seat",
+                            vimeoId: "231473610"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Qook",
+                            vimeoId: "231473257"
+                        },
+                        B1: {
+                            name: "Duoseat",
+                            vimeoId: "231473265"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Heatware"
+                    },
+                    tech: {
+                        name: "Heatware",
+                        vimeoId: "231473744"
+                    },
+                    final: {
+                        name: "Heatware",
+                        vimeoId: "231473121"
+                    }
+                }
+            },
+            silver: {
+                projName: "Clydesdale",
+                projDesc: "ergonomic keg-dolly",
+                projColor: "silver",
+                projTeam: "Sareena Avadhany, Veronica Barrera, Casandra Ceri, Lia DiGiovanna, Kathryn Greskoff, Eric Hernandez, Matt Hohenberger, Lauren Lo, Molly McShane, Michael Olague, Greg Puzko, John Reynolds, Chris Rullan, Ray Tilden, Bee Vang, Wyatt Ubellacker, Ari Umans",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Steered Stroller",
+                            vimeoId: "231473614"
+                        },
+                        A2: {
+                            name: "Easy-barrow",
+                            vimeoId: "231473621"
+                        },
+                        B1: {
+                            name: "Linus",
+                            vimeoId: "231473629"
+                        },
+                        B2: {
+                            name: "Sprout",
+                            vimeoId: "231473638"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "the keg chute",
+                            vimeoId: "231473278"
+                        },
+                        B1: {
+                            name: "Linus",
+                            vimeoId: "231473287"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Clydesdale"
+                    },
+                    tech: {
+                        name: "Clydesdale",
+                        vimeoId: "231473756"
+                    },
+                    final: {
+                        name: "Clydesdale",
+                        vimeoId: "231473133"
+                    }
+                }
+            },
+            yellow: {
+                projName: "Sproutacus",
+                projDesc: "greens harvesting system",
+                projColor: "yellow",
+                projTeam: "Conrad Bastable, Ranjeetha Bharath, Steven Carreno, Justin Colt, Steph Cooke, Carolyn Coyle, Philip Crain, Geoff Dawson, Aaron Fittery, Blair Gagnon, Steven Huynh, Kathleen Kraines, Leslie Meyer, Keneth Pinera, Eduardo Russian, Fareeha Safir, Jay Sircar, Daisy Yan Yuen",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Tilt-2-O",
+                            vimeoId: "231473645"
+                        },
+                        A2: {
+                            name: "Gathering Greens",
+                            vimeoId: "231473652"
+                        },
+                        B1: {
+                            name: "Root Rover",
+                            vimeoId: "231473661"
+                        },
+                        B2: {
+                            name: "Tomato Trekker",
+                            vimeoId: "231473667"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Tilt-2-O",
+                            vimeoId: "231473292"
+                        },
+                        B1: {
+                            name: "Gathering Greens",
+                            vimeoId: "231473295"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Sproutacus"
+                    },
+                    tech: {
+                        name: "Sproutacus",
+                        vimeoId: "231473765"
+                    },
+                    final: {
+                        name: "Sproutacus",
+                        vimeoId: "231473145"
+                    }
+                }
+            }
         }
     },
     2011: {
