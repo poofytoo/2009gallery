@@ -2185,7 +2185,446 @@ DATA = {
             }
         ],
         projects: {
-        //2013 teams here
+            blue: {
+                projName: "San-X",
+                projDesc: "exercise mat cleaner",
+                projColor: "blue",
+                projTeam: "Raad Alshareef, Evelyn Tio, Will Dominas, Taylor Farnham, Miho Kitagawa, Curtis Wu, Mariah Hake, Philine Huizing, Ting-Ting Liu, Alexandra Taylor, Betsy Soukup, Brandon Holloway, Sarah Ritter, Ishaan Kumar, Kristine Bunker, John Kongoletos, Michael Nackoul, Phillip Marmolejo",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Toy Wash",
+                            vimeoId: "231474192"
+                        },
+                        A2: {
+                            name: "Handy Hippo",
+                            vimeoId: "231474208"
+                        },
+                        B1: {
+                            name: "SaniSurf",
+                            vimeoId: "231474224"
+                        },
+                        B2: {
+                            name: "PoliShine",
+                            vimeoId: "231474237"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "spray",
+                            vimeoId: "231473999"
+                        },
+                        B1: {
+                            name: "matmate",
+                            vimeoId: "231474004"
+                        }
+
+                    },
+                    assembly: {
+                        name: "San-X"
+                    },
+                    tech: {
+                        name: "San-X",
+                        vimeoId: "231474614"
+                    },
+                    final: {
+                        name: "San-X",
+                        vimeoId: "231473871"
+                    }
+                }
+            },
+            green: {
+                projName: "Poseiden",
+                projDesc: "laser pacer for swimming",
+                projColor: "green",
+                projTeam: "Ben Potash, Jad El Khoury, Emily Hupf, Ignacio Bachiller, Marcos Grochowski Mattana, Natalie Dostie, Onsi Sawiris, Sean Cockey, Carolyn Zhang, Devin Cornish, Daniel Gillund, Kerry Nicholson, Matt White, Ronald Chan, Sidhanth Rao, Tom Peleg",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "pacer laser",
+                            vimeoId: "231474252"
+                        },
+                        A2: {
+                            name: "step analyzer",
+                            vimeoId: "231590006"
+                        },
+                        B1: {
+                            name: "smart spot",
+                            vimeoId: "231474263"
+                        },
+                        B2: {
+                            name: "broccoli bike",
+                            vimeoId: "231474272"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Pacer Laser",
+                            vimeoId: "231474012"
+                        },
+                        B1: {
+                            name: "InstaPump",
+                            vimeoId: "231474016"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Poseiden"
+                    },
+                    tech: {
+                        name: "Poseiden",
+                        vimeoId: "231591648"
+                    },
+                    final: {
+                        name: "Poseiden",
+                        vimeoId: "231473884"
+                    }
+                }
+            },
+            orange: {
+                projName: "Mira",
+                projDesc: "motorcycle navigation display",
+                projColor: "orange",
+                projTeam: "Candace Chen, Andre Negrao Costa, Ricardo Reyna Fernadez, Matt Times, Michael Farid, Louise van den Heuvel, Brian Foley, Keenan Sunderwirth, Bruno Flores dos Santos Mattos, Veronica Newlin",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "HUD Helmet",
+                            vimeoId: "231474280"
+                        },
+                        A2: {
+                            name: "Portable CNC Router",
+                            vimeoId: "231474300"
+                        },
+                        B1: {
+                            name: "FallSafe",
+                            vimeoId: "231474306"
+                        },
+                        B2: {
+                            name: "BreatheEasy",
+                            vimeoId: "231474319"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "HUDs up!",
+                            vimeoId: "231474022"
+                        },
+                        B1: {
+                            name: "PUX Router Pro",
+                            vimeoId: "231474026"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Mira"
+                    },
+                    tech: {
+                        name: "Mira",
+                        vimeoId: "231474623"
+                    },
+                    final: {
+                        name: "Mira",
+                        vimeoId: "231473895"
+                    }
+                }
+            },
+            pink: {
+                projName: "Verda",
+                projDesc: "mobile bicycle farm stand",
+                projColor: "pink",
+                projTeam: "Shirley Mao, Stephanie Ku, Fernando Rivera Gonzalez, Khalid Alqahtani, Bruce Arensen, Katherine Ferreira Martinez, Tarun Malik, Jorge Colmenero, Ben Hessels, Abdulrahman Khayyat, Ahmed Madani, Adrian Grossman, C.J. Munroe, Emma Benjaminson, Cheetiri Smith, Katie Spies, Hana Khalil, Kojo Welbeck",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "AFM 9000",
+                            vimeoId: "231474331"
+                        },
+                        A2: {
+                            name: "Phold-It!",
+                            vimeoId: "231474343"
+                        },
+                        B1: {
+                            name: "The MC2",
+                            vimeoId: "231474368"
+                        },
+                        B2: {
+                            name: "iGarden",
+                            vimeoId: "231474386"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "AFM 9000",
+                            vimeoId: "231474035"
+                        },
+                        B1: {
+                            name: "G2G: Greens To Go",
+                            vimeoId: "231474042"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Verda"
+                    },
+                    tech: {
+                        name: "Verda",
+                        vimeoId: "231474626"
+                    },
+                    final: {
+                        name: "Verda",
+                        vimeoId: "231473906"
+                    }
+                }
+            },
+            purple: {
+                projName: "EquiTemp",
+                projDesc: "horse temperature sensor",
+                projColor: "purple",
+                projTeam: "Ayman AbuShirbi, David Alfonso, Holly Jamerson, Kaitlyn Nealon, Katie Chasins, Matt Metlitz, Oscar Salgado, Ramya Swamy, Saul Lopez, Viveka Mishra, Ben Lewis, Chacha Durazo, Daniel Meza, Eddie Carrillo, Julia Hsu, Lucy Du, Ovie Orieka, Rachel Dias Carlson, Steven Jens Jorgensen, Victor Rodriguez",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "TerraStretch",
+                            vimeoId: "231474402"
+                        },
+                        A2: {
+                            name: "EquiSense",
+                            vimeoId: "231474411"
+                        },
+                        B1: {
+                            name: "Firevention!",
+                            vimeoId: "231474423"
+                        },
+                        B2: {
+                            name: "SafeCut",
+                            vimeoId: "231474431"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "EquiSense",
+                            vimeoId: "231474058"
+                        },
+                        B1: {
+                            name: "SafeCut",
+                            vimeoId: "231474063"
+                        }
+
+                    },
+                    assembly: {
+                        name: "EquiTemp"
+                    },
+                    tech: {
+                        name: "EquiTemp",
+                        vimeoId: "231474632"
+                    },
+                    final: {
+                        name: "EquiTemp",
+                        vimeoId: "231473913"
+                    }
+                }
+            },
+            red: {
+                projName: "Ollie",
+                projDesc: "affordable therapeutic companion",
+                projColor: "red",
+                projTeam: "Kristina Johnson, Will Kalb, Luke O'Malley, David Orozco, Patricia P Pezzi, Luke Plummer, Doug Sanchez, Andrew Stratton, Emily Yang, Rick Zang, Alix de Monts, Anders Rasmussen, Carrie Liang, Chris Haid, Hazel Zengeni, Jose Lara, Kate O'Connor, Mateo Pena Doll, Nilu Zhao, Tim Wilczynski",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Herobo",
+                            vimeoId: "231474436"
+                        },
+                        A2: {
+                            name: "MotoThresher",
+                            vimeoId: "231474440"
+                        },
+                        B1: {
+                            name: "MagneGlasses",
+                            vimeoId: "231474454"
+                        },
+                        B2: {
+                            name: "PEF Water Purifier",
+                            vimeoId: "231474468"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Herobo",
+                            vimeoId: "231474071"
+                        },
+                        B1: {
+                            name: "MotoThresher",
+                            vimeoId: "231474078"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Ollie"
+                    },
+                    tech: {
+                        name: "Ollie",
+                        vimeoId: "231474643"
+                    },
+                    final: {
+                        name: "Ollie",
+                        vimeoId: "231473920"
+                    }
+                }
+            },
+            silver: {
+                projName: "BitDex",
+                projDesc: "drill bit measuring device",
+                projColor: "silver",
+                projTeam: "Christina Rosales, Katarina Struckmann, Guille Mirandes, Bridget Hunter-Jones, Katy Evans, Austin Gutierrez, Emily Dunne, Josh Sibblies, Eric Crespo-Lezama, Kaitlyn Bailey, Krista Nordin, Shaka Thornhill, Angela Chu, Christopher Kelly, Immanuel Madukauwa-David, Isaac Fenta, Juliana Wu",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "the Ultimate Frisbee",
+                            vimeoId: "231474483"
+                        },
+                        A2: {
+                            name: "Bit Bot",
+                            vimeoId: "231474493"
+                        },
+                        B1: {
+                            name: "Mini-Load",
+                            vimeoId: "231474507"
+                        },
+                        B2: {
+                            name: "Lift Ladder",
+                            vimeoId: "231474517"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "BitBot",
+                            vimeoId: "231474085"
+                        },
+                        B1: {
+                            name: "Ulti-LIT",
+                            vimeoId: "231474092"
+                        }
+
+                    },
+                    assembly: {
+                        name: "BitDex"
+                    },
+                    tech: {
+                        name: "BitDex",
+                        vimeoId: "231474646"
+                    },
+                    final: {
+                        name: "BitDex",
+                        vimeoId: "231473931"
+                    }
+                }
+            },
+            yellow: {
+                projName: "Glow",
+                projDesc: "light-up yoga mat",
+                projColor: "yellow",
+                projTeam: "David Christoff, Demetra Sklaviadis, Jeff Corothers, Jon Rea, Kojo Acquah, Patrick Dayton, Molly Duffy, PJ Buddhari, Tanya Liu, Tom Burrow, Abbey Bethel, Alex McCarthy, Caleb Jones, Erin Meyer, Ian Martin, Julia Ellermeier, Toks Fifo, Youyou Li",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "glow",
+                            vimeoId: "231474524"
+                        },
+                        A2: {
+                            name: "U-brella",
+                            vimeoId: "231474536"
+                        },
+                        B1: {
+                            name: "Hold & Fold",
+                            vimeoId: "231474549"
+                        },
+                        B2: {
+                            name: "SkyStow",
+                            vimeoId: "231474562"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "glow",
+                            vimeoId: "231474102"
+                        },
+                        B1: {
+                            name: "Hold & Fold",
+                            vimeoId: "231474109"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Glow"
+                    },
+                    tech: {
+                        name: "Glow",
+                        vimeoId: "231474652"
+                    },
+                    final: {
+                        name: "Glow",
+                        vimeoId: "231473939"
+                    }
+                }
+            }
         }
     },
     2012: {
