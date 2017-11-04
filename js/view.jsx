@@ -1,19 +1,7 @@
 var baseUrl = "http://designed.mit.edu/gallery/";
 
-import { Navigation } from "./nav.jsx";
-
-// TODO: Move into global variables
-
-var classColors = {
-    blue: "blue",
-    red: "red",
-    orange: "orange",
-    yellow: "yellow",
-    silver: "silver",
-    pink: "pink",
-    purple: "purple",
-    green: "green"
-}
+import { Navigation, updateNavigationBar } from "./nav.jsx";
+import { classColors } from "./colors.jsx";
 
 String.prototype.capitalize = function () {
     return this.charAt(0).toUpperCase() + this.slice(1);
@@ -21,17 +9,26 @@ String.prototype.capitalize = function () {
 
 var TeamContent = React.createClass({
     render: function () {
-        console.log('hey what is htis', this.props.project.deliverables);
         var project = this.props.project;
-        console.log('project', project);
+
         return (
             <div className="project-content">
                 <h2 className="fixed-topbar">{project.projName}</h2>
                 <h3 className="team">Team</h3>
-                <p>{project.projTeam}</p>
+                <p>
+                    {project.projTeam}
+                </p>
                 <p></p>
                 <div className="additional-links">
                     <a href={project.projCode}>Team Code of Ethics</a>
+                </div>
+                <div className="team-photo">
+                    <a href={baseUrl + `data/${this.props.year}/final/photos/original/${project.projColor}1.jpg`}>
+                        <img src={baseUrl + `data/${this.props.year}/final/photos/small/${project.projColor}1.jpg`} />
+                    </a>
+                    <a href={baseUrl + `data/${this.props.year}/final/photos/original/${project.projColor}2.jpg`}>
+                        <img src={baseUrl + `data/${this.props.year}/final/photos/small/${project.projColor}2.jpg`} />
+                    </a>
                 </div>
                 <h3 className="3-ideas">3 Ideas</h3>
 
@@ -73,7 +70,7 @@ var TeamContent = React.createClass({
                 var highlightColor = classColors[project.projColor];
                 sections.push(
                     <h4 key={`ideas-header-${s.charAt(0)}`}>
-                        <span className="section-tag" style={{borderColor: highlightColor}}>Section&nbsp;
+                        <span className="section-tag" style={{ borderColor: highlightColor }}>Section&nbsp;
                         <em>{s.charAt(0)}</em>
                         </span>
                     </h4>,
@@ -99,7 +96,7 @@ var TeamContent = React.createClass({
             var highlightColor = classColors[project.projColor];
             elements.push(
                 <h4 key={`${sectionKey}-${s}-header`}>
-                    <span className="section-tag" style={{borderColor: highlightColor}}>{sectionDisplayName}
+                    <span className="section-tag" style={{ borderColor: highlightColor }}>{sectionDisplayName}
                         <em> {s}</em>
                     </span> {sectionTeams[s].name}</h4>,
                 <div className="milestone-container" key={`${sectionKey}-${s}`}>
@@ -198,19 +195,6 @@ var sections = {
 
 var scrollBreaks = [];
 
-function updateNavigationBar() {
-    if ($(window).scrollTop() < 10) {
-        $('.navigation').removeClass('condensed');
-        $('h1').removeClass('condensed');
-        $('h2').removeClass('condensed');
-    } else if (!$('.navigation').hasClass('condensed')){
-        console.log('here')
-        $('.navigation').addClass('condensed');
-        $('h1').addClass('condensed');
-        $('h2').addClass('condensed');
-    }
-}
-
 function updateSidemenuHighlight() {
     var closestSection = 0;
     var section = 'team';
@@ -283,7 +267,7 @@ $(function () {
             // TODO: Move
 
             ReactDOM.render(
-                <Navigation />,
+                <Navigation teamColor={urlLocation.team} teamYear={urlLocation.year} />,
                 document.getElementById('navigation')
             );
 
@@ -300,12 +284,10 @@ $(function () {
             buildSidemenu();
 
             locationHash = window.location.hash;
-            console.log(locationHash)
             if (locationHash !== undefined && locationHash !== "") {
                 if ('scrollRestoration' in history) {
                     history.scrollRestoration = 'manual';
                 }
-                console.log(locationHash);
                 scrollToSection(locationHash.replace(/[^\-A-Za-z0-9]/g, ''));
             }
         } else {

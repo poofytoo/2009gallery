@@ -17,6 +17,7 @@ a {
         color: #ccc;
         font-size: 15px;
         position: fixed;
+        z-index: 1000;
         top: 0;
         left: 0;
         right: 0;
@@ -48,6 +49,7 @@ a {
         font-size: 20px;
         text-align: center;
         transition: all 0.4s;
+        z-index: 999;
 
         .selected-dropdown {
             border-color: $highlight-green;
@@ -92,6 +94,8 @@ a {
     }
 
     .disabled-select {
+        opacity: 0.2;
+        
         &:hover {
             cursor: pointer;
             color: #666;
@@ -242,6 +246,15 @@ a {
 
     .project-content {
         padding-left: 20%;
+        clear: both;
+
+        .team-photo {
+            margin: 20px 20px 20px 0;
+            img {
+                margin-right: 10px;
+                width: 200px;
+            }
+        }
     }
 
     h1 {
@@ -268,7 +281,7 @@ a {
 
         &.condensed {
             left: 50px;
-            z-index: 5;
+            z-index: 10001;
             top: 40px;
             transition: all 0.4s;
             font-size: 30px;
@@ -416,7 +429,7 @@ a {
     // left: 0;
     background-color: #fff;
     border-radius: 5px;
-    width: 300px;
+    width: 400px;
     height: 300px;
     top: 70px;
     right: 0;
@@ -490,6 +503,8 @@ a {
 }
 
 .team-select {
+    text-transform: capitalize;
+    
     .dropdown-selector {
         width: 400px;
 

@@ -1,22 +1,49 @@
+import classnames from "classnames";
+
 var baseUrl = "http://designed.mit.edu/gallery/data/"
+
+export const updateNavigationBar = function () {
+    if ($(window).scrollTop() < 10) {
+        $('.navigation').removeClass('condensed');
+        $('h1').removeClass('condensed');
+        $('h2').removeClass('condensed');
+    } else if (!$('.navigation').hasClass('condensed')) {
+        $('.navigation').addClass('condensed');
+        $('h1').addClass('condensed');
+        $('h2').addClass('condensed');
+    }
+}
 
 export const Navigation = React.createClass({
     getInitialState: function () {
+        console.log('whatttt yearrr is itttt', this.props.teamYear)
         return {
+            teamColor: this.props.teamColor,
+            teamYear: this.props.teamYear,
             isYearDropdownVisible: false,
             isTeamDropdownVisible: false,
         };
     },
     componentDidMount: function () {
-
         var _this = this;
 
         $("body").on("click", function (event) {
             // react and jquery events aren't playing nice with each other
-            if (!$(event.target).hasClass("nav-select")) {
+            if (!$(event.target).hasClass("nav-select")
+                && !$(event.target).hasClass("year-item")
+                && !$(event.target).parents(".year-item").length === 0) {
                 _this.setState({
                     isYearDropdownVisible: false,
                     isTeamDropdownVisible: false,
+                });
+            }
+        });
+
+        $(document).scroll(function () {
+            if (_this.state.isYearDropdownVisible || _this.state.isTeamDropdownVisible) {
+                _this.setState({
+                    isTeamDropdownVisible: false,
+                    isYearDropdownVisible: false
                 });
             }
         });
@@ -33,30 +60,35 @@ export const Navigation = React.createClass({
         }
 
         if (!oldState.isYearDropdownVisible && this.state.isYearDropdownVisible) {
-          $(document).on('mousewheel', '.year-selector', function (e) {
+            $(document).on('mousewheel', '.year-selector', function (e) {
 
-              var event = e.originalEvent,
-                  d = event.wheelDelta || -event.detail;
+                var event = e.originalEvent,
+                    d = event.wheelDelta || -event.detail;
 
-              $('.year-selector').scrollTop($('.year-selector').scrollTop() + (d < 0 ? 1 : -1) * 30);
-              e.preventDefault();
-          });
-      }
+                $('.year-selector').scrollTop($('.year-selector').scrollTop() + (d < 0 ? 1 : -1) * 30);
+                e.preventDefault();
+            });
+        }
     },
     render: function () {
         return (<div>
-            <div className="year-select nav-select">
-                All Projects
-            </div>
+            <a href="/">
+                <div className="year-select nav-select">
+                    All Projects
+                </div>
+            </a>
             <span className="arrow">></span>
             <div className="year-select nav-select" onClick={this.toggleYearDropdown}>
-                Fall 2015
+                {this.state.teamYear !== undefined ? `Fall ${this.state.teamYear}` : "Select year"}
                 <span className="dropdown-arrow">&#x25BE;</span>
                 {this.maybeRenderYearDropdown()}
             </div>
             <span className="arrow">></span>
-            <div className="team-select nav-select disabled-select" onClick={this.toggleTeamDropdown}>
-                Blue Team
+            <div
+                className={classnames("team-select nav-select", { "disabled-select": this.state.teamYear === undefined })}
+                onClick={this.toggleTeamDropdown}
+            >
+                {this.state.teamColor !== undefined ? `${this.state.teamColor} Team` : "Select team"}
                 <span className="dropdown-arrow">&#x25BE;</span>
                 {this.maybeRenderTeamDropdown()}
             </div>
@@ -94,7 +126,7 @@ export const Navigation = React.createClass({
                 </a>
             </li>
         )];
-        var year = 2015; // dynamically loaded
+        var year = this.state.teamYear; // dynamically loaded
         var projects = DATA[year].projects
         for (var i in projects) {
             var backgroundUrl = `url('${baseUrl}${year}/final/photos/small/${i}1.jpg')`;
@@ -114,21 +146,23 @@ export const Navigation = React.createClass({
     },
     renderYearList: function () {
         var yearsList = [(
-            <li>
+            <li key="all">
                 <a href="">
                     <span class="dim">View All Years</span>
                 </a>
             </li>
         )];
-        var years = DATA
+        var years = Object.keys(DATA).reverse()
+        var _this = this;
         for (var i in years) {
             // var backgroundUrl = `url('${baseUrl}${year}/final/photos/small/${i}1.jpg')`;
             // var teamUrl = `view.html?year=${year}&team=${i}`
+            var year = years[i]
             yearsList.push(
-                <li>
-                    <a href="asdf">
-                        <em>Adventure</em> Fall 2014
-                        <span className="dim">8 projects</span>
+                <li key={year}>
+                    <a onClick={this.getYearHandler(year)} className="year-item">
+                        <em>{DATA[year].themeName}</em> Fall {year}
+                        <span className="dim">{Object.keys(DATA[year].projects).length} projects</span>
                     </a>
                 </li>
             )
@@ -136,95 +170,31 @@ export const Navigation = React.createClass({
 
         return <div>{yearsList}</div>
     },
+    getYearHandler: function (year) {
+        var _this = this;
+
+        const handler = function (event) {
+            event.stopPropagation();
+            _this.setState({
+                teamYear: year,
+                isYearDropdownVisible: false,
+                isTeamDropdownVisible: true,
+            });
+        };
+        return handler;
+    },
     toggleYearDropdown: function (event) {
         event.stopPropagation();
-        this.setState({ isYearDropdownVisible: !this.state.isTeamDropdownVisible, isTeamDropdownVisible: false });
+        this.setState({ isYearDropdownVisible: !this.state.isYearDropdownVisible, isTeamDropdownVisible: false });
     },
     toggleTeamDropdown: function (event) {
         event.stopPropagation();
-        this.setState({ isTeamDropdownVisible: !this.state.isTeamDropdownVisible, isYearDropdownVisible: false });
+        if (this.state.teamYear !== undefined) {
+            this.setState({
+                isTeamDropdownVisible: !this.state.isTeamDropdownVisible,
+                isYearDropdownVisible: false,
+            });
+        }
     }
 });
-
-
-// dropdown-selector-list
-
-
-/*
-<li>
-              <a class="select-none" href="">
-                <span class="dim">View All Products</span>
-              </a>
-            </li>
-            <li class="selected-dropdown-item">
-              <a href="">
-                <div class="product-image" style="background-image: url('http://designed.mit.edu/gallery/data/2015/final/photos/small/blue1.jpg')"></div>
-                <div class="product-text">
-                  <em>Laser Kites</em> Blue Team
-                </div>
-              </a>
-            </li>
-
-                                    <li>
-                            <a href="">
-                                <span class="dim">View All Years</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" class="selected-dropdown-item">
-                                <em>Magic</em> Fall 2015
-                <span class="dim">8 projects</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <em>Adventure</em> Fall 2014
-                                <span class="dim">8 projects</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <em>Outdoors</em> Fall 2013
-                <span class="dim">8 projects</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <em>Be Well</em> Fall 2012
-                <span class="dim">8 projects</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <em>Adventure</em> Fall 2011
-                <span class="dim">8 projects</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <em>Outdoors</em> Fall 2010
-                <span class="dim">8 projects</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <em>Be Well</em> Fall 2009
-                <span class="dim">8 projects</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <em>Outdoors</em> Fall 2010
-                <span class="dim">8 projects</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <em>Be Well</em> Fall 2009
-                <span class="dim">8 projects</span>
-                            </a>
-                        </li>
-
-            */
-
 
