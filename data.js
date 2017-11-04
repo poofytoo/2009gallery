@@ -4647,7 +4647,388 @@ DATA = {
             }
         ],
         projects: {
-        //2008 teams here
+            blue: {
+                projName: "DOTit",
+                projDesc: "electric Braille labeler",
+                projColor: "blue",
+                projTeam: "Andrew Bishara, Adelaide Calbry-Muzyka, Kwame Hall, Josh Karges, Michelle Lustrino, Nicole O'Keeffe, Sam Phillips, Sarah Shieh, Xiao Wei Chen, Isa Castro, Wenxian Hong, Jennifer Moore, Karina Pikhart, Rachel Tatem, Jodie Wu",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "StairWalker",
+                            vimeoId: "231460607"
+                        },
+                        A2: {
+                            name: "Wheelchair helper",
+                            vimeoId: "231460619"
+                        },
+                        B1: {
+                            name: "ejectAoven",
+                            vimeoId: "231460625"
+                        },
+                        B2: {
+                            name: "liftAcart",
+                            vimeoId: "231460635"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "wheelchairASSIST",
+                            vimeoId: "231460312"
+                        },
+                        B1: {
+                            name: "iDot",
+                            vimeoId: "231569891"
+                        }
+
+                    },
+                    assembly: {
+                        name: "DOTit"
+                    },
+                    tech: {
+                        name: "DOTit",
+                        vimeoId: "231460914"
+                    },
+                    final: {
+                        name: "DOTit",
+                        vimeoId: "231460187"
+                    }
+                }
+            },
+            green: {
+                projName: "elika",
+                projDesc: "high tech coffee table",
+                projColor: "green",
+                projTeam: "Rangel Dokov, Cyril Koniski, Ming Leong, Jared Sartee, Katie Stanchak, Phillip Vasquez, Yuki Wikman, Terance Neal, Eddie Lei, Shamus Cunningham, David Hill, Fiona Hughes, Andrew Leone, Kathryn Shroyer, Geoff Tsai, Cindy Wang, Yifei Wu, Cathy Mancuso",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Express-o table",
+                            vimeoId: "231460635"
+                        },
+                        A2: {
+                            name: "Double-Desk",
+                            vimeoId: "231460655"
+                        },
+                        B1: {
+                            name: "Mesh couch",
+                            vimeoId: "231460664"
+                        },
+                        B2: {
+                            name: "Foosball pool table",
+                            vimeoId: "231460667"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Double desk",
+                            vimeoId: "231460335"
+                        },
+                        B1: {
+                            name: "EspressO table",
+                            vimeoId: "231569900"
+                        }
+                    },
+                    assembly: {
+                        name: "elika"
+                    },
+                    tech: {
+                        name: "elika",
+                        vimeoId: "231460918"
+                    },
+                    final: {
+                        name: "elika",
+                        vimeoId: "231460194"
+                    }
+                }
+            },
+            orange: {
+                projName: "thermoSmart",
+                projDesc: "forced air grate system",
+                projColor: "orange",
+                projTeam: "Paul Blascovich, Shreya Dave, Conor Lenahan, Jacob Levinson, Aiko Nakano, Rebecca Smith, Celeste Wallace, Peter Wellings, Jason Chan, Rahel Eisenberg, Daniel Lopez, Sara Segal, Tiffany Tseng, Robert Utz, Alice Yeh, Brian Syverud, Stephen Young",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Flywheel ventilation",
+                            vimeoId: "231460674"
+                        },
+                        A2: {
+                            name: "HVAC tracker",
+                            vimeoId: "231460682"
+                        },
+                        B1: {
+                            name: "Vent-elation",
+                            vimeoId: "231460696"
+                        },
+                        B2: {
+                            name: "Zephyr Dry-er",
+                            vimeoId: "231460707"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "HVAC Tracker",
+                            vimeoId: "231460372"
+                        },
+                        B1: {
+                            name: "Zephyr Dryer",
+                            vimeoId: "231460387"
+                        }
+
+                    },
+                    assembly: {
+                        name: "thermoSmart"
+                    },
+                    tech: {
+                        name: "thermoSmart",
+                        vimeoId: "231460923"
+                    },
+                    final: {
+                        name: "thermoSmart",
+                        vimeoId: "231460200"
+                    }
+                }
+            },
+            purple: {
+                projName: "Point Guard",
+                projDesc: "basketball return system",
+                projColor: "purple",
+                projTeam: "Brian Demers, Brittany Guyer, Rob Hummel, Zack Jackowski, Jarrell Johnson, Dan Klenk, Jason Ku, Adrienne Watral, Sarah Cole, David Schafer, Jeremy James, John Vincent, Jake Latcham, Paul Nikandrou, Jewel Sharpe, Julia Zimmerman",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Truck n'Dump",
+                            vimeoId: "231460713"
+                        },
+                        A2: {
+                            name: "Aerobi-Dog",
+                            vimeoId: "231460722"
+                        },
+                        B1: {
+                            name: "Rock slide",
+                            vimeoId: "231460739"
+                        },
+                        B2: {
+                            name: "PointGuard",
+                            vimeoId: "231460748"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "The Big Haul",
+                            vimeoId: "231460408"
+                        },
+                        B1: {
+                            name: "PointGuard",
+                            vimeoId: "231460431"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Point Guard"
+                    },
+                    tech: {
+                        name: "Point Guard",
+                        vimeoId: "231460927"
+                    },
+                    final: {
+                        name: "Point Guard",
+                        vimeoId: "231460212"
+                    }
+                }
+            },
+            red: {
+                projName: "Fire Safe Microwave",
+                projDesc: "Fire Safe Microwave",
+                projColor: "red",
+                projTeam: "Kaitlyn Becker, Nikolai Begg, Jackie Kunkel, Nick Labounty, Shannon Roberts, Tasha Thomas, Tim Villabona, Reid Allen, Deke Hu, Corinna Hui, Kashika Sharma, Michael Stern, Orian Welling, Ross Wendell",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Adjustable height crib",
+                            vimeoId: "231460757"
+                        },
+                        A2: {
+                            name: "People Lift",
+                            vimeoId: "231460767"
+                        },
+                        B1: {
+                            name: "Collapsible lockable tent",
+                            vimeoId: "231460775"
+                        },
+                        B2: {
+                            name: "Microwave metal detector",
+                            vimeoId: "231460782"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Adjustable Height Crib",
+                            vimeoId: "231460454"
+                        },
+                        B1: {
+                            name: "Fire Safe Microwave",
+                            vimeoId: "231460471"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Fire Safe Microwave"
+                    },
+                    tech: {
+                        name: "Fire Safe Microwave",
+                        vimeoId: "231460931"
+                    },
+                    final: {
+                        name: "Fire Safe Microwave",
+                        vimeoId: "231460218"
+                    }
+                }
+            },
+            silver: {
+                projName: "Infinite Range",
+                projDesc: "a sensing cook top",
+                projColor: "silver",
+                projTeam: "Mario Bollini, Jennifer Doyle, Jeremy Franklin, Luke Johnson, Amanda Maguire, Sean Mellott, Adam Paxson, Nate Sharpe, Michael Carvajal, Terrence Green, Sara Gutierrez, Mike Kerekes, Hassan Mohamed, Sarah Reed, Hector Vargas, Yan Wang",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Break fast",
+                            vimeoId: "231460793"
+                        },
+                        A2: {
+                            name: "Unlimited range",
+                            vimeoId: "231460804"
+                        },
+                        B1: {
+                            name: "EasyFridge",
+                            vimeoId: "231460815"
+                        },
+                        B2: {
+                            name: "Portable kitchen",
+                            vimeoId: "231460827"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Unlimited Range",
+                            vimeoId: "231460493"
+                        },
+                        B1: {
+                            name: "Baking Buddy",
+                            vimeoId: "231460516"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Infinite Range"
+                    },
+                    tech: {
+                        name: "Infinite Range",
+                        vimeoId: "231460937"
+                    },
+                    final: {
+                        name: "Infinite Range",
+                        vimeoId: "231460223"
+                    }
+                }
+            },
+            yellow: {
+                projName: "ModuWall",
+                projDesc: "modular temporary wall system",
+                projColor: "yellow",
+                projTeam: "Yermie Cohen, Esther Hu, Eugene Jang, Laura Nicholson, Rane Nolan, Alberto Perez, Kelly Rockwell, Fiona Yuen, Sherife AbdelMessih, Alex Guerra, Michael Johnson, Caitrin Jones, Helen O'Keefe, Siamrut Patanavanich, Jeremy Richardson, Karlen Ruleman",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Bike rack",
+                            vimeoId: "231460833"
+                        },
+                        A2: {
+                            name: "Mobile furniture",
+                            vimeoId: "231460843"
+                        },
+                        B1: {
+                            name: "Movable walls",
+                            vimeoId: "231460855"
+                        },
+                        B2: {
+                            name: "Lazy Susan fridge",
+                            vimeoId: "231460867"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Movable Walls",
+                            vimeoId: "231460550"
+                        },
+                        B1: {
+                            name: "Lazy Susan Refrigerator",
+                            vimeoId: "231460559"
+                        }
+                    },
+                    assembly: {
+                        name: "ModuWall"
+                    },
+                    tech: {
+                        name: "ModuWall",
+                        vimeoId: "231460941"
+                    },
+                    final: {
+                        name: "ModuWall",
+                        vimeoId: "231460228"
+                    }
+                }
+            }
         }
     },
     2007: {
