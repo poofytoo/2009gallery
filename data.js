@@ -5857,7 +5857,317 @@ DATA = {
             }
         ],
         projects: {
-        //2005 teams here
+            blue: {
+                projName: "InocuPro",
+                projDesc: "a grinder used to chop inocculus root to a proper size for farmers to use as fertilizer",
+                projColor: "blue",
+                projTeam: "Michael Flores, Valerie Kuo, Harry Lichter, Elizabeth Lin, Matthew Sorge, Julius Strauss, Walton Ward, Zach Eisenstat, Dan Guarda, Justin Holland, Phil Hum, Levi Lalla, Wey-Jiun Lin, Tiffany Yang",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Manioc Grater",
+                            vimeoId: "231456190"
+                        },
+                        A2: {
+                            name: "Electronic Cattle Collar",
+                            vimeoId: "231456200"
+                        },
+                        B1: {
+                            name: "Inocculus Root Grinder",
+                            vimeoId: "231456209"
+                        },
+                        B2: {
+                            name: "Root Cleaner",
+                            vimeoId: "231456241"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Electronic Cattle Collar",
+                            vimeoId: "231455811"
+                        },
+                        B1: {
+                            name: "Inocculus Root Grinder",
+                            vimeoId: "231455830"
+                        }
+                    },
+                    assembly: {
+                        name: "InocuPro"
+                    },
+                    tech: {
+                        name: "InocuPro",
+                        vimeoId: "231456988"
+                    },
+                    final: {
+                        name: "InocuPro",
+                        vimeoId: "231455661"
+                    }
+                }
+            },
+            green: {
+                projName: "Lentil Cleaner",
+                projDesc: "a portable device for farmers that removes unwanted debris from lentils",
+                projColor: "green",
+                projTeam: "Nick Allard, Steph Lee, Sean Nabar, Sal Pallante, Arlis Reynolds, Omoleye Roberts, Thaddeus Stefanov-Wagner, Liz Hempel, Robert Rangel, Joel Sadler, Meghna Trivedi, Sandie Yang, Wen Zhang, Jean Zheng",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Pecan Sheller",
+                            vimeoId: "231456246"
+                        },
+                        A2: {
+                            name: "Centrifugal Juicer",
+                            vimeoId: "231456262"
+                        },
+                        B1: {
+                            name: "Nut Press",
+                            vimeoId: "231456279"
+                        },
+                        B2: {
+                            name: "Lentil Sorter",
+                            vimeoId: "231456286"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Pecan Sheller",
+                            vimeoId: "231455840"
+                        },
+                        B1: {
+                            name: "Lentil Sorter",
+                            vimeoId: "231455851"
+                        }
+                    },
+                    assembly: {
+                        name: "Lentil Cleaner"
+                    },
+                    tech: {
+                        name: "Lentil Cleaner",
+                        vimeoId: "231457003"
+                    },
+                    final: {
+                        name: "Lentil Cleaner",
+                        vimeoId: "231455664"
+                    }
+                }
+            },
+            orange: {
+                projName: "TreeTran",
+                projDesc: "a means of transporting tree root balls and lowering them into holes",
+                projColor: "orange",
+                projTeam: "Nick Allard, Steph Lee, Sean Nabar, Sal Pallante, Arlis Reynolds, Omoleye Roberts, Thaddeus Stefanov-Wagner, Liz Hempel, Robert Rangel, Joel Sadler, Meghna Trivedi, Sandie Yang, Wen Zhang, Jean Zheng",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Rice Transplanter",
+                            vimeoId: "231456297"
+                        },
+                        A2: {
+                            name: "Tree Barrow",
+                            vimeoId: "231456310"
+                        },
+                        B1: {
+                            name: "Rice Transplanter",
+                            vimeoId: "231456318"
+                        },
+                        B2: {
+                            name: "Arborator",
+                            vimeoId: "231456331"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Arborator",
+                            vimeoId: "231455858"
+                        },
+                        B1: {
+                            name: "Rice Transplanter",
+                            vimeoId: "231455869"
+                        }
+                    },
+                    assembly: {
+                        name: "TreeTran"
+                    },
+                    tech: {
+                        name: "TreeTran",
+                        vimeoId: "231457023"
+                    },
+                    final: {
+                        name: "TreeTran",
+                        vimeoId: "231455669"
+                    }
+                }
+            },
+            purple: {
+                projName: "IrriGator",
+                projDesc: "human powered water pump for developing areas",
+                projColor: "purple",
+                projTeam: "Steve Amanti, Emil Cuevas, Sam Felton, Deanna Lentz, Dean Ljubicic, Mika Tomczak, Chris Rhodes, Margaret Gentile, Chris Grossman, Charles Louison, Jim Otten, Jessica Rabl, Chris Rivest",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Manioc Shredder",
+                            vimeoId: "231456348"
+                        },
+                        A2: {
+                            name: "Tree Trolley",
+                            vimeoId: "231456354"
+                        },
+                        B1: {
+                            name: "Bike Power",
+                            vimeoId: "231456363"
+                        },
+                        B2: {
+                            name: "Water Pump",
+                            vimeoId: "231456368"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Manioc Grinder",
+                            vimeoId: "231455878"
+                        },
+                        B1: {
+                            name: "Bicycle Water Pump",
+                            vimeoId: "231455901"
+                        }
+                    },
+                    assembly: {
+                        name: "IrriGator"
+                    },
+                    tech: {
+                        name: "IrriGator",
+                        vimeoId: "231563396"
+                    },
+                    final: {
+                        name: "IrriGator",
+                        vimeoId: "231455674"
+                    }
+                }
+            },
+            red: {
+                projName: "Banana Harvester",
+                projDesc: "a device that assists banana famers in removing banana bunches from trees",
+                projColor: "red",
+                projTeam: "Jason Atkins, Andrew Greenhut, Adam Kaczmarek, Jim Labuz, Alex Nelson, Becky Romatoski, Byron Shieh, Kim Straub, Ricky Diaz, Thor Eusner, Tristan Hayeck, Brian Keegan, Sam Kesner, Elliot Ortiz-Soto, Mike Wolf",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Bunch Muncher",
+                            vimeoId: "231456376"
+                        },
+                        A2: {
+                            name: "Mega Spreader",
+                            vimeoId: "231456382"
+                        },
+                        B1: {
+                            name: "Cranberry Harvester",
+                            vimeoId: "231456396"
+                        },
+                        B2: {
+                            name: "Citrus Picker",
+                            vimeoId: "231456406"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Banana Picker",
+                            vimeoId: "231455907"
+                        },
+                        B1: {
+                            name: "Orange Harvester",
+                            vimeoId: "231455915"
+                        }
+                    },
+                    assembly: {
+                        name: "Banana Harvester"
+                    },
+                    tech: {
+                        name: "Banana Harvester",
+                        vimeoId: "231457033"
+                    },
+                    final: {
+                        name: "Banana Harvester",
+                        vimeoId: "231455681"
+                    }
+                }
+            },
+            yellow: {
+                projName: "YuccaCycle",
+                projDesc: "human powered yucca grater for Hatian communities",
+                projColor: "yellow",
+                projTeam: "Christina Chestnut, John Rebula, Shannon Turner, Louis Basel, Chris Farm, Chandler Hatton, Somin Lee, Kevin Mears, Alika Phipps, Nick Villarruel",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Peanut Oil Press",
+                            vimeoId: "231456413"
+                        },
+                        A2: {
+                            name: "Composter",
+                            vimeoId: "231456419"
+                        },
+                        B1: {
+                            name: "Manioc Grater",
+                            vimeoId: "231456429"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Manioc Grater",
+                            vimeoId: "231455926"
+                        }
+                    },
+                    assembly: {
+                        name: "YuccaCycle"
+                    },
+                    tech: {
+                        name: "YuccaCycle",
+                        vimeoId: "231457039"
+                    },
+                    final: {
+                        name: "YuccaCycle",
+                        vimeoId: "231455690"
+                    }
+                }
+            }
         }
     },
     2004: {
