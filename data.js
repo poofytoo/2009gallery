@@ -1530,7 +1530,588 @@ DATA = {
             }
         ],
         projects: {
-        //2014 teams here
+            blue: {
+                projName: "Terrainer",
+                projDesc: "bike trainer",
+                projColor: "blue",
+                projTeam: "Bitzy Flamholz, Cameron Wagar, Delphine Kaiser, Helena Wang, Jack Queeney, Jenna Klein, Justin White, Naina Mehta, Parker Chambers, Samantha Darryanto, Sebastian Joseph, Sherry Ren, Amelia Brooks, Annie LaBine, Aziz Tunusi, Cathy Zhou, Chris Cho, Fernando Nunez, Juanita Ballesteros, Karen Hao, Mario Martinez, Ricardo De Armas, Sultan Alsubaihin, Teresa Ho",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "SpongeAssured",
+                            vimeoId: "231475607"
+                        },
+                        A2: {
+                            name: "Bicycooler",
+                            vimeoId: "231475621"
+                        },
+                        A3: {
+                            name: "Terrainer",
+                            vimeoId: "231475645"
+                        },
+                        B1: {
+                            name: "Clutch Crutch",
+                            vimeoId: "231475668"
+                        },
+                        B2: {
+                            name: "FlowAssist",
+                            vimeoId: "231475684"
+                        },
+                        B3: {
+                            name: "HandHero",
+                            vimeoId: "231475705"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Terrainer",
+                            vimeoId: "231475082"
+                        },
+                        A2: {
+                            name: "SpongeAssured",
+                            vimeoId: "231475098"
+                        },
+                        B1: {
+                            name: "Mens et Manus",
+                            vimeoId: "231475110"
+                        },
+                        B2: {
+                            name: "Clutch Crutch",
+                            vimeoId: "231475121"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Terrainer"
+                    },
+                    tech: {
+                        name: "Terrainer",
+                        vimeoId: "231476621"
+                    },
+                    final: {
+                        name: "Terrainer",
+                        vimeoId: "231474716"
+                    }
+                }
+            },
+            green: {
+                projName: "Wali",
+                projDesc: "baby gate",
+                projColor: "green",
+                projTeam: "Abraham Garza, Andrea Arce, Diana Valero, Emily TenCate, Erik Pearson, Kathy Yang, Kyle Bowman, Michael Everett, Noa Flaherty, Paelle Powell, Rene Miller, Spencer Boone, Aileen Gutmann, Camille Richman, David McClelland, Estefania Avila, Henry Nassif, Jeremy Bernstein, Kelly Wang, Kirsten Lim, Matthew Hildner, Oliver Gilliland, Rashed Al-Rashed, Sam Parker",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "TreeFort",
+                            vimeoId: "231475719"
+                        },
+                        A2: {
+                            name: "In-Fence",
+                            vimeoId: "231475762"
+                        },
+                        A3: {
+                            name: "Fido Sled",
+                            vimeoId: "231475804"
+                        },
+                        B1: {
+                            name: "Float Assist",
+                            vimeoId: "231475848"
+                        },
+                        B2: {
+                            name: "Ventus",
+                            vimeoId: "231475867"
+                        },
+                        B3: {
+                            name: "Dry-Venture",
+                            vimeoId: "231475877"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "TreeFort",
+                            vimeoId: "231475134"
+                        },
+                        A2: {
+                            name: "In-Fence",
+                            vimeoId: "231475143"
+                        },
+                        B1: {
+                            name: "Dry-Venture",
+                            vimeoId: "231475159"
+                        },
+                        B2: {
+                            name: "Statera",
+                            vimeoId: "231475174"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Wali"
+                    },
+                    tech: {
+                        name: "Wali",
+                        vimeoId: "231476634"
+                    },
+                    final: {
+                        name: "Wali",
+                        vimeoId: "231474766"
+                    }
+                }
+            },
+            orange: {
+                projName: "KOACH",
+                projDesc: "boxing trainer",
+                projColor: "orange",
+                projTeam: "Chantine Akiyama, Daniel Huertas, Hannah Barrett, Jack Clark, Jess Ong, Kelsey Seto, Nathan Landman, Priya Garg, Steven Guitron, Tara Ebsworth, Tye Ellis, Veronica Szklarzewski, Victoria Li, Dextina Booker, Emma Kane, Guilherme Venturelli Cavalheiro, Hannarae Nam, Hunter Guarino, John Thomas, Jose Smith, Morgan Stewart, Pat Capulong, Sterling Watson, Steve Sullivan, Xochitl Mellor",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Ruma Pump",
+                            vimeoId: "231475900"
+                        },
+                        A2: {
+                            name: "Sonic Scrub",
+                            vimeoId: "231475923"
+                        },
+                        A3: {
+                            name: "Handy Rail",
+                            vimeoId: "231475943"
+                        },
+                        B1: {
+                            name: "KOACH",
+                            vimeoId: "231475965"
+                        },
+                        B2: {
+                            name: "NapCap",
+                            vimeoId: "231475983"
+                        },
+                        B3: {
+                            name: "StarTrekker",
+                            vimeoId: "231476010"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "KOACH",
+                            vimeoId: "231475189"
+                        },
+                        A2: {
+                            name: "Handy Rail",
+                            vimeoId: "231475205"
+                        },
+                        B1: {
+                            name: "Ruma Pump",
+                            vimeoId: "231475218"
+                        },
+                        B2: {
+                            name: "Cinemagraph",
+                            vimeoId: "231475235"
+                        }
+                    },
+                    assembly: {
+                        name: "KOACH"
+                    },
+                    tech: {
+                        name: "KOACH",
+                        vimeoId: "231476651"
+                    },
+                    final: {
+                        name: "KOACH",
+                        vimeoId: "231474792"
+                    }
+                }
+            },
+            pink: {
+                projName: "Origin",
+                projDesc: "proximity device",
+                projColor: "pink",
+                projTeam: "Caitlin Mackey, Charles Vitry, Elizabeth Schanne, Erik Klatt, Hans Susilo, Joyce Chen, Laith Maswadeh, Lulu Xlong, Nafea Alwafi, Nicci Cazares, Ryan Fish, Ryan McDermott, Austin Osborne, Ayman Alomar, Banks Hunter, Daniel Wang, Debbie Ajilo, Dillon McConnon, Francisco Vargas, Georgia Van de Zande, Natasha Boghani, Staly Chin, Ta Corrales Sanchez, Victor Hung",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "EveryWear",
+                            vimeoId: "231476027"
+                        },
+                        A2: {
+                            name: "CoolKeep",
+                            vimeoId: "231476043"
+                        },
+                        A3: {
+                            name: "PT: Personal Therapy",
+                            vimeoId: "231476065"
+                        },
+                        B1: {
+                            name: "Fast Field",
+                            vimeoId: "231476088"
+                        },
+                        B2: {
+                            name: "Aqua Boots",
+                            vimeoId: "231476102"
+                        },
+                        B3: {
+                            name: "Ice Check",
+                            vimeoId: "231476133"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "CoolKeep",
+                            vimeoId: "231475255"
+                        },
+                        A2: {
+                            name: "PT: Personal Therapy",
+                            vimeoId: "231475267"
+                        },
+                        B1: {
+                            name: "IceCheck",
+                            vimeoId: "231475276"
+                        },
+                        B2: {
+                            name: "ProxBand",
+                            vimeoId: "231475289"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Origin"
+                    },
+                    tech: {
+                        name: "Origin",
+                        vimeoId: "231476677"
+                    },
+                    final: {
+                        name: "Origin",
+                        vimeoId: "231474834"
+                    }
+                }
+            },
+            purple: {
+                projName: "UpBeat",
+                projDesc: "drum trainer",
+                projColor: "purple",
+                projTeam: "Aarti Anturkar, Alex Gilbert, Andrew Busse, Antonia Warner, Bruna Moscol, Chris Davidson, Eddie Farias, Erin Bailie, Isabella Hurtado-Braun, Miles Burr, Nathan Spielberg, Saya Date, Shreya Dave, Alice Huang, Angela Ha, Brad Eckert, Connor Humber, Dennis Levene, Emma Feshbach, Jonathan Lambert, Margaret Coad, Nick Diamantoni, Paige Reiter, Sarah Fay, Stephen Suen, Xiaoyue Xie",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "eDrum",
+                            vimeoId: "231476150"
+                        },
+                        A2: {
+                            name: "Arch",
+                            vimeoId: "231476165"
+                        },
+                        A3: {
+                            name: "Tunescriber",
+                            vimeoId: "231476189"
+                        },
+                        B1: {
+                            name: "The Waypointer",
+                            vimeoId: "231476206"
+                        },
+                        B2: {
+                            name: "Lumos - Helmet",
+                            vimeoId: "231476222"
+                        },
+                        B3: {
+                            name: "Lumos - Controller",
+                            vimeoId: "231476246"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "eDrum",
+                            vimeoId: "231475300"
+                        },
+                        A2: {
+                            name: "Mogul Mill",
+                            vimeoId: "231475309"
+                        },
+                        B1: {
+                            name: "Lumos",
+                            vimeoId: "231475319"
+                        },
+                        B2: {
+                            name: "Waypointer",
+                            vimeoId: "231475331"
+                        }
+
+                    },
+                    assembly: {
+                        name: "UpBeat"
+                    },
+                    tech: {
+                        name: "UpBeat",
+                        vimeoId: "231476695"
+                    },
+                    final: {
+                        name: "UpBeat",
+                        vimeoId: "231474867"
+                    }
+                }
+            },
+            red: {
+                projName: "Otto",
+                projDesc: "longboard brake",
+                projColor: "red",
+                projTeam: "Alex Warner, Amanda Wang, Jake Sanchez, Jody Fu, Joey Campion, Makai Cartman, Molly Donaldson, Nelson Brock, Ola Kalinowska, Paul Dawson, Rachael Aptowitz, Yinong Liu, Alexxis Isaac, Andrew Young, Ayantu Regassa, Cole Houston, Fro Myers, James Logan, Larissa Senatus, Michelle Lee, Nik Albarran, Sophie Seidell, Suhail Idrees, Will Pritchett, Zianga Abraham",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "TransVend",
+                            vimeoId: "231476260"
+                        },
+                        A2: {
+                            name: "GeniLite",
+                            vimeoId: "231476279"
+                        },
+                        A3: {
+                            name: "WheelAssist",
+                            vimeoId: "231476295"
+                        },
+                        B1: {
+                            name: "Aquapod",
+                            vimeoId: "231476308"
+                        },
+                        B2: {
+                            name: "Ghostbraker",
+                            vimeoId: "231476328"
+                        },
+                        B3: {
+                            name: "ChesseShack and BrewHouse",
+                            vimeoId: "231476347"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Transvend",
+                            vimeoId: "231475342"
+                        },
+                        A2: {
+                            name: "WheelAssist",
+                            vimeoId: "231475354"
+                        },
+                        B1: {
+                            name: "GhostBraker",
+                            vimeoId: "231475369"
+                        },
+                        B2: {
+                            name: "BrewHouse",
+                            vimeoId: "231475387"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Otto"
+                    },
+                    tech: {
+                        name: "Otto",
+                        vimeoId: "231476723"
+                    },
+                    final: {
+                        name: "Otto",
+                        vimeoId: "231474910"
+                    }
+                }
+            },
+            silver: {
+                projName: "Contour",
+                projDesc: "comfortable prosthetic leg",
+                projColor: "silver",
+                projTeam: "Abdiel Mireles, Al Mireault, Aleksya Aguirre, Brian Alvarez, Chris Cook, David Bian, Diana Rosales, Feyza Haskaraman, Kiele Miller Oana, Kyle Veldman, Quantum Wei, Alexander Lukas, Brendon Chiu, Darci Reed, Elyud Ismail, Ernesto Ramirez, Luis Carbajal, Meisha Brooks, Mohammed Al-Zayer, Perla Villarreal, Simon Okaine, Zack Bright",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Imagilimb",
+                            vimeoId: "231476358"
+                        },
+                        A2: {
+                            name: "Habitus",
+                            vimeoId: "231476378"
+                        },
+                        A3: {
+                            name: "LetMilk",
+                            vimeoId: "231476406"
+                        },
+                        B1: {
+                            name: "Walkable Splint",
+                            vimeoId: "231476420"
+                        },
+                        B2: {
+                            name: "Free Wheelie",
+                            vimeoId: "231476435"
+                        },
+                        B3: {
+                            name: "ReShape",
+                            vimeoId: "231476452"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Align",
+                            vimeoId: "231475399"
+                        },
+                        A2: {
+                            name: "Let Milk",
+                            vimeoId: "231475411"
+                        },
+                        B1: {
+                            name: "ReShape",
+                            vimeoId: "231475420"
+                        },
+                        B2: {
+                            name: "FreeWheelie",
+                            vimeoId: "231475431"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Contour"
+                    },
+                    tech: {
+                        name: "Contour",
+                        vimeoId: "231476750"
+                    },
+                    final: {
+                        name: "Contour",
+                        vimeoId: "231474938"
+                    }
+                }
+            },
+            yellow: {
+                projName: "Sunflower",
+                projDesc: "baby warmer",
+                projColor: "yellow",
+                projTeam: "Andrew Acker, Ben Niewood, Catherine Fox, David Gilchrist, Gholson Glass, Jade Hardacker, K.K. Wopat, Matt Kim, Rachel McDermott, Saeed Fakeiha, Teresa Lin, Yasmin Inam, Abdullah Akbar, Brandon Wright, Cliodhna McCarthy, Eduardo Bacardi, Isaac Sosa, Jacob Haip, Jake Slonaker, Joanna So, Kristin Zimmerman, Lorcan Murphy, Sarah McMillian, Valerie Andersen",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "E-gen",
+                            vimeoId: "231476461"
+                        },
+                        A2: {
+                            name: "Power Pole",
+                            vimeoId: "231476485"
+                        },
+                        A3: {
+                            name: "The X",
+                            vimeoId: "231476507"
+                        },
+                        B1: {
+                            name: "CoffeeGoGo",
+                            vimeoId: "231476533"
+                        },
+                        B2: {
+                            name: "Tail-gater",
+                            vimeoId: "231476556"
+                        },
+                        B3: {
+                            name: "Sunflower",
+                            vimeoId: "231476573"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Sunflower",
+                            vimeoId: "231475450"
+                        },
+                        A2: {
+                            name: "K-Charge",
+                            vimeoId: "231475466"
+                        },
+                        B1: {
+                            name: "Smart Checkout",
+                            vimeoId: "231475488"
+                        },
+                        B2: {
+                            name: "E-Gen",
+                            vimeoId: "231475504"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Sunflower"
+                    },
+                    tech: {
+                        name: "Sunflower",
+                        vimeoId: "231476789"
+                    },
+                    final: {
+                        name: "Sunflower",
+                        vimeoId: "231474981"
+                    }
+                }
+            }
         }
     },
     2013: {
