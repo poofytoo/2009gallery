@@ -3204,7 +3204,445 @@ DATA = {
             },
         ],
         projects: {
-        //2011 teams here
+            blue: {
+                projName: "cobalt",
+                projDesc: "keyless bike lock",
+                projColor: "blue",
+                projTeam: "Brenna Hogan, Hank Peppe, Jeff Huang, Jenn Hammond, Ken Lopez, Pooja Shah, Eli Davis, Emily Tow, Jean Martin, Lisette Lopez, Marty Sweeney, Michael Bickers, Stephen Hendel",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Pick-A-Spot",
+                            vimeoId: "231472542"
+                        },
+                        A2: {
+                            name: "Peanut Butter Jelly Time",
+                            vimeoId: "231472547"
+                        },
+                        B1: {
+                            name: "SwiftSecure",
+                            vimeoId: "231472560"
+                        },
+                        B2: {
+                            name: "Coffee-waker",
+                            vimeoId: "231472566"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "SwiftSecure",
+                            vimeoId: "231472421"
+                        },
+                        B1: {
+                            name: "Coffee-Waker",
+                            vimeoId: "231472428"
+                        }
+
+                    },
+                    assembly: {
+                        name: "cobalt"
+                    },
+                    tech: {
+                        name: "cobalt",
+                        vimeoId: "231472814"
+                    },
+                    final: {
+                        name: "cobalt",
+                        vimeoId: "231472352"
+                    }
+                }
+            },
+            green: {
+                projName: "Walker Prime",
+                projDesc: "folding walker and cane",
+                projColor: "green",
+                projTeam: "Annie Huang, Dan Kelly, Jessy Mwarage, Kristin Kagetsu, Ragheb El Khaja, Rand Hidaya, Brendan Rios, Elaina Present, Jonn-Ross Andrews, Li Wu, Mike Nawrot, Rodrigo",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Bike Wheel Display",
+                            vimeoId: "231472570"
+                        },
+                        A2: {
+                            name: "Scuiter",
+                            vimeoId: "231472576"
+                        },
+                        B1: {
+                            name: "Backpack Bicycle",
+                            vimeoId: "231472586"
+                        },
+                        B2: {
+                            name: "Collapsible Walker",
+                            vimeoId: "231472598"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Scuiter",
+                            vimeoId: "231472434"
+                        },
+                        B1: {
+                            name: "CompactiWalker",
+                            vimeoId: "231580396"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Walker Prime"
+                    },
+                    tech: {
+                        name: "Walker Prime",
+                        vimeoId: "231472821"
+                    },
+                    final: {
+                        name: "Walker Prime",
+                        vimeoId: "231580799"
+                    }
+                }
+            },
+            orange: {
+                projName: "Phil",
+                projDesc: "automatic sink filler",
+                projColor: "orange",
+                projTeam: "Brent Boswell, Bryan Macomber, Cat Thu Nguyen Huu, Danny Guillen, Jared Darby, Kami Klauber, Richard Dahan, Bennett Wilson, Charlie Klene, David Parell, Jess Iacobucci, Nick Dou, Nydia Ruleman",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "four leaf",
+                            vimeoId: "231472606"
+                        },
+                        A2: {
+                            name: "Mobile Meds",
+                            vimeoId: "231472609"
+                        },
+                        B1: {
+                            name: "Ultra Clean",
+                            vimeoId: "231472618"
+                        },
+                        B2: {
+                            name: "Phil",
+                            vimeoId: "231472626"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Phil",
+                            vimeoId: "231472437"
+                        },
+                        B1: {
+                            name: "four leaf",
+                            vimeoId: "231472442"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Phil"
+                    },
+                    tech: {
+                        name: "Phil",
+                        vimeoId: "231472827"
+                    },
+                    final: {
+                        name: "Phil",
+                        vimeoId: "231472371"
+                    }
+                }
+            },
+            pink: {
+                projName: "HelmetHub",
+                projDesc: "helmet vending machine",
+                projColor: "pink",
+                projTeam: "Breanna Berry, Chris Mills, Iggy Chen, Laura Ware, Ron Perez, Arni Lehto, Dani Hicks, Jessica Artiles, Jose Avedillo, Katie Barnes, Shen Huang, Stephanie Whalen",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "charette",
+                            vimeoId: "231472634"
+                        },
+                        A2: {
+                            name: "modulaire",
+                            vimeoId: "231472640"
+                        },
+                        B1: {
+                            name: "spring case",
+                            vimeoId: "231472648"
+                        },
+                        B2: {
+                            name: "helmet hub",
+                            vimeoId: "231472658"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "ModulAir",
+                            vimeoId: "231472445"
+                        },
+                        B1: {
+                            name: "Helmet Hub",
+                            vimeoId: "231472449"
+                        }
+
+                    },
+                    assembly: {
+                        name: "HelmetHub"
+                    },
+                    tech: {
+                        name: "HelmetHub",
+                        vimeoId: "231472832"
+                    },
+                    final: {
+                        name: "HelmetHub",
+                        vimeoId: "231472361"
+                    }
+                }
+            },
+            purple: {
+                projName: "Ascent",
+                projDesc: "power-assist wheelchair",
+                projColor: "purple",
+                projTeam: "Ade Esho, Becky Vasquez, Erons Ohienmhen, Martin Lozano, Victoria Hammett, Craig Broady, James Silva, Marcel Thomas, Michael Lo, Paul Weaver, Tom Martins",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Forget-Me-Not",
+                            vimeoId: "231472660"
+                        },
+                        A2: {
+                            name: "On-the-Clock",
+                            vimeoId: "231472664"
+                        },
+                        B1: {
+                            name: "Chair Force One",
+                            vimeoId: "231472676"
+                        },
+                        B2: {
+                            name: "Porta-Plotter",
+                            vimeoId: "231472682"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Forget-Me-Not",
+                            vimeoId: "231472457"
+                        },
+                        B1: {
+                            name: "Chair Force One",
+                            vimeoId: "231472465"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Ascent"
+                    },
+                    tech: {
+                        name: "Ascent",
+                        vimeoId: "231472837"
+                    },
+                    final: {
+                        name: "Ascent",
+                        vimeoId: "231472376"
+                    }
+                }
+            },
+            red: {
+                projName: "ThermAssist",
+                projDesc: "temperature control wheelchair",
+                projColor: "red",
+                projTeam: "Alban Cobi, Ana Escalante, Chris Vaughan, Jordan Burgess, Marie McGraw, Sandra Chen, Ben Harvatine, Deniz Sevinc, Esteban McKenzie, Laura Shumaker, Nigel Kojimoto, Tania Morimoto, Victor Nevarez",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Covered Bike Tree",
+                            vimeoId: "231472689"
+                        },
+                        A2: {
+                            name: "Idea Table",
+                            vimeoId: "231472698"
+                        },
+                        B1: {
+                            name: "Homey-Gami Shelter",
+                            vimeoId: "231472708"
+                        },
+                        B2: {
+                            name: "Wheelchair Thermal System",
+                            vimeoId: "231472717"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Obelisk",
+                            vimeoId: "231472475"
+                        },
+                        B1: {
+                            name: "ThermAssist",
+                            vimeoId: "231472478"
+                        }
+
+                    },
+                    assembly: {
+                        name: "ThermAssist"
+                    },
+                    tech: {
+                        name: "ThermAssist",
+                        vimeoId: "231472839"
+                    },
+                    final: {
+                        name: "ThermAssist",
+                        vimeoId: "231472383"
+                    }
+                }
+            },
+            silver: {
+                projName: "Exhale",
+                projDesc: "vacuum-compress suitcase",
+                projColor: "silver",
+                projTeam: "Chao He, Joe Conte, Katharine Luginbuhl, Max St. John, Sarah Simon, Amanda Turk, E.J. Hester, Krishna Gupta, Kuan Cheng, Michael Fowler, Reuben Aronson",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Pedal-Power",
+                            vimeoId: "231472725"
+                        },
+                        A2: {
+                            name: "TranSit",
+                            vimeoId: "231472738"
+                        },
+                        B1: {
+                            name: "Go-Bar Snack Bar Maker",
+                            vimeoId: "231472745"
+                        },
+                        B2: {
+                            name: "CompactaBag",
+                            vimeoId: "231472754"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "TranSit",
+                            vimeoId: "231472486"
+                        },
+                        B1: {
+                            name: "CompactaBag",
+                            vimeoId: "231472489"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Exhale"
+                    },
+                    tech: {
+                        name: "Exhale",
+                        vimeoId: "231472844"
+                    },
+                    final: {
+                        name: "Exhale",
+                        vimeoId: "231580736"
+                    }
+                }
+            },
+            yellow: {
+                projName: "FreeRim",
+                projDesc: "hands clean wheelchair",
+                projColor: "yellow",
+                projTeam: "Justin Kresz, Lauren Gust, Marcel Sanchez, Mike Thompson, Nate Fox, Sam Powers, Bryan Beller, Celeste Faaiuaso, David Zhu, Jake Wamala, Mukul Singh, Paula Countouris, Scott Sundvor",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Run Run Revolution",
+                            vimeoId: "231472763"
+                        },
+                        A2: {
+                            name: "Brush 'N' Floss",
+                            vimeoId: "231472767"
+                        },
+                        B1: {
+                            name: "All Weather Wheelies",
+                            vimeoId: "231472778"
+                        },
+                        B2: {
+                            name: "Bike Right",
+                            vimeoId: "231472789"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Brush N Floss",
+                            vimeoId: "231472495"
+                        },
+                        B1: {
+                            name: "Indego",
+                            vimeoId: "231472501"
+                        }
+
+                    },
+                    assembly: {
+                        name: "FreeRim"
+                    },
+                    tech: {
+                        name: "FreeRim",
+                        vimeoId: "231472849"
+                    },
+                    final: {
+                        name: "FreeRim",
+                        vimeoId: "231472394"
+                    }
+                }
+            }
         }
     },
     2010: {
