@@ -89,7 +89,721 @@ DATA = {
             }
         ],
         projects: {
-        //2016 teams here
+            blue: {
+                projName: "Stride",
+                projDesc: "an ergonomic walker",
+                projColor: "blue",
+                projTeam: "Anthony Kawecki, Becky Steinmeyer, Dou Dou, Eric Dahlseng, Erica Waller, Kevin Wang, Kyle Saleeby, Matt Fisher, Roni Jedryka, Amna Magzoub, Anthony Occidentale, Harry Lubowe, Hayley Sypniewski, Jackson Graves, Kelly Qi, Marian Heman-Ackah, Meredith Benson, Yasuo Kabe",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "FreeLift",
+                            vimeoId: "185915899"
+                        },
+                        A2: {
+                            name: "SafeStep",
+                            vimeoId: "185915900"
+                        },
+                        A3: {
+                            name: "Berrel",
+                            vimeoId: "185915901"
+                        },
+                        B1: {
+                            name: "BLock",
+                            vimeoId: "185915902"
+                        },
+                        B2: {
+                            name: "trashCAN",
+                            vimeoId: "185915904"
+                        },
+                        B3: {
+                            name: "Timber",
+                            vimeoId: "185915903"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Stride",
+                            vimeoId: "188249317"
+                        },
+                        A2: {
+                            name: "Berrel",
+                            vimeoId: "188249319"
+                        },
+                        B1: {
+                            name: "Brackit",
+                            vimeoId: "188249373"
+                        },
+                        B2: {
+                            name: "Unbound",
+                            vimeoId: "188249320"
+                        },
+                        A1d: {
+                            name: "Stride",
+                            vimeoId: "188258357"
+                        },
+                        A2d: {
+                            name: "Berrel",
+                            vimeoId: "188258359"
+                        },
+                        B1d: {
+                            name: "Brackit",
+                            vimeoId: "188258358"
+                        },
+                        B2d: {
+                            name: "Unbound",
+                            vimeoId: "188258360"
+                        }
+                    },
+                    assembly: {
+                        name: "Stride",
+                        vimeoID: "189998872"
+                    },
+                    tech: {
+                        name: "Stride",
+                        vimeoId: "192079921"
+                    },
+                    final: {
+                        name: "Stride",
+                        vimeoId: "195903440"
+                    }
+                }
+            },
+            green: {
+                projName: "glovestop",
+                projDesc: "a glove removal system",
+                projColor: "green",
+                projTeam: "Aaron Rose, Aaron Rose, Helena Maurer, Jonathan Morrell, Nina Petelina, Pedro Polanco, Sara Gonzalez, Thomas Cowan, Zach Churukian, Ana Lo, Anuj Khandelwal, Christopher Harmon, Hannah Huynh, Itoro Atakpa, Justine Cheng, Kareem Itani, Lenny Martinez, Tremaan Robbins",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "composting system",
+                            vimeoId: "185915285"
+                        },
+                        A2: {
+                            name: "subway cleaner",
+                            vimeoId: "185915284"
+                        },
+                        A3: {
+                            name: "boot snow remover",
+                            vimeoId: "185915286"
+                        },
+                        B1: {
+                            name: "SimpleSlice",
+                            vimeoId: "185915311"
+                        },
+                        B2: {
+                            name: "SeamSteam",
+                            vimeoId: "185915312"
+                        },
+                        B3: {
+                            name: "GloveBox",
+                            vimeoId: "185915313"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "MetroPole",
+                            vimeoId: "188249662"
+                        },
+                        A2: {
+                            name: "MorphMouse",
+                            vimeoId: "188249669"
+                        },
+                        B1: {
+                            name: "Glovebox",
+                            vimeoId: "188249673"
+                        },
+                        B2: {
+                            name: "OctoSteam",
+                            vimeoId: "188249681"
+                        },
+                        A1d: {
+                            name: "MetroPole",
+                            vimeoId: "188258369"
+                        },
+                        A2d: {
+                            name: "MorphMouse",
+                            vimeoId: "188258370"
+                        },
+                        B1d: {
+                            name: "Glovebox",
+                            vimeoId: "188258371"
+                        },
+                        B2d: {
+                            name: "OctoSteam",
+                            vimeoId: "188258372"
+                        }
+
+                    },
+                    assembly: {
+                        name: "glovestop",
+                        vimeoID: "189998853"
+                    },
+                    tech: {
+                        name: "glovestop",
+                        vimeoId: "192079920"
+                    },
+                    final: {
+                        name: "glovestop",
+                        vimeoId: "195958251"
+                    }
+                }
+            },
+            orange: {
+                projName: "Roger",
+                projDesc: "a communication mask",
+                projColor: "orange",
+                projTeam: "Fiona Grant, Jacob Fisher, Jane Coffrin, Jesus Gonzalez, Joseph Lowman, Krithi Chandrakasan, Lyric Jain, Miri Choi, Rosa Ruiz, David Wong, Erik Ersland, Karla Zapata-Garcia, Landon Carter, Lucia Lam, Scott Strang, Tim Butala, Tracy Cheng, Wen Zeng",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "SpeakEZ",
+                            vimeoId: "185916840"
+                        },
+                        A2: {
+                            name: "Soil Sense",
+                            vimeoId: "185916841"
+                        },
+                        A3: {
+                            name: "CADalyze",
+                            vimeoId: "185916842"
+                        },
+                        B1: {
+                            name: "Safely",
+                            vimeoId: "185916843"
+                        },
+                        B2: {
+                            name: "Modular Playground",
+                            vimeoId: "185916844"
+                        },
+                        B3: {
+                            name: "Seams Easy",
+                            vimeoId: "185916845"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Shoot Smart",
+                            vimeoId: "188249933"
+                        },
+                        A2: {
+                            name: "SpeakEZ",
+                            vimeoId: "188250016"
+                        },
+                        B1: {
+                            name: "Safely",
+                            vimeoId: "188250082"
+                        },
+                        B2: {
+                            name: "Seams-Easy",
+                            vimeoId: "188250083"
+                        },
+                        A1d: {
+                            name: "Shoot Smart",
+                            vimeoId: "188258394"
+                        },
+                        A2d: {
+                            name: "SpeakEZ",
+                            vimeoId: "188258395"
+                        },
+                        B1d: {
+                            name: "Safely",
+                            vimeoId: "188258396"
+                        },
+                        B2d: {
+                            name: "Seams-Easy",
+                            vimeoId: "188258397"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Roger",
+                        vimeoID: "190306267"
+                    },
+                    tech: {
+                        name: "Roger",
+                        vimeoId: "192079922"
+                    },
+                    final: {
+                        name: "Roger",
+                        vimeoId: "195906608"
+                    }
+                }
+            },
+            pink: {
+                projName: "Revive",
+                projDesc: "a portable defibrillator",
+                projColor: "pink",
+                projTeam: "Anjali Krishnamachar, Anthony Emberley, Brian Wanek, Chris Argenti, Cody Jacobucci, Lara Markey, Moseley Andrews, Pavlina Karafillis, Priscilla Agosto, David Hesslink, Eleni Pitses, Erica Green, John Matthews, Laura Malhotra, Rory Beyer, Stephanie Guo, Stone Montgomery, TJ Burns",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Secure Me",
+                            vimeoId: "185915826"
+                        },
+                        A2: {
+                            name: "Revive",
+                            vimeoId: "185915828"
+                        },
+                        A3: {
+                            name: "Cicada",
+                            vimeoId: "185915827"
+                        },
+                        B1: {
+                            name: "Queue Band",
+                            vimeoId: "185915830"
+                        },
+                        B2: {
+                            name: "No Tip Stretcher",
+                            vimeoId: "185915829"
+                        },
+                        B3: {
+                            name: "Personal Airbag",
+                            vimeoId: "185915831"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Re-Surface",
+                            vimeoId: "188251622"
+                        },
+                        A2: {
+                            name: "Revive",
+                            vimeoId: "188251126"
+                        },
+                        B1: {
+                            name: "Queue Band",
+                            vimeoId: "188251832"
+                        },
+                        B2: {
+                            name: "StretchCatch",
+                            vimeoId: "188252064"
+                        },
+                        A1d: {
+                            name: "Re-Surface",
+                            vimeoId: "188258408"
+                        },
+                        A2d: {
+                            name: "Revive",
+                            vimeoId: "188258409"
+                        },
+                        B1d: {
+                            name: "Queue Band",
+                            vimeoId: "188258410"
+                        },
+                        B2d: {
+                            name: "StretchCatch",
+                            vimeoId: "188258411"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Revive",
+                        vimeoID: "190306266"
+                    },
+                    tech: {
+                        name: "Revive",
+                        vimeoId: "192080315"
+                    },
+                    final: {
+                        name: "Revive",
+                        vimeoId: "195958660"
+                    }
+                }
+            },
+            purple: {
+                projName: "Dryve",
+                projDesc: "a wheelchair umbrella",
+                projColor: "purple",
+                projTeam: "Devin Williams, JJ File, Karl Baranov, Kelly McGee, Kendra Knittel, Liz Porter, Liz Porter, Ryan Karnish, Seth Studebaker, Alex Aguilar, Austin de Maille, Becca Kurfess, Chandan Sharma Subedi, Larkin Sayre, Melanie Chhuan, Nick Fernandez, Sean Lowder, Steven Gerasimoff, ",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Wall-E",
+                            vimeoId: "185915448"
+                        },
+                        A2: {
+                            name: "Vita",
+                            vimeoId: "185915449"
+                        },
+                        A3: {
+                            name: "SwipeRite",
+                            vimeoId: "185915450"
+                        },
+                        B1: {
+                            name: "MechE in a Box",
+                            vimeoId: "185915462"
+                        },
+                        B2: {
+                            name: "Mobilishield",
+                            vimeoId: "185915463"
+                        },
+                        B3: {
+                            name: "Rememband",
+                            vimeoId: "185915464"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Jet",
+                            vimeoId: "188250373"
+                        },
+                        A2: {
+                            name: "Vita",
+                            vimeoId: "188250723"
+                        },
+                        B1: {
+                            name: "trebuPLAY",
+                            vimeoId: "188250452"
+                        },
+                        B2: {
+                            name: "MobiliShield",
+                            vimeoId: "188250608"
+                        },
+                        A1d: {
+                            name: "Jet",
+                            vimeoId: "188258417"
+                        },
+                        A2d: {
+                            name: "Vita",
+                            vimeoId: "188260000"
+                        },
+                        B1d: {
+                            name: "trebuPLAY",
+                            vimeoId: "188260108"
+                        },
+                        B2d: {
+                            name: "MobiliShield",
+                            vimeoId: "188259989"
+                        }
+                    },
+                    assembly: {
+                        name: "Dryve",
+                        vimeoID: "190306268"
+                    },
+                    tech: {
+                        name: "Dryve",
+                        vimeoId: "192079924"
+                    },
+                    final: {
+                        name: "Dryve",
+                        vimeoId: "195907772"
+                    }
+                }
+            },
+            red: {
+                projName: "Gravity",
+                projDesc: "a climbing game",
+                projColor: "red",
+                projTeam: "Arlette Reyes, Danielle Barillas, Gabe Alba-Rivera, Marco Aguilar, Marshall Johnson, Roget Mo, Val Peng, Victoria Gregory, Davis Tran, Emily Tsang, John Drago, Kodiak Brush, Pashu Pasich, Patricia Das, Rachel Adenekan, Sabrine Ahmed Iqbal, Thalia Estrella",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "MagnaCane",
+                            vimeoId: "185915426"
+                        },
+                        A2: {
+                            name: "Bubbles Be Gone",
+                            vimeoId: "185915427"
+                        },
+                        A3: {
+                            name: "Drink Capsule",
+                            vimeoId: "185915428"
+                        },
+                        B1: {
+                            name: "SmartRack",
+                            vimeoId: "185915436"
+                        },
+                        B2: {
+                            name: "LimBa",
+                            vimeoId: "185915435"
+                        },
+                        B3: {
+                            name: "ViBra",
+                            vimeoId: "185915437"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Ignis",
+                            vimeoId: "188249468"
+                        },
+                        A2: {
+                            name: "ViBra",
+                            vimeoId: "188249469"
+                        },
+                        B1: {
+                            name: "LimBa",
+                            vimeoId: "188249466"
+                        },
+                        B2: {
+                            name: "RockOn",
+                            vimeoId: "188249493"
+                        },
+                        A1d: {
+                            name: "Ignis",
+                            vimeoId: "188258436"
+                        },
+                        A2d: {
+                            name: "ViBra",
+                            vimeoId: "188258437"
+                        },
+                        B1d: {
+                            name: "LimBa",
+                            vimeoId: "188258438"
+                        },
+                        B2d: {
+                            name: "RockOn",
+                            vimeoId: "188258440"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Gravity",
+                        vimeoID: "189998854"
+                    },
+                    tech: {
+                        name: "Gravity",
+                        vimeoId: "192079925"
+                    },
+                    final: {
+                        name: "Gravity",
+                        vimeoId: "195900545"
+                    }
+                }
+            },
+            silver: {
+                projName: "Floe",
+                projDesc: "an ice dam melter",
+                projColor: "silver",
+                projTeam: "Alicia Cabrera-Mino, Colleen McCoy, Grant Sellers, Jason Ma, Jenn Yu, Joanna Zhu, Khanh Nguyen, Nolan Kruse, Patrick Everett, Alex Garcia, Ali Edwards, Anna Fountain, Cyndia Cao, David Dellal, Joe Babcock, Sina Booeshaghi, Stacy Mo",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "ICEBREAKER",
+                            vimeoId: "185915719"
+                        },
+                        A2: {
+                            name: "Ladder Adjust",
+                            vimeoId: "185915718"
+                        },
+                        A3: {
+                            name: "Crutch Clutch",
+                            vimeoId: "185915720"
+                        },
+                        B1: {
+                            name: "Round Alert",
+                            vimeoId: "185915722"
+                        },
+                        B2: {
+                            name: "Construction Catcher",
+                            vimeoId: "185915724"
+                        },
+                        B3: {
+                            name: "Curbvaulter",
+                            vimeoId: "185915723"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Stable Crutch",
+                            vimeoId: "188249236"
+                        },
+                        A2: {
+                            name: "Ice Breaker",
+                            vimeoId: "188249234"
+                        },
+                        B1: {
+                            name: "Round Alert",
+                            vimeoId: "188249235"
+                        },
+                        B2: {
+                            name: "Curb Vaulter",
+                            vimeoId: "188249233"
+                        },
+                        A1d: {
+                            name: "Stable Crutch",
+                            vimeoId: "188258448"
+                        },
+                        A2d: {
+                            name: "Ice Breaker",
+                            vimeoId: "188258449"
+                        },
+                        B1d: {
+                            name: "Round Alert",
+                            vimeoId: "188258450"
+                        },
+                        B2d: {
+                            name: "Curb Vaulter",
+                            vimeoId: "188258451"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Floe",
+                        vimeoID: "190306269"
+                    },
+                    tech: {
+                        name: "Floe",
+                        vimeoId: "192079931"
+                    },
+                    final: {
+                        name: "Floe",
+                        vimeoId: "195958997"
+                    }
+                }
+            },
+            yellow: {
+                projName: "Strum",
+                projDesc: "a tab transcriber",
+                projColor: "yellow",
+                projTeam: "Felipe Lozano-Landinez, Fernando Yordan, Garrett Schulte, Grace Li, Heather Soukup, Helen Nie, Moti Ogunsina, Perry Ha, Sherry He, Brandon Corts, Brian Yue, Chuck Xia, Garrett Parrish, Jialin Shi, Manuel Castro, Sam Matthews, Sam Matthews",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        A3: {},
+                        B1: {},
+                        B2: {},
+                        B3: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Guitar Notes",
+                            vimeoId: "185916858"
+                        },
+                        A2: {
+                            name: "Retractable Handcuffs",
+                            vimeoId: "185916859"
+                        },
+                        A3: {
+                            name: "Grill Hood",
+                            vimeoId: "185916860"
+                        },
+                        B1: {
+                            name: "Sprint",
+                            vimeoId: "185916861"
+                        },
+                        B2: {
+                            name: "Sip",
+                            vimeoId: "185916862"
+                        },
+                        B3: {
+                            name: "Swipe",
+                            vimeoId: "185916863"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Sip",
+                            vimeoId: "188249560"
+                        },
+                        A2: {
+                            name: "Stride",
+                            vimeoId: "188249557"
+                        },
+                        B1: {
+                            name: "Strum",
+                            vimeoId: "188249558"
+                        },
+                        B2: {
+                            name: "Swipe",
+                            vimeoId: "188249597"
+                        },
+                        A1d: {
+                            name: "Sip",
+                            vimeoId: "188258472"
+                        },
+                        A2d: {
+                            name: "Stride",
+                            vimeoId: "188258471"
+                        },
+                        B1d: {
+                            name: "Strum",
+                            vimeoId: "188258470"
+                        },
+                        B2d: {
+                            name: "Swipe",
+                            vimeoId: "188258473"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Strum",
+                        vimeoID: "189998871"
+                    },
+                    tech: {
+                        name: "Strum",
+                        vimeoId: "192079932"
+                    },
+                    final: {
+                        name: "Strum",
+                        vimeoId: "195952673"
+                    }
+                }
+            }
         }
     },
     2015: {
@@ -205,7 +919,7 @@ DATA = {
                         B2: {
                             name: "Laser Kite",
                             vimeoId: "231479301"
-                        }
+                        },
                     },
                     assembly: {
                         name: "Laser Kites",
