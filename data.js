@@ -6184,7 +6184,326 @@ DATA = {
             }
         ],
         projects: {
-        //2004 teams here
+            blue: {
+                projName: "Charcoal extruder",
+                projDesc: "an environmentally friendly charcoal maker",
+                projColor: "blue",
+                projTeam: "Kevin Chen, Dexter Ang, Danny Hilton, Derik Thomann, Greg Fonder, Andres Pino, John Brewer, Matthew Krueger, Ben Su, Panasaya Charenkavanich, Sheila Longo, Shira Lee, Way Luu, Lynn Kamimoto, Andres Ramirez, Orlando Soto",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Screw extruder",
+                            vimeoId: "231432274"
+                        },
+                        A2: {
+                            name: "Piston extruder",
+                            vimeoId: "231432286"
+                        },
+                        B1: {
+                            name: "Lever press",
+                            vimeoId: "231432292"
+                        },
+                        B2: {
+                            name: "Ratchet press",
+                            vimeoId: "231432303"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Briquette extruder",
+                            vimeoId: "231451939"
+                        },
+                        B1: {
+                            name: "Sugar Brick",
+                            vimeoId: "231540121"
+                        }
+                    },
+                    assembly: {
+                        name: "Charcoal extruder"
+                    },
+                    tech: {
+                        name: "Charcoal extruder",
+                        vimeoId: "231454886"
+                    },
+                    final: {
+                        name: "Charcoal extruder",
+                        vimeoId: "231454462"
+                    }
+                }
+            },
+            green: {
+                projName: "Sonic Seesaw",
+                projDesc: "see-saw pipe organ",
+                projColor: "green",
+                projTeam: "Jacob Bourgeois, Jeremy Schwartz, Jessica Vechakul, Joaquin Ruiz, Matthew Socks, Aaron Sokoloski, Kathleen Barron, Douglas Hwang, Christina Laskowski, Meghan Gibbons, Joseph Audette, Zachary Traina, Matthew Sorge, Marissa Jacovich, Ross Hatton",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Baby bouncer",
+                            vimeoId: "231432322"
+                        },
+                        A2: {
+                            name: "Corrective erg machine",
+                            vimeoId: "231432341"
+                        },
+                        B1: {
+                            name: "Laser tag",
+                            vimeoId: "231432348"
+                        },
+                        B2: {
+                            name: "Interactive playground equipment",
+                            vimeoId: "231432370"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Sonic See-saw",
+                            vimeoId: "231540670"
+                        },
+                        B1: {
+                            name: "Water Works",
+                            vimeoId: "231451952"
+                        }
+                    },
+                    assembly: {
+                        name: "Sonic Seesaw"
+                    },
+                    tech: {
+                        name: "Sonic Seesaw",
+                        vimeoId: "231455097"
+                    },
+                    final: {
+                        name: "Sonic Seesaw",
+                        vimeoId: "231454480"
+                    }
+                }
+            },
+            orange: {
+                projName: "Vac pack",
+                projDesc: "a vaccine cooler",
+                projColor: "orange",
+                projTeam: "Christopher Possinger, Dan Walker, Ethan Crumlin, Emily Smith, Geoff Becker, Gabriel Sanchez, Jonathan Hopkins, Amy Wong, Curtis Vanderpuije, Shauna Jin, Kabir Mukaddam, Myraida Vega, Matthew Carvey, Olumuyiwa Oni, Nathan Ball, Peter Augenbergs, Ryan Roberts, Aparna Jonnalagadda",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Vaccine refrigerator",
+                            vimeoId: "231432378"
+                        },
+                        A2: {
+                            name: "Modify existing refrigerator",
+                            vimeoId: "231432380"
+                        },
+                        B1: {
+                            name: "Absorption refrigerator",
+                            vimeoId: "231432389"
+                        },
+                        B2: {
+                            name: "On-the-spot cooling",
+                            vimeoId: "231432397"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Vac-pac",
+                            vimeoId: "231451973"
+                        },
+                        B1: {
+                            name: "Absorption Refrigerator",
+                            vimeoId: "231451965"
+                        }
+                    },
+                    assembly: {
+                        name: "Vac pack"
+                    },
+                    tech: {
+                        name: "Vac pack",
+                        vimeoId: "231454909"
+                    },
+                    final: {
+                        name: "Vac pack",
+                        vimeoId: "231454496"
+                    }
+                }
+            },
+            purple: {
+                projName: "MP4ever",
+                projDesc: "a human powered MP3 player",
+                projColor: "purple",
+                projTeam: "Calvin Bonas, Severiano Canales, Philip Johnson, Sean Schoenmakers, Nathaniel Chan, Luke Haidorfer, Ronald Tharp, Nicasio Gomez III, Peter Sung, Timothy Suen, Ian Collier, Edward Hsieh, Catherine Koveal, Monica Rush, Benjamin Smith, Jeremy Scholz, Jason Martinez, Andrew Baines",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Kinetic jogger",
+                            vimeoId: "231432420"
+                        },
+                        A2: {
+                            name: "Piezo boot",
+                            vimeoId: "231432439"
+                        },
+                        B1: {
+                            name: "Modular exercise equipment",
+                            vimeoId: "231432445"
+                        },
+                        B2: {
+                            name: "Compressed air regenerative braking",
+                            vimeoId: "231432454"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "MP4ever",
+                            vimeoId: "231451981"
+                        },
+                        B1: {
+                            name: "Cyc-light",
+                            vimeoId: "231540128"
+                        }
+
+                    },
+                    assembly: {
+                        name: "MP4ever"
+                    },
+                    tech: {
+                        name: "MP4ever",
+                        vimeoId: "231455101"
+                    },
+                    final: {
+                        name: "MP4ever",
+                        vimeoId: "231454512"
+                    }
+                }
+            },
+            red: {
+                projName: "Sol pump",
+                projDesc: "a solar steam-powered pump",
+                projColor: "red",
+                projTeam: "Jessica Chiafair, Beth Baniszewski, Jennifer DeBoer, Kyle McKenney, Tom Hennesey, Nicholas Fahey, Moses Heyward, Meredith Silberstein, Edward Sharp, Javier Echenique, Jorge Padilla, Toni Ferreira, Kirk Samaroo, Christina Bonebreak, Laura Nichols, Headley Jacobus",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Solar trough 1",
+                            vimeoId: "231432462"
+                        },
+                        A2: {
+                            name: "Solar trough 2",
+                            vimeoId: "231432466"
+                        },
+                        B1: {
+                            name: "Tracking solar trough",
+                            vimeoId: "231432476"
+                        },
+                        B2: {
+                            name: "Solar thermal power",
+                            vimeoId: "231432482"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Parabolic Tracker",
+                            vimeoId: "231451995"
+                        },
+                        B1: {
+                            name: "Steam Generation",
+                            vimeoId: "231452006"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Sol pump"
+                    },
+                    tech: {
+                        name: "Sol pump",
+                        vimeoId: "231454901"
+                    },
+                    final: {
+                        name: "Sol pump",
+                        vimeoId: "231454517"
+                    }
+                }
+            },
+            yellow: {
+                projName: "Kinkajuice",
+                projDesc: "a human powered charger",
+                projColor: "yellow",
+                projTeam: "Christine Lin, Etan Trangle, Keith Durand, Jiengju Lin, Heather Doering, Smitha Raghunathan, Christopher DiBiasio, Alfredo Bocanegra, Chidinma Obi, Ehsan Farkhondeh, Jennifer Hu, Saundra Quinlan, Yuan Shu, Lisa Chandler",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "KinkaJuice",
+                            vimeoId: "231432491"
+                        },
+                        A2: {
+                            name: "Savonius battery charger",
+                            vimeoId: "231432502"
+                        },
+                        B1: {
+                            name: "Wind battery charger",
+                            vimeoId: "231432509"
+                        },
+                        B2: {
+                            name: "Motorcycle generator",
+                            vimeoId: "231432512"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "KinkaJuice",
+                            vimeoId: "231452018"
+                        },
+                        B1: {
+                            name: "Motor cycle charger",
+                            vimeoId: "231452028"
+                        }
+                    },
+                    assembly: {
+                        name: "Kinkajuice"
+                    },
+                    tech: {
+                        name: "Kinkajuice",
+                        vimeoId: "231454922"
+                    },
+                    final: {
+                        name: "Kinkajuice",
+                        vimeoId: "231454530"
+                    }
+                }
+            }
         }
     },
 }
