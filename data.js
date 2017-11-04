@@ -5055,7 +5055,385 @@ DATA = {
             }
         ],
         projects: {
-        //2007 teams here
+            blue: {
+                projName: "Solar Recycl-o-Sort",
+                projDesc: "solar bottle sorter",
+                projColor: "blue",
+                projTeam: "Ali Alhassani, Amanda Poteet, Barnett Koryan, John Vivian, Joyce Gallagher, Nancy Diaz, Samuel Jasinski, Yi Chen, Benjamin Pope, Cynthia Lin, David Kalk, Jonathan Schechter, Katherine Weston, Mark Spadafora, Rosa Rodriguez, Yunzhi Wang",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Power Exercise Bike",
+                            vimeoId: "231459797"
+                        },
+                        A2: {
+                            name: "Solar Recycl-o-Sort",
+                            vimeoId: "231459802"
+                        },
+                        B1: {
+                            name: "Motion-Sensing Switchplate",
+                            vimeoId: "231459811"
+                        },
+                        B2: {
+                            name: "Water-powered Generator",
+                            vimeoId: "231459819"
+                        }
+
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Solar Recycl-o-Sort",
+                            vimeoId: "231459428"
+                        },
+                        B1: {
+                            name: "Grey Water Management",
+                            vimeoId: "231459456"
+                        }
+
+                    },
+                    assembly: {
+                        name: "Solar Recycl-o-Sort"
+                    },
+                    tech: {
+                        name: "Solar Recycl-o-Sort",
+                        vimeoId: "231460091"
+                    },
+                    final: {
+                        name: "Solar Recycl-o-Sort",
+                        vimeoId: "231459092"
+                    }
+                }
+            },
+
+            green: {
+                projName: "Cyclos",
+                projDesc: "oil filter cleaner",
+                projColor: "green",
+                projTeam: "Andrea Greb, Brian Greviskes, Devanie DuFour, Emily Li, Holly Greenberg, Homar Molina Jr., Kimberlee Collins, Lucas Hernandez-Mena, Timothy Pier, Anthony Jones, Connie Yee, David Foster, Denise Law, Gina Angelosanto, Laura Martini, Michael Yoder, Richard Kosoglow, Mona Daniels",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Marine debris collector",
+                            vimeoId: "231459826"
+                        },
+                        A2: {
+                            name: "Oil filter cleaner",
+                            vimeoId: "231459830"
+                        },
+                        B1: {
+                            name: "Coffee bean sorter",
+                            vimeoId: "231459835"
+                        },
+                        B2: {
+                            name: "Plastic bag rejuvenator",
+                            vimeoId: "231459860"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Oil Filter cleaner",
+                            vimeoId: "231459470"
+                        },
+                        B1: {
+                            name: "Plastic Rejuvenator",
+                            vimeoId: "231459486"
+                        }
+                    },
+                    assembly: {
+                        name: "Cyclos"
+                    },
+                    tech: {
+                        name: "Cyclos",
+                        vimeoId: "231567166"
+                    },
+                    final: {
+                        name: "Cyclos",
+                        vimeoId: "231459103"
+                    }
+                }
+            },
+            orange: {
+                projName: "Coffee bean sorter",
+                projDesc: "human-power coffee bean sorter",
+                projColor: "orange",
+                projTeam: "Ashley Thomas, Erin Koksal, Gregory Schroll, Jessie Jeon, Joshua Garvin, Jusleen Karve, Matthew Humbert, Megan Roberts, Tess Vuethey, Shane Colton, Betar Gallant, Jean Chang, JeffreY Kirby, Jessica Luttkus, Jonathan Hsieh, Juan Pablo Mendieta, Marcus Lopez, Maria Telleria, Robert Truax",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Interactive recycler",
+                            vimeoId: "231459867"
+                        },
+                        A2: {
+                            name: "Coffee bean sorter",
+                            vimeoId: "231459874"
+                        },
+
+                        B1: {
+                            name: "Oily water separator",
+                            vimeoId: "231459881"
+                        },
+                        B2: {
+                            name: "Veggie oil collection system",
+                            vimeoId: "231459884"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Coffee Bean Sorting",
+                            vimeoId: "231459502"
+                        },
+                        B1: {
+                            name: "Green Grease",
+                            vimeoId: "231459530"
+                        }
+                    },
+                    assembly: {
+                        name: "Coffee Bean Sorter"
+                    },
+                    tech: {
+                        name: "Coffee Bean Sorter",
+                        vimeoId: "231460105"
+                    },
+                    final: {
+                        name: "Coffee Bean Sorter",
+                        vimeoId: "231459114"
+                    }
+                }
+            },
+            purple: {
+                projName: "PowerClick",
+                projDesc: "battery-free remote",
+                projColor: "purple",
+                projTeam: "Donald Lancaster, Doria Holbrook, Howard Kellogg, Ibrahim Kanan, Kimberly SooHoo, Matthew Gilbertson, Qinyuan Liu, Sebastian Castro, Yingdan Gu, Alexander Soo, Andrew Kennett, Eric Gilbertson, Erika R. Cerda, Jacob Muhleman, Jessica Leon, Michael Allshouse, Randal Pope, Vladimir Gordievsky",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Pump-It remote control",
+                            vimeoId: "231459889"
+                        },
+                        A2: {
+                            name: "Shower surge",
+                            vimeoId: "231459903"
+                        },
+
+                        B1: {
+                            name: "PowerStroke",
+                            vimeoId: "231459915"
+                        },
+                        B2: {
+                            name: "MowerCycle",
+                            vimeoId: "231459925"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Battery-Free Remote",
+                            vimeoId: "231459559"
+                        },
+                        B1: {
+                            name: "MowerCycle",
+                            vimeoId: "231459587"
+                        }
+                    },
+                    assembly: {
+                        name: "PowerClick"
+                    },
+                    tech: {
+                        name: "PowerClick",
+                        vimeoId: "231460098"
+                    },
+                    final: {
+                        name: "PowerClick",
+                        vimeoId: "231459117"
+                    }
+                }
+            },
+            red: {
+                projName: "Bottleation",
+                projDesc: "insulation from bottles",
+                projColor: "red",
+                projTeam: "Abby Carey, Alan Cohen, Brian Hack, Christopher Dimitriou, Irina Azu, Kenneth Rosche, Megan Firko, Roderick La Foy, Stephen Ray, Alexander St. Claire, Batya Fellman, Chris Becker, Christopher Desrochers, Ilan Moyer, Kathryn Matlack, Keith Molina, Matthew Robertson, Nicolina Akraboff",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Rope weaver",
+                            vimeoId: "231459933"
+                        },
+                        A2: {
+                            name: "Hot rods (plastic sheet)",
+                            vimeoId: "231459942"
+                        },
+
+                        B1: {
+                            name: "The deCAPitator",
+                            vimeoId: "231459946"
+                        },
+                        B2: {
+                            name: "Heated plastic roller",
+                            vimeoId: "231459956"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Rope Weaver",
+                            vimeoId: "231459612"
+                        },
+                        B1: {
+                            name: "Bottle Binder",
+                            vimeoId: "231459633"
+                        }
+                    },
+                    assembly: {
+                        name: "Bottleation"
+                    },
+                    tech: {
+                        name: "Bottleation",
+                        vimeoId: "231460113"
+                    },
+                    final: {
+                        name: "Bottleation",
+                        vimeoId: "231459126"
+                    }
+                }
+            },
+            silver: {
+                projName: "SheaCylce",
+                projDesc: "shea paste grinder",
+                projColor: "silver",
+                projTeam: "Anthony Teixeira, David Kirkland, Dayan Paez, Jacquelyn Nowicke, Javier Burgos, Maria Luckyanova, Stephen Steger, Tolga Yazicioglu, Heraclio Hernandez, Brad Stronger, Gavin Cotter, Joseph Dieguez, Karen Noiva, Michael Kozlowski, Nadia Elkordy, Patrick Barragan, Philip Garcia, Basil Khoury",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "VeggiClean",
+                            vimeoId: "231459963"
+                        },
+                        A2: {
+                            name: "WindBag",
+                            vimeoId: "231459978"
+                        },
+
+                        B1: {
+                            name: "Shea nut press",
+                            vimeoId: "231459989"
+                        },
+                        B2: {
+                            name: "Veggie washer",
+                            vimeoId: "231459996"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "VeggieClean",
+                            vimeoId: "231459650"
+                        },
+                        B1: {
+                            name: "Shea Nut Processing",
+                            vimeoId: "231459667"
+                        }
+                    },
+                    assembly: {
+                        name: "SheaCycle"
+                    },
+                    tech: {
+                        name: "SheaCycle",
+                        vimeoId: "231460127"
+                    },
+                    final: {
+                        name: "SheaCycle",
+                        vimeoId: "231459136"
+                    }
+                }
+            },
+            yellow: {
+                projName: "Intellishower",
+                projDesc: "a water-saving shower",
+                projColor: "yellow",
+                projTeam: "Andrew Hurwich, Chihjiun Yeh, Diego A. Melani, Ellann Cohen, Kristina Haller, Lisandro Quinones, Nathan Wang, Stuart Rossen, Tristan Lang, Asiri Ediriwickrema, Edward Summers, Holly B. Laird, Iliya Tsekov, Yamilee Toussaint, Ryan Dean, Sergio Navarro, Shane Treadway, Yangfang Wang",
+                deliverables: {
+                    ideas: {
+                        A1: {},
+                        A2: {},
+                        B1: {},
+                        B2: {}
+                    },
+                    sketch: {
+                        A1: {
+                            name: "Smart shower",
+                            vimeoId: "231460012"
+                        },
+                        A2: {
+                            name: "Veggie washer",
+                            vimeoId: "231460021"
+                        },
+
+                        B1: {
+                            name: "Reuse.A.Mug",
+                            vimeoId: "231460029"
+                        },
+                        B2: {
+                            name: "Aquatron filter",
+                            vimeoId: "231460038"
+                        }
+                    },
+                    mockup: {
+                        A1: {
+                            name: "Smart Shower",
+                            vimeoId: "231459699"
+                        },
+                        B1: {
+                            name: "Reuse-A-Mug",
+                            vimeoId: "231459719"
+                        }
+                    },
+                    assembly: {
+                        name: "IntelliShower"
+                    },
+                    tech: {
+                        name: "IntelliShower",
+                        vimeoId: "231460133"
+                    },
+                    final: {
+                        name: "IntelliShower",
+                        vimeoId: "231459147"
+                    }
+                }
+            }
         }
     },
     2006: {
