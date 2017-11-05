@@ -436,10 +436,51 @@ var GalleryContent = React.createClass({
             ));
         }
 
+        var highlights = DATA[year].highlights;
+        console.log(highlights);
+        var highlightElements = [];
+        var _iteratorNormalCompletion = true;
+        var _didIteratorError = false;
+        var _iteratorError = undefined;
+
+        try {
+            for (var _iterator = highlights[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+                var highlight = _step.value;
+
+                highlightElements.push(React.createElement(
+                    "div",
+                    null,
+                    React.createElement(
+                        "a",
+                        { href: "http://vimeo.com/" + highlight.vimeoId },
+                        highlight.linkLabel
+                    )
+                ));
+            }
+        } catch (err) {
+            _didIteratorError = true;
+            _iteratorError = err;
+        } finally {
+            try {
+                if (!_iteratorNormalCompletion && _iterator.return) {
+                    _iterator.return();
+                }
+            } finally {
+                if (_didIteratorError) {
+                    throw _iteratorError;
+                }
+            }
+        }
+
         return React.createElement(
             "div",
-            { className: "thumbnail-container" },
-            teams
+            null,
+            React.createElement(
+                "div",
+                { className: "thumbnail-container" },
+                teams
+            ),
+            highlightElements
         );
     }
 });

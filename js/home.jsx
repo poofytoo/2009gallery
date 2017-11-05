@@ -18,7 +18,7 @@ var GalleryContent = React.createClass({
                 </div>
             )
         }
-        return <div>{yearSections}</div>;
+        return (<div>{yearSections}</div>);
     },
 
     renderGalleryYear: function (year) {
@@ -39,12 +39,28 @@ var GalleryContent = React.createClass({
                     </div>
                 </a>,
             );
+
+        }
+
+        var highlights = DATA[year].highlights;
+        console.log(highlights);
+        var highlightElements = []
+        for (var highlight of highlights) {
+            highlightElements.push(
+                <div>
+                    <a href={`http://vimeo.com/${highlight.vimeoId}`}>{highlight.linkLabel}</a>
+                </div>
+            )
         }
 
         return (
-            <div className="thumbnail-container">
-                {teams}
+            <div>
+                <div className="thumbnail-container">
+                    {teams}
+                </div>
+                {highlightElements}
             </div>
+
         )
     },
 });
@@ -63,7 +79,7 @@ $(function () {
         document.getElementById('navigation')
     );
 
-    $(window).scroll(function() { 
+    $(window).scroll(function () {
         updateNavigationBar();
     })
 
