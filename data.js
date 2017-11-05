@@ -52,7 +52,7 @@ DATA = {
                 linkUrl: "data/2016/highlights/quad_2016.mp4",
                 vimeoId: "195571478"
             },
-            {
+            /*{
                 linkLabel: "Inattentional Blindness",
                 linkUrl: "data/2016/highlights/inattentional_blindness_2016.mp4",
                 vimeoId: "191488480"
@@ -61,17 +61,17 @@ DATA = {
                 linkLabel: "Debugging Skit",
                 linkUrl: "data/2016/highlights/debuggin_skit_2016.mp4",
                 vimeoId: "191433516"
-            },
+            },*/
             {
                 linkLabel: "Ghostbusters Video",
                 linkUrl: "data/2016/highlights/ghostbusters_video_2016.mp4",
                 vimeoId: "191087611"
             },
-            {
+            /*{
                 linkLabel: "Why Can't We Be Friendly?",
                 linkUrl: "data/2016/highlights/why_cant_we_be_friendly_2016.mp4",
                 vimeoId: "190177772"
-            },
+            },*/
             {
                 linkLabel: "Subtheme Beavers-The Making Of",
                 linkUrl: "data/2016/highlights/subtheme_beavers_2016.mp4",
