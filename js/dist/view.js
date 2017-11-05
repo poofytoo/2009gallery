@@ -112,7 +112,7 @@ var Navigation = exports.Navigation = React.createClass({
 
         $("body").on("click", function (event) {
             // react and jquery events aren't playing nice with each other
-            if (!$(event.target).hasClass("nav-select") && !$(event.target).hasClass("year-item") && !$(event.target).parents(".year-item").length === 0) {
+            if (!$(event.target).hasClass("nav-select") && !$(event.target).hasClass("year-item") && $(event.target).parents(".year-item").length === 0) {
                 _this.setState({
                     isYearDropdownVisible: false,
                     isTeamDropdownVisible: false
@@ -576,7 +576,7 @@ var TeamContent = React.createClass({
                         null,
                         React.createElement(
                             "a",
-                            { href: baseUrl + ("data/" + year + "/" + sectionKey + "/movies/" + project.projColor + s), download: true },
+                            { href: baseUrl + ("data/" + year + "/" + sectionKey + "/movies/" + project.projColor + s + ".mp4"), download: true },
                             "Download Original Video"
                         )
                     )
@@ -616,7 +616,7 @@ var TeamContent = React.createClass({
                     null,
                     React.createElement(
                         "a",
-                        { href: baseUrl + ("data/" + year + "/assembly/movies/" + project.projColor), download: true },
+                        { href: baseUrl + ("data/" + year + "/assembly/movies/" + project.projColor + ".mp4"), download: true },
                         "Download Original Video"
                     )
                 ),
@@ -640,11 +640,11 @@ var TeamContent = React.createClass({
 
         return [React.createElement(
             "div",
-            { className: "milestone-container", key: "assembly-section" },
+            { className: "milestone-container", key: "tech-section" },
             React.createElement(
                 "div",
                 { className: "milestone-media" },
-                React.createElement("iframe", { src: "https://player.vimeo.com/video/" + section.vimeoId, width: "400", height: "240", frameborder: "0", webkitallowfullscreen: true, mozallowfullscreen: true,
+                React.createElement("iframe", { src: "https://player.vimeo.com/video/" + section.vimeoId, width: "600", height: "240", frameborder: "0", webkitallowfullscreen: true, mozallowfullscreen: true,
                     allowfullscreen: true }),
                 React.createElement(
                     "div",
@@ -669,7 +669,7 @@ var TeamContent = React.createClass({
                     null,
                     React.createElement(
                         "a",
-                        { href: baseUrl + ("data/" + year + "/tech/movies/" + project.projColor), download: true },
+                        { href: baseUrl + ("data/" + year + "/tech/movies/" + project.projColor + ".mp4"), download: true },
                         "Download Original Video"
                     )
                 )
@@ -684,11 +684,11 @@ var TeamContent = React.createClass({
 
         return [React.createElement(
             "div",
-            { className: "milestone-container", key: "assembly-section" },
+            { className: "milestone-container", key: "final-section" },
             React.createElement(
                 "div",
                 { className: "milestone-media" },
-                React.createElement("iframe", { src: "https://player.vimeo.com/video/" + section.vimeoId, width: "400", height: "240", frameborder: "0", webkitallowfullscreen: true, mozallowfullscreen: true,
+                React.createElement("iframe", { src: "https://player.vimeo.com/video/" + section.vimeoId, width: "600", height: "240", frameborder: "0", webkitallowfullscreen: true, mozallowfullscreen: true,
                     allowfullscreen: true }),
                 React.createElement(
                     "div",
@@ -731,7 +731,7 @@ var TeamContent = React.createClass({
                     null,
                     React.createElement(
                         "a",
-                        { href: baseUrl + ("data/" + year + "/tech/movies/" + project.projColor), download: true },
+                        { href: baseUrl + ("data/" + year + "/final/movies/" + project.projColor + ".mp4"), download: true },
                         "Download Original Video"
                     )
                 )

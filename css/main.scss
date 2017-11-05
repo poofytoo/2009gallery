@@ -95,13 +95,13 @@ a {
 
     .disabled-select {
         opacity: 0.2;
-        
+
         &:hover {
             cursor: pointer;
             color: #666;
 
             // border: 1px solid #777;
-
+       
         }
     }
 
@@ -250,7 +250,9 @@ a {
 
         .team-photo {
             margin: 20px 20px 20px 0;
+
             img {
+                vertical-align: top;
                 margin-right: 10px;
                 width: 200px;
             }
@@ -309,6 +311,7 @@ a {
             margin-right: 5px;
             text-transform: lowercase;
             display: inline-block;
+
             // border: 2px solid #4A90E2;
             border-width: 2px;
             border-style: solid;
@@ -343,8 +346,10 @@ a {
         div {
             margin-bottom: 12px;
         }
+
         a {
             color: #222;
+
             // background-color: #eee;
             // border-radius: 2px;
             padding: 4px 10px 4px 6px;
@@ -379,6 +384,12 @@ a {
         }
     }
 
+    .milestone-container .milestone-media iframe {
+        iframe {
+            max-width: 600px;
+        }
+    }
+
     .milestone-container {
         margin-bottom: 50px;
 
@@ -391,6 +402,7 @@ a {
                 margin-right: 15px;
                 margin-bottom: 15px;
                 max-width: 400px;
+                background-color: #000;
             }
 
             img {
@@ -426,6 +438,7 @@ a {
     transition: all 0.4s;
     position: absolute;
     z-index: 1992;
+
     // left: 0;
     background-color: #fff;
     border-radius: 5px;
@@ -450,6 +463,7 @@ a {
 
     ul {
         // margin-bottom: 100px;
+   
     }
 
     li {
@@ -504,7 +518,7 @@ a {
 
 .team-select {
     text-transform: capitalize;
-    
+
     .dropdown-selector {
         width: 400px;
 

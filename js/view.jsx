@@ -110,7 +110,7 @@ var TeamContent = React.createClass({
                     </div>
                     <div className="additional-links">
                         <div><a href={baseUrl + `data/${year}/${sectionKey}/slides/${project.projColor}${s}.pdf`}>View Presentation Slides</a></div>
-                        <div><a href={baseUrl + `data/${year}/${sectionKey}/movies/${project.projColor}${s}`} download>Download Original Video</a></div>
+                        <div><a href={baseUrl + `data/${year}/${sectionKey}/movies/${project.projColor}${s}.mp4`} download>Download Original Video</a></div>
                     </div>
                 </div>,
             );
@@ -132,7 +132,7 @@ var TeamContent = React.createClass({
                     </div>
                 </div>
                 <div className="additional-links">
-                    <div><a href={baseUrl + `data/${year}/assembly/movies/${project.projColor}`} download>Download Original Video</a></div>
+                    <div><a href={baseUrl + `data/${year}/assembly/movies/${project.projColor}.mp4`} download>Download Original Video</a></div>
                     <div><a href={baseUrl + `data/${year}/assembly/${project.projColor}Contract.pdf`}>View Product Contract</a></div>
                 </div>
             </div>,
@@ -145,9 +145,9 @@ var TeamContent = React.createClass({
         var section = project.deliverables.tech;
 
         return [
-            <div className="milestone-container" key="assembly-section">
+            <div className="milestone-container" key="tech-section">
                 <div className="milestone-media">
-                    <iframe src={`https://player.vimeo.com/video/${section.vimeoId}`} width="400" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                    <iframe src={`https://player.vimeo.com/video/${section.vimeoId}`} width="600" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
                         allowfullscreen></iframe>
                     <div className="milestone-images">
                         <a href={baseUrl + `data/${year}/tech/photos/${project.projColor.capitalize()}1.jpg`}><img src={baseUrl + `data/${year}/tech/photos/${project.projColor.capitalize()}1_sm.jpg`} /></a>
@@ -155,7 +155,7 @@ var TeamContent = React.createClass({
                     </div>
                 </div>
                 <div className="additional-links">
-                    <div><a href={baseUrl + `data/${year}/tech/movies/${project.projColor}`} download>Download Original Video</a></div>
+                    <div><a href={baseUrl + `data/${year}/tech/movies/${project.projColor}.mp4`} download>Download Original Video</a></div>
                 </div>
             </div>,
         ];
@@ -167,9 +167,9 @@ var TeamContent = React.createClass({
         var section = project.deliverables.final;
 
         return [
-            <div className="milestone-container" key="assembly-section">
+            <div className="milestone-container" key="final-section">
                 <div className="milestone-media">
-                    <iframe src={`https://player.vimeo.com/video/${section.vimeoId}`} width="400" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                    <iframe src={`https://player.vimeo.com/video/${section.vimeoId}`} width="600" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
                         allowfullscreen></iframe>
                     <div className="milestone-images">
                         <a href={baseUrl + `data/${year}/final/photos/original/${project.projColor}1.jpg`}><img src={baseUrl + `data/${year}/final/photos/small/${project.projColor}1.jpg`} /></a>
@@ -179,7 +179,7 @@ var TeamContent = React.createClass({
                 <div className="additional-links">
                     <div><a href={baseUrl + `data/${year}/final/slides/${project.projColor}.pdf`}>View Presentation Slides</a></div>
                     <div><a href={baseUrl + `data/${year}/final/extras/${project.projColor}_brochure.pdf`}>View Product Brochure</a></div>
-                    <div><a href={baseUrl + `data/${year}/tech/movies/${project.projColor}`} download>Download Original Video</a></div>
+                    <div><a href={baseUrl + `data/${year}/final/movies/${project.projColor}.mp4`} download>Download Original Video</a></div>
                 </div>
             </div>,
         ];

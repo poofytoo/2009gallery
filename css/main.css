@@ -176,6 +176,7 @@ a {
     .project-container .project-content .team-photo {
       margin: 20px 20px 20px 0; }
       .project-container .project-content .team-photo img {
+        vertical-align: top;
         margin-right: 10px;
         width: 200px; }
   .project-container h1 {
@@ -266,6 +267,8 @@ a {
       margin-right: 10px; }
       .project-container .posters .poster:last-child {
         margin-right: 0; }
+  .project-container .milestone-container .milestone-media iframe iframe {
+    max-width: 600px; }
   .project-container .milestone-container {
     margin-bottom: 50px; }
     .project-container .milestone-container .milestone-media {
@@ -275,7 +278,8 @@ a {
       .project-container .milestone-container .milestone-media iframe {
         margin-right: 15px;
         margin-bottom: 15px;
-        max-width: 400px; }
+        max-width: 400px;
+        background-color: #000; }
       .project-container .milestone-container .milestone-media img {
         width: 140px;
         margin-right: 15px;

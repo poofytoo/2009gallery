@@ -112,7 +112,7 @@ var Navigation = exports.Navigation = React.createClass({
 
         $("body").on("click", function (event) {
             // react and jquery events aren't playing nice with each other
-            if (!$(event.target).hasClass("nav-select") && !$(event.target).hasClass("year-item") && !$(event.target).parents(".year-item").length === 0) {
+            if (!$(event.target).hasClass("nav-select") && !$(event.target).hasClass("year-item") && $(event.target).parents(".year-item").length === 0) {
                 _this.setState({
                     isYearDropdownVisible: false,
                     isTeamDropdownVisible: false
