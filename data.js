@@ -8,6 +8,11 @@ DATA = {
                 linkUrl: "data/2016/homepage/index.html"
             },
             {
+                linkLabel: "Student Tribute without Names",
+                linkUrl: "data/2016/highlights/student_tribute_without_names_2016.mp4",
+                vimeoId: "195658004"
+            },
+            {
                 linkLabel: "Kresge Timelapse",
                 linkUrl: "data/2016/highlights/kresge_timelapse_2016.mp4",
                 vimeoId: "196257275"
@@ -21,11 +26,6 @@ DATA = {
                 linkLabel: "Can't Stop Designing",
                 linkUrl: "data/2016/highlights/cant_stop_designing_2016.mp4",
                 vimeoId: "195900416"
-            },
-            {
-                linkLabel: "Student Tribute without Names",
-                linkUrl: "data/2016/highlights/student_tribute_without_names_2016.mp4",
-                vimeoId: "195658004"
             },
             {
                 linkLabel: "2.009 Syllabus Highlights",
