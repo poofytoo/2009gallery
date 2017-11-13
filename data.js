@@ -13,6 +13,11 @@ DATA = {
                 vimeoId: "195658004"
             },
             {
+                linkLabel: "Final Presentation: 2016 Compendium",
+                linkUrl: "data/2016/highlights/2016_compendium.mp4",
+                vimeoId: "241359616"
+            },
+            {
                 linkLabel: "Kresge Timelapse",
                 linkUrl: "data/2016/highlights/kresge_timelapse_2016.mp4",
                 vimeoId: "196257275"
