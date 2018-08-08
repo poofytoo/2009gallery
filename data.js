@@ -639,7 +639,8 @@ DATA = {
       {
         linkLabel: "Quadcopter - Somewhere over the Rainbow",
         linkUrl: "data/2016/highlights/quad_2016.mp4",
-        vimeoId: "195571478"
+        vimeoId: "195571478",
+        youtubeId: "M7lc1UVf-VE"
       },
       {
         linkLabel: "Can't Stop Designing",

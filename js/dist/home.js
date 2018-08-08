@@ -521,7 +521,18 @@ var GalleryContent = React.createClass({
                         highlight.subheading
                     ));
                 } else {
-                    if (highlight.vimeoId) {
+                    if (highlight.youtubeId) {
+                        // Due to Vimeo hating us, now bumping youtube links as priority
+                        highlightGroup.push(React.createElement(
+                            "div",
+                            { className: "highlight-link" },
+                            React.createElement(
+                                "a",
+                                { href: "https://www.youtube.com/watch?v=" + highlight.youtubeId },
+                                highlight.linkLabel
+                            )
+                        ));
+                    } else if (highlight.vimeoId) {
                         highlightGroup.push(React.createElement(
                             "div",
                             { className: "highlight-link" },
@@ -532,7 +543,7 @@ var GalleryContent = React.createClass({
                             )
                         ));
                     } else {
-                        // Some Data has been malformed, and contains an additional data/. 
+                        // Some data has been malformed, and contains an additional data/. 
                         // Dirty hack to strip it.
                         var linkUrl = highlight.linkUrl.indexOf("data/") >= 0 ? highlight.linkUrl.replace('data/', '') : highlight.linkUrl;
                         highlightGroup.push(React.createElement(

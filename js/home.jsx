@@ -60,16 +60,23 @@ var GalleryContent = React.createClass({
                     </div>
                 )
             } else {
-                if (highlight.vimeoId) {
+                if (highlight.youtubeId) {
+                    // Due to Vimeo hating us, now bumping youtube links as priority
+                    highlightGroup.push(
+                        <div className="highlight-link">
+                            <a href={`https://www.youtube.com/watch?v=${highlight.youtubeId}`}>{highlight.linkLabel}</a>
+                        </div>
+                    )
+                } else if (highlight.vimeoId) {
                     highlightGroup.push(
                         <div className="highlight-link">
                             <a href={`http://vimeo.com/${highlight.vimeoId}`}>{highlight.linkLabel}</a>
                         </div>
                     )
                 } else {
-                    // Some Data has been malformed, and contains an additional data/. 
+                    // Some data has been malformed, and contains an additional data/. 
                     // Dirty hack to strip it.
-                    let linkUrl = highlight.linkUrl.indexOf("data/") >= 0 ? highlight.linkUrl.replace('data/', '') : highlight.linkUrl; 
+                    let linkUrl = highlight.linkUrl.indexOf("data/") >= 0 ? highlight.linkUrl.replace('data/', '') : highlight.linkUrl;
                     highlightGroup.push(
                         <div className="highlight-link">
                             <a href={baseUrl + linkUrl}>{highlight.linkLabel}</a>
