@@ -157,7 +157,7 @@ var Navigation = exports.Navigation = React.createClass({
             null,
             React.createElement(
                 "a",
-                { href: "/" },
+                { href: "../" },
                 React.createElement(
                     "div",
                     { className: "year-select nav-select" },
