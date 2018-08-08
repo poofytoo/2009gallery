@@ -71,7 +71,7 @@ export const Navigation = React.createClass({
     },
     render: function () {
         return (<div>
-            <a href="/">
+            <a href="../">
                 <div className="year-select nav-select">
                     All Projects
                 </div>
