@@ -2,6 +2,7 @@ var baseUrl = "http://designed.mit.edu/gallery/";
 
 import { Navigation, updateNavigationBar } from "./nav.jsx";
 import { classColors } from "./colors.jsx";
+import { timingSafeEqual } from "crypto";
 
 String.prototype.capitalize = function () {
     return this.charAt(0).toUpperCase() + this.slice(1);
@@ -31,7 +32,6 @@ var TeamContent = React.createClass({
                     </a>
                 </div>
                 <h3 className="3-ideas">3 Ideas</h3>
-
                 {this.renderIdeaPosters()}
 
                 <h3 className="sketch-models">Sketch Models</h3>
@@ -40,18 +40,37 @@ var TeamContent = React.createClass({
                 <h3 className="mock-ups">Mock-ups</h3>
                 {this.renderTeamSections("mock-up", "mockup")}
 
-                <h3 className="assembly">Assembly Review</h3>
+                <h3 className="assembly">Assembly Review
+                        {this.renderDirectLink("assembly")}</h3>
                 {this.renderAssemblySection()}
 
-                <h3 className="technical-review">Technical Review</h3>
+                <h3 className="technical-review">Technical Review
+                        {this.renderDirectLink("technical-review")}</h3>
                 {this.renderTechReviewSection()}
 
-                <h3 className="final">Final Presentation</h3>
+                <h3 className="final">Final Presentation
+                        {this.renderDirectLink("final")}</h3>
                 {this.renderFinalSection()}
             </div>
         );
     },
-
+    copyToClipboard: function (linkId) {
+        console.log(linkId);
+        var copyText = document.getElementById(linkId);
+        copyText.select();
+        document.execCommand("copy");
+    },
+    renderDirectLink: function (linkId, linkTitle = "Copy Direct Link") {
+        let copyLink = window.location.href.split('#')[0] + '#' + linkId;
+        return (
+            <span onClick={() => this.copyToClipboard(linkId)} className="direct-link">
+                <span tabIndex="1" className="copy-icon">
+                    <span className="copy-text">{linkTitle}</span>
+                </span>
+                <input type="text" className="hidden-textbox" value={copyLink} id={linkId} />
+            </span>
+        )
+    },
     renderIdeaPosters: function (sectionLetter) {
         var ideas = this.props.project.deliverables.ideas;
 
@@ -73,12 +92,15 @@ var TeamContent = React.createClass({
                         <span className="section-tag" style={{ borderColor: highlightColor }}>Section&nbsp;
                         <em>{s.charAt(0)}</em>
                         </span>
+                        {this.renderDirectLink("ideas-header-" + s.charAt(0))}
                     </h4>,
                 );
                 prevSection = s;
             }
             ideasPics.push(
-                <img className="poster" src={baseUrl + `data/${year}/ideas/${project.projColor}${s}.jpg`} key={`idea-${s}`} />
+                <a href={baseUrl + `data/${year}/ideas/${project.projColor}${s}.jpg`}>
+                    <img className="poster" src={baseUrl + `data/${year}/ideas/${project.projColor}${s}.jpg`} key={`idea-${s}`} />
+                </a>
             );
         }
         sections.push(<p className="posters">{ideasPics}</p>);
@@ -93,27 +115,32 @@ var TeamContent = React.createClass({
 
         var elements = [];
         for (var s in sectionTeams) {
-            var highlightColor = classColors[project.projColor];
-            elements.push(
-                <h4 key={`${sectionKey}-${s}-header`}>
-                    <span className="section-tag" style={{ borderColor: highlightColor }}>{sectionDisplayName}
-                        <em> {s}</em>
-                    </span> {sectionTeams[s].name}</h4>,
-                <div className="milestone-container" key={`${sectionKey}-${s}`}>
-                    <div className="milestone-media">
-                        <iframe src={`https://player.vimeo.com/video/${sectionTeams[s].vimeoId}`} width="400" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                            allowfullscreen></iframe>
-                        <div className="milestone-images">
-                            <a href={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_1.jpg`}><img src={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_1_sm.jpg`} /></a>
-                            <a href={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_2.jpg`}><img src={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_2_sm.jpg`} /></a>
+            if (s.substring(s.length - 1).toUpperCase() !== 'D') {
+                // TODO: Temporarily remove Demo Videos
+                var highlightColor = classColors[project.projColor];
+                elements.push(
+                    <h4 key={`${sectionKey}-${s}-header`}>
+                        <span className="section-tag" style={{ borderColor: highlightColor }}>{sectionDisplayName}
+                            <em> {s}</em>
+                        </span> {sectionTeams[s].name}
+                        {this.renderDirectLink(`${sectionKey}-${s}-${sectionTeams[s].name}`)}
+                    </h4>,
+                    <div className="milestone-container" key={`${sectionKey}-${s}`}>
+                        <div className="milestone-media">
+                            <iframe src={`https://player.vimeo.com/video/${sectionTeams[s].vimeoId}`} width="400" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                                allowfullscreen></iframe>
+                            <div className="milestone-images">
+                                <a href={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_1.jpg`}><img src={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_1_sm.jpg`} /></a>
+                                <a href={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_2.jpg`}><img src={baseUrl + `data/${year}/${sectionKey}/photos/${project.projColor}${s}_2_sm.jpg`} /></a>
+                            </div>
                         </div>
-                    </div>
-                    <div className="additional-links">
-                        <div><a href={baseUrl + `data/${year}/${sectionKey}/slides/${project.projColor}${s}.pdf`}>View Presentation Slides</a></div>
-                        <div><a href={baseUrl + `data/${year}/${sectionKey}/movies/${project.projColor}${s}.mp4`} download>Download Original Video</a></div>
-                    </div>
-                </div>,
-            );
+                        <div className="additional-links">
+                            <div><a href={baseUrl + `data/${year}/${sectionKey}/slides/${project.projColor}${s}.pdf`}>View Presentation Slides</a></div>
+                            <div><a href={baseUrl + `data/${year}/${sectionKey}/movies/${project.projColor}${s}.mp4`} download>Download Original Video</a></div>
+                        </div>
+                    </div>,
+                );
+            }
         }
 
         return elements;
@@ -196,6 +223,8 @@ var sections = {
 var scrollBreaks = [];
 
 function updateSidemenuHighlight() {
+    console.log('triggered');
+
     var closestSection = 0;
     var section = 'team';
     var scrollTop = $(window).scrollTop();
@@ -211,16 +240,29 @@ function updateSidemenuHighlight() {
     })
     $('li.m-' + section).addClass('sidemenu-highlight');
 
-    window.location.hash = section;
+    // window.location.hash = section;
 
 }
 
 function scrollToSection(section) {
-    $(window).scrollTo($('h3.' + section), {
-        offset: -50,
-        duration: 200
-    })
-    updateSidemenuHighlight();
+    setTimeout(function () {
+        console.log('locating', section);
+        if ($('h3.' + section).length > 0) {
+            $(window).scrollTo($('h3.' + section), {
+                offset: -50,
+                duration: 300
+            })
+            updateSidemenuHighlight();
+        } else if ($('input#' + section).length > 0) {
+            console.log('scrolling to... input#' + section)
+            $(window).scrollTo($('input#' + section), {
+                offset: -150,
+                duration: 300
+            })
+            updateSidemenuHighlight();
+        }
+
+    }, 500, section)
 }
 
 function buildSidemenu() {
@@ -229,6 +271,7 @@ function buildSidemenu() {
     })
     $('.project-sidemenu').on('click', 'li', function () {
         scrollToSection($(this).data('section'));
+        window.location.hash = $(this).data('section');
     })
 }
 
@@ -284,6 +327,7 @@ $(function () {
             buildSidemenu();
 
             locationHash = window.location.hash;
+            console.log('checking', locationHash)
             if (locationHash !== undefined && locationHash !== "") {
                 if ('scrollRestoration' in history) {
                     history.scrollRestoration = 'manual';

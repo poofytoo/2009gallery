@@ -43,22 +43,53 @@ var GalleryContent = React.createClass({
         }
 
         var highlights = DATA[year].highlights;
-        console.log(highlights);
-        var highlightElements = []
+        var highlightElements = [];
+        var highlightGroup = [];
         for (var highlight of highlights) {
-            highlightElements.push(
-                <div>
-                    <a href={`http://vimeo.com/${highlight.vimeoId}`}>{highlight.linkLabel}</a>
-                </div>
-            )
+            if (highlight['subheading']) {
+                if (highlightGroup.length != 0) {
+                    // Push previous highlight group
+                    highlightElements.push(
+                        <div className="highlight-group">{highlightGroup}</div>
+                    );
+                    highlightGroup = [];
+                }
+                highlightGroup.push(
+                    <div className="subheading">
+                        {highlight.subheading}
+                    </div>
+                )
+            } else {
+                if (highlight.vimeoId) {
+                    highlightGroup.push(
+                        <div className="highlight-link">
+                            <a href={`http://vimeo.com/${highlight.vimeoId}`}>{highlight.linkLabel}</a>
+                        </div>
+                    )
+                } else {
+                    // Some Data has been malformed, and contains an additional data/. 
+                    // Dirty hack to strip it.
+                    let linkUrl = highlight.linkUrl.indexOf("data/") >= 0 ? highlight.linkUrl.replace('data/', '') : highlight.linkUrl; 
+                    highlightGroup.push(
+                        <div className="highlight-link">
+                            <a href={baseUrl + linkUrl}>{highlight.linkLabel}</a>
+                        </div>
+                    )
+                }
+            }
         }
+        // Push final highlighht group
+        highlightElements.push(<div className="highlight-group">{highlightGroup}</div>);
 
         return (
             <div>
                 <div className="thumbnail-container">
                     {teams}
                 </div>
-                {highlightElements}
+                <div className="highlights-container">
+                    <h4>{year} Highlight Links</h4>
+                    <div className="highlight-groups-container">{highlightElements}</div>
+                </div>
             </div>
 
         )

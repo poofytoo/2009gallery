@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:mit2009/2009gallery.git",
-  "author": "Stephanie Yu <stephaniey@palantir.com>",
+  "author": "Victor Hung <vhung@mit.edu>",
   "license": "MIT",
   "private": true,
   "scripts": {

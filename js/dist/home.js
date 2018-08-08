@@ -60,11 +60,12 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 72);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ 25:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75,7 +76,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Navigation = exports.updateNavigationBar = undefined;
 
-var _classnames = __webpack_require__(6);
+var _classnames = __webpack_require__(26);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -99,7 +100,6 @@ var Navigation = exports.Navigation = React.createClass({
     displayName: "Navigation",
 
     getInitialState: function getInitialState() {
-        console.log('whatttt yearrr is itttt', this.props.teamYear);
         return {
             teamColor: this.props.teamColor,
             teamYear: this.props.teamYear,
@@ -354,20 +354,78 @@ var Navigation = exports.Navigation = React.createClass({
 });
 
 /***/ }),
-/* 1 */
+
+/***/ 26:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(2);
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+  Copyright (c) 2016 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+/* global define */
+
+(function () {
+	'use strict';
+
+	var hasOwn = {}.hasOwnProperty;
+
+	function classNames () {
+		var classes = [];
+
+		for (var i = 0; i < arguments.length; i++) {
+			var arg = arguments[i];
+			if (!arg) continue;
+
+			var argType = typeof arg;
+
+			if (argType === 'string' || argType === 'number') {
+				classes.push(arg);
+			} else if (Array.isArray(arg)) {
+				classes.push(classNames.apply(null, arg));
+			} else if (argType === 'object') {
+				for (var key in arg) {
+					if (hasOwn.call(arg, key) && arg[key]) {
+						classes.push(key);
+					}
+				}
+			}
+		}
+
+		return classes.join(' ');
+	}
+
+	if (typeof module !== 'undefined' && module.exports) {
+		module.exports = classNames;
+	} else if (true) {
+		// register as 'classnames', consistent with npm package name
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
+			return classNames;
+		}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else {
+		window.classNames = classNames;
+	}
+}());
 
 
 /***/ }),
-/* 2 */
+
+/***/ 72:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(73);
+
+
+/***/ }),
+
+/***/ 73:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _nav = __webpack_require__(0);
+var _nav = __webpack_require__(25);
 
 var baseUrl = "http://designed.mit.edu/gallery/data/";
 
@@ -437,8 +495,8 @@ var GalleryContent = React.createClass({
         }
 
         var highlights = DATA[year].highlights;
-        console.log(highlights);
         var highlightElements = [];
+        var highlightGroup = [];
         var _iteratorNormalCompletion = true;
         var _didIteratorError = false;
         var _iteratorError = undefined;
@@ -447,16 +505,49 @@ var GalleryContent = React.createClass({
             for (var _iterator = highlights[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
                 var highlight = _step.value;
 
-                highlightElements.push(React.createElement(
-                    "div",
-                    null,
-                    React.createElement(
-                        "a",
-                        { href: "http://vimeo.com/" + highlight.vimeoId },
-                        highlight.linkLabel
-                    )
-                ));
+                if (highlight['subheading']) {
+                    if (highlightGroup.length != 0) {
+                        // Push previous highlight group
+                        highlightElements.push(React.createElement(
+                            "div",
+                            { className: "highlight-group" },
+                            highlightGroup
+                        ));
+                        highlightGroup = [];
+                    }
+                    highlightGroup.push(React.createElement(
+                        "div",
+                        { className: "subheading" },
+                        highlight.subheading
+                    ));
+                } else {
+                    if (highlight.vimeoId) {
+                        highlightGroup.push(React.createElement(
+                            "div",
+                            { className: "highlight-link" },
+                            React.createElement(
+                                "a",
+                                { href: "http://vimeo.com/" + highlight.vimeoId },
+                                highlight.linkLabel
+                            )
+                        ));
+                    } else {
+                        // Some Data has been malformed, and contains an additional data/. 
+                        // Dirty hack to strip it.
+                        var linkUrl = highlight.linkUrl.indexOf("data/") >= 0 ? highlight.linkUrl.replace('data/', '') : highlight.linkUrl;
+                        highlightGroup.push(React.createElement(
+                            "div",
+                            { className: "highlight-link" },
+                            React.createElement(
+                                "a",
+                                { href: baseUrl + linkUrl },
+                                highlight.linkLabel
+                            )
+                        ));
+                    }
+                }
             }
+            // Push final highlighht group
         } catch (err) {
             _didIteratorError = true;
             _iteratorError = err;
@@ -472,6 +563,12 @@ var GalleryContent = React.createClass({
             }
         }
 
+        highlightElements.push(React.createElement(
+            "div",
+            { className: "highlight-group" },
+            highlightGroup
+        ));
+
         return React.createElement(
             "div",
             null,
@@ -480,7 +577,21 @@ var GalleryContent = React.createClass({
                 { className: "thumbnail-container" },
                 teams
             ),
-            highlightElements
+            React.createElement(
+                "div",
+                { className: "highlights-container" },
+                React.createElement(
+                    "h4",
+                    null,
+                    year,
+                    " Highlight Links"
+                ),
+                React.createElement(
+                    "div",
+                    { className: "highlight-groups-container" },
+                    highlightElements
+                )
+            )
         );
     }
 });
@@ -535,63 +646,6 @@ $(function () {
         */
 });
 
-/***/ }),
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-  Copyright (c) 2016 Jed Watson.
-  Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
-*/
-/* global define */
-
-(function () {
-	'use strict';
-
-	var hasOwn = {}.hasOwnProperty;
-
-	function classNames () {
-		var classes = [];
-
-		for (var i = 0; i < arguments.length; i++) {
-			var arg = arguments[i];
-			if (!arg) continue;
-
-			var argType = typeof arg;
-
-			if (argType === 'string' || argType === 'number') {
-				classes.push(arg);
-			} else if (Array.isArray(arg)) {
-				classes.push(classNames.apply(null, arg));
-			} else if (argType === 'object') {
-				for (var key in arg) {
-					if (hasOwn.call(arg, key) && arg[key]) {
-						classes.push(key);
-					}
-				}
-			}
-		}
-
-		return classes.join(' ');
-	}
-
-	if (typeof module !== 'undefined' && module.exports) {
-		module.exports = classNames;
-	} else if (true) {
-		// register as 'classnames', consistent with npm package name
-		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
-			return classNames;
-		}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	} else {
-		window.classNames = classNames;
-	}
-}());
-
-
 /***/ })
-/******/ ]);
+
+/******/ });

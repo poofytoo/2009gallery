@@ -16,7 +16,6 @@ export const updateNavigationBar = function () {
 
 export const Navigation = React.createClass({
     getInitialState: function () {
-        console.log('whatttt yearrr is itttt', this.props.teamYear)
         return {
             teamColor: this.props.teamColor,
             teamYear: this.props.teamYear,

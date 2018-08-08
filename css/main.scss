@@ -1,6 +1,7 @@
 $highlight: #FFF7D5;
 $highlight-green: #009E9F;
 $highlight-green-light: #E5F3F3;
+$link-blue: rgb(0, 13, 32);
 
 body, html {
     width: 100%;
@@ -186,7 +187,7 @@ a {
 
         .product-info {
             color: #fff;
-            padding: 20px;
+            padding: 40px 20px 20px;
             align-self: flex-end;
             width: 100%;
             background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
@@ -205,11 +206,128 @@ a {
             h4 {
                 margin-bottom: 3px;
                 font-size: 20px;
+                font-weight: 400;
+                letter-spacing: 0.5px;
             }
 
             p {
                 opacity: 0.7;
                 font-size: 14px;
+            }
+        }
+    }
+}
+
+.highlights-container {
+    padding: 30px;
+
+    h4 {
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+    .highlight-group {
+        flex-grow: 1;
+        padding-right: 20px;
+    }
+
+    .highlight-groups-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .subheading {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #aaa;
+    }
+
+    .highlight-link {
+        a {
+            line-height: normal;
+            background-color: #ddd;
+            margin-bottom: 5px;
+            display: inline-block;
+            padding: 7px 9px 5px;
+            color: $link-blue;
+            border-radius: 2px;
+            font-size: 13px;
+
+            &:hover {
+                background-color: #eee;
+            }
+        }
+    }
+}
+
+.direct-link {
+    position: relative;
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 500;
+    color: #111;
+
+    .hidden-textbox {
+        height: 1px;
+        width: 1px;
+        border: none;
+        outline: none;
+        position: relative;
+        display: block;
+    }
+
+    .copy-icon {
+        background-image: url("images/link.png");
+        background-size: 15px;
+        opacity: 0.6;
+        background-position: 5px center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: 30px;
+        vertical-align: top;
+        padding-left: 25px;
+        padding-right: 8px;
+        border-radius: 2px;
+        margin-left: 5px;
+        
+
+        .copy-text {
+            display: none;
+            font-size: 12px;
+            font-family: 'Roboto', sans-serif;
+            vertical-align: middle;
+        }
+
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+            background-color: #eee;
+
+            .copy-text {
+                display: inline-block;
+            }
+        }
+
+        &:focus {
+            opacity: 1;
+            cursor: pointer;
+            background-color: #eee;
+            outline: none;
+
+            .copy-text::after {
+                outline: none;
+                display: inline-block;
+                content: '- Copied!';
+                font-weight: 700;
+                color: #000;
+                margin-left: 5px;
             }
         }
     }
