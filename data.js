@@ -2,7 +2,7 @@
 DATA = {
   2017: {
     themeName: "Super",
-    themeDesc: "A Product is Super!",
+    themeDesc: "Products can enable their users to be super!",
     highlights: [
       {
         subheading: "The Class"
@@ -14,7 +14,7 @@ DATA = {
       {
         linkLabel: "Theme Reveal",
         linkUrl: "data/2017/highlights/theme_reveal_2017.mp4",
-        youtubeId: "WXkHvJi4LMA"
+        youtubeId: "Dj4nN2E59jc"
       },
       {
         linkLabel: "Balloon Challenge",
@@ -1536,7 +1536,8 @@ DATA = {
       },
       {
         linkLabel: "Student Tribute",
-        linkUrl: "data/2015/highlights/student_tribute_2015.mp4"
+        linkUrl: "data/2015/highlights/student_tribute_2015.mp4",
+        youtubeId: "cvHNT2bFxMQ"
       },
       {
         subheading: "Final Presentations"
@@ -2227,17 +2228,17 @@ DATA = {
       },
       {
           linkLabel: "2014 Syllabus",
-          linkUrl: "",
+          linkUrl: "data/2014/highlights/syllabus.mov",
           youtubeId: "4OZCaR4piLw"
       },
       {
           linkLabel: "2014 Teardown",
-          linkUrl: "",
+          linkUrl: "data/2014/highlights/teardown_2014.mov",
           youtubeId: "WqO_PVORJyQ"
       },
       {
           linkLabel: "That'll Do, Quad",
-          linkUrl: "",
+          linkUrl: "data/2014/highlights/that_will_do_quad.mp4",
           youtubeId: "JE2t2tczUqU"
       },
       {
@@ -4372,7 +4373,7 @@ DATA = {
       {
         linkLabel: "Student Tribute",
         linkUrl: "data/2010/highlights/tributePublic_sm.mov",
-        youtubeId: "XXXXX"
+        youtubeId: "W-XXZzqRNXE"
       },
       {
         linkLabel: "Final Presentation Program",
