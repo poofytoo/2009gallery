@@ -1,3 +1,4 @@
+// Data file for all the years
 DATA = {
   2017: {
     themeName: "Super",
