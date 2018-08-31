@@ -3,7 +3,101 @@ DATA = {
   2017: {
     themeName: "Super",
     themeDesc: "A Product is Super!",
-    highlights: [],
+    highlights: [
+      {
+        subheading: "The Class"
+      },
+      {
+        linkLabel: "Home page and slide show",
+        linkUrl: "data/2017/homepage/index.html"
+      },
+      {
+        linkLabel: "Theme Reveal",
+        linkUrl: "data/2017/highlights/theme_reveal_2017.mp4",
+        youtubeId: "WXkHvJi4LMA"
+      },
+      {
+        linkLabel: "Balloon Challenge",
+        linkUrl: "data/2017/highlights/balloon_challenge_2017.mp4",
+        youtubeId: "mbVe1zvUiFw"
+      },
+      {
+        linkLabel: "Product Teardown",
+        linkUrl: "data/2017/highlights/product_teardown_2017.mp4",
+        youtubeId: "TawmNp80O94"
+      },
+      {
+        linkLabel: "Debugging Skit",
+        linkUrl: "data/2017/highlights/debugging_skit_2017.mp4",
+        youtubeId: "5KAaLr1qPks"
+      },
+      {
+        linkLabel: "Inattentional Blindness",
+        linkUrl: "data/2017/highlights/inattentional_blindness_2017.mp4",
+        youtubeId: "bVxhbrhWk8I"
+      },
+      {
+        linkLabel: "The New Wallace and The Old Wallace: Engineering Ethics?",
+        linkUrl: "data/2017/highlights/engineering_ethics_2017.mp4",
+        youtubeId: "JqbIbCl1y4U"
+      },
+      {
+        subheading: "Final Presentations"
+      },
+      {
+        linkLabel: "Celebrating MIT - Quadcopter",
+        linkUrl: "data/2017/highlights/quad_2017.mov",
+        youtubeId: "uwMsQqHK2ZY"
+      },
+      {
+        linkLabel: "Pappalardo",
+        linkUrl: "data/2017/highlights/pappalardo_2017.mov",
+        youtubeId: "ap8WBb_Hmqo"
+      },
+      {
+        linkLabel: "Countdown",
+        linkUrl: "data/2017/highlights/countdown_2017.mov",
+        youtubeId: "EoEON6KigPY"
+      },
+      {
+        linkLabel: "Following Silver Team's Process",
+        linkUrl: "data/2017/highlights/silver_process_2017.mov",
+        youtubeId: "MZZdlUemSc0"
+      },
+      {
+        linkLabel: "Build Challenge",
+        linkUrl: "data/2017/highlights/build_challenge_2017.mp4",
+        youtubeId: "4yD-CJlMHpk"
+      },
+      {
+        linkLabel: "Memories from Class",
+        linkUrl: "data/2017/highlights/syllabus_highlights_2017.mov",
+        youtubeId: "Pu_OosP6gxs"
+      },
+      {
+        linkLabel: "A Tribute to the Students",
+        linkUrl: "data/2017/highlights/student_tribute_2017.mp4",
+        youtubeId: "XjHqAN3JANw"
+      },
+      {
+        subheading: "Behind the Scenes"
+      },
+      {
+        linkLabel: "Kresge Timelapse",
+        linkUrl: "data/2017/highlights/kresge_timelapse_2017.mp4",
+        youtubeId: "uei_qW-x7fE"
+      },
+      {
+        linkLabel: "The 2.009 Zone",
+        linkUrl: "data/2017/highlights/2009zone_2017.mp4",
+        youtubeId: "y6tGLHWyGaQ"
+      },
+      {
+        linkLabel: "009lander Halloween",
+        linkUrl: "data/2017/highlights/halloween_video_2017.mp4",
+        youtubeId: "EOX0TAVjw"
+      }
+                ],
     projects: {
       blue: {
         projName: "Robin",
@@ -612,27 +706,27 @@ DATA = {
       {
         linkLabel: "Theme Reveal",
         linkUrl: "data/2016/highlights/theme_reveal_2016.mp4",
-        vimeoId: "183373875"
+        youtubeId: "N11XQecNr1U"
       },
       {
         linkLabel: "Balloon Challenge",
         linkUrl: "data/2016/highlights/balloon_challenge_2016.mp4",
-        vimeoId: "183354682"
+        youtubeId: "XnCZ31u0r3I"
       },
       {
         linkLabel: "Debugging Skit",
         linkUrl: "data/2016/highlights/debuggin_skit_2016.mp4",
-        vimeoId: "191433516"
+        youtubeId: "tz57l8SOxUI"
       },
       {
         linkLabel: "Inattentional Blindness",
         linkUrl: "data/2016/highlights/inattentional_blindness_2016.mp4",
-        vimeoId: "191488480"
+        youtubeId: "TyGfgbjCcQ8"
       },
       {
         linkLabel: "Why Can't We Be Friendly?",
         linkUrl: "data/2016/highlights/why_cant_we_be_friendly_2016.mp4",
-        vimeoId: "190177772"
+        youtubeId: "4sEspMoO03A"
       },
       {
         subheading: "Final Presentations"
@@ -640,43 +734,42 @@ DATA = {
       {
         linkLabel: "Quadcopter - Somewhere over the Rainbow",
         linkUrl: "data/2016/highlights/quad_2016.mp4",
-        vimeoId: "195571478",
-        youtubeId: "M7lc1UVf-VE"
+        youtubeId: "DAhwPX2ClhY"
       },
       {
         linkLabel: "Can't Stop Designing",
         linkUrl: "data/2016/highlights/cant_stop_designing_2016.mp4",
-        vimeoId: "195900416"
+        youtubeId: "yeQZglNxnD0"
       },
       {
         linkLabel: "Countdown",
         linkUrl: "data/2016/highlights/countdown_2016.mp4",
-        vimeoId: "195571519"
+        youtubeId: "Bh6ls7BdOVg"
       },
       {
-        linkLabel: "Yellow Team Process",
+        linkLabel: "Yellow Team's Process",
         linkUrl: "data/2016/highlights/yellow_process_2016.mp4",
-        vimeoId: "195640879"
+        youtubeId: "q636fUkTFPk"
       },
       {
         linkLabel: "Build Challenge",
         linkUrl: "data/2016/highlights/build_challenge_2016.mp4",
-        vimeoId: "195640763"
+        youtubeId: "p6OQzhvE5xA"
       },
       {
         linkLabel: "2.009 Syllabus Highlights",
         linkUrl: "data/2016/highlights/syllabus_highlights_2016.mp4",
-        vimeoId: "195644744"
+        youtubeId: "Z1bEpncy6xA"
       },
       {
         linkLabel: "Student Tribute without Names",
         linkUrl: "data/2016/highlights/student_tribute_without_names_2016.mp4",
-        vimeoId: "195658004"
+        youtubeId: "UBtBy6HNAc4"
       },
       {
         linkLabel: "Student Thank You",
         linkUrl: "data/2016/highlights/student_thank_you_2016.mp4",
-        vimeoId: "195904362"
+        youtubeId: "456JvlGGPmg"
       },
       {
         subheading: "Behind the Scenes"
@@ -684,17 +777,17 @@ DATA = {
       {
         linkLabel: "Kresge Timelapse",
         linkUrl: "data/2016/highlights/kresge_timelapse_2016.mp4",
-        vimeoId: "196257275"
+        youtubeId: "Y8fD_CqKqug"
       },
       {
         linkLabel: "Subtheme Beavers-The Making Of",
         linkUrl: "data/2016/highlights/subtheme_beavers_2016.mp4",
-        vimeoId: "185422112"
+        youtubeId: "VhCBpNPHpfQ"
       },
       {
         linkLabel: "Ghostbusters Video",
         linkUrl: "data/2016/highlights/ghostbusters_video_2016.mp4",
-        vimeoId: "191087611"
+        youtubeId: "e05Qumy7rco"
       },
     ],
     projects: {
@@ -1428,11 +1521,13 @@ DATA = {
       },
       {
         linkLabel: "Balloon Challenge 2015",
-        linkUrl: "data/2015/highlights/balloon_2015.mp4"
+        linkUrl: "data/2015/highlights/balloon_2015.mp4",
+        youtubeId: "WRC6cCCM4ZE"
       },
       {
         linkLabel: "Build Challenge 2015: Once Upon an Idea",
-        linkUrl: "data/2015/highlights/challenge_2015.mov"
+        linkUrl: "data/2015/highlights/challenge_2015.mov",
+        youtubeId: "Cjmbtv7Mfr8"
       },
 
       {
@@ -1452,27 +1547,33 @@ DATA = {
       },
       {
         linkLabel: "Final Presentation: 5-min Compendium",
-        linkUrl: "data/2015/highlights/5_min_web_360p.mp4"
+        linkUrl: "data/2015/highlights/5_min_web_360p.mp4",
+        youtubeId: "Yqxx6Af4IVM"
       },
       {
         linkLabel: "Final Presentation: Quadcopter and Intro",
-        linkUrl: "data/2015/highlights/quad_2015.mp4"
+        linkUrl: "data/2015/highlights/quad_2015.mp4",
+        youtubeId: "xfxQe27HjOU"
       },
       {
         linkLabel: "Final Presentation: Full Show",
-        linkUrl: "data/2015/highlights/full_show_2015.mp4"
+        linkUrl: "data/2015/highlights/full_show_2015.mp4",
+        youtubeId: "jVnZ3PZMME8"
       },
       {
         linkLabel: "Final Presentation: Timelapse",
-        linkUrl: "data/2015/highlights/timelapse_setup_2015.mp4"
+        linkUrl: "data/2015/highlights/timelapse_setup_2015.mp4",
+        youtubeId: "eHYlMMl98T4"
       },
       {
         linkLabel: "Yellow team: How did they get there?",
         linkUrl: "data/2015/highlights/yellow_team_2015.mp4",
+        youtubeId: "MOdFoU6nLOs"
       },
       {
         linkLabel: "Thank you, Prof. Wallace!",
         linkUrl: "data/2015/highlights/thankyou_2015.mp4",
+        youtubeId: "ElJq7EuQX9M"
       },
 
     ],
@@ -2074,7 +2175,7 @@ DATA = {
       {
         linkLabel: "Student Tribute",
         linkUrl: "data/2014/highlights/student_tribute_2014",
-        vimeoId: "231926756"
+        youtubeId: "l_lrZvIKgto"
       },
       {
         linkLabel: "Final Presentation: Program",
@@ -2083,37 +2184,37 @@ DATA = {
       {
         linkLabel: "Final Presentation: 5-min Compendium",
         linkUrl: "data/2014/highlights/5_min_web_360p.mp4",
-        vimeoId: "231925886"
+        youtubeId: "FjHbZ0-D324"
       },
       {
         linkLabel: "Final Presentation: Full Show",
         linkUrl: "data/2014/highlights/full_show_2014.mp4",
-        vimeoId: "240994943"
+        youtubeId: "ZVqKiiMOqnc"
       },
       {
         linkLabel: "Final Presentation: Timelapse",
         linkUrl: "data/2014/highlights/finalPresentationDay_2014.mp4",
-        vimeoId: "231926006"
+        youtubeId: "hRH1SNTpvNo"
       },
       {
         linkLabel: "Final Presentation: Projection Mapping",
         linkUrl: "data/2014/highlights/projection_mapping_process.mp4",
-        vimeoId: "231926119"
+        youtubeId: "54mVAeM2ZBA"
       },
       {
         linkLabel: "Balloon Challenge 2014",
         linkUrl: "data/2014/highlights/balloon_2014.mp4",
-        vimeoId: "231925908"
+        youtubeId: "UT7-2-rz-eM"
       },
       {
         linkLabel: "Build Challenge 2014: Hot Lava",
         linkUrl: "data/2014/highlights/challenge_2014.mp4",
-        vimeoId: "231926652"
+        youtubeId: "YNKLXez3nY4"
       },
       {
         linkLabel: "Pink team: How did they get there?",
         linkUrl: "data/2014/highlights/pink_team_2014.mp4",
-        vimeoId: "231926741"
+        youtubeId: "3e8mYuXDuQo"
       },
       {
         linkLabel: "Project Theme of 2014",
@@ -2122,23 +2223,23 @@ DATA = {
       {
         linkLabel: "Thank you, Prof. Wallace!",
         linkUrl: "data/2014/highlights/thankyou_2014.mp4",
-        vimeoId: "231926630"
+        youtubeId: "p4LC0LoyHh8"
       },
-      /*{
+      {
           linkLabel: "2014 Syllabus",
           linkUrl: "",
-          vimeoId: "231926152"
+          youtubeId: "4OZCaR4piLw"
       },
       {
           linkLabel: "2014 Teardown",
           linkUrl: "",
-          vimeoId: "231926602"
+          youtubeId: "WqO_PVORJyQ"
       },
       {
           linkLabel: "That'll Do, Quad",
           linkUrl: "",
-          vimeoId: "231926636"
-      },*/
+          youtubeId: "JE2t2tczUqU"
+      },
       {
         linkLabel: "2.009 in the Boston Globe",
         linkUrl: ""  //http://www.bostonglobe.com/business/2015/02/05/learning-art-pitch-mit/9LR1q7PT1KvjS1mpzNBoRL/story.html
@@ -2740,7 +2841,7 @@ DATA = {
       {
         linkLabel: "Student Tribute",
         linkUrl: "data/2013/highlights/student_tribute_2013.mov",
-        vimeoId: "231923073"
+        youtubeId: "uclwaJ-Uam0"
       },
       {
         linkLabel: "Final Presentation Program",
@@ -2749,27 +2850,27 @@ DATA = {
       {
         linkLabel: "Final Presentation: 4-min Compendium",
         linkUrl: "data/2013/highlights/4_min_web_360p.mov",
-        vimeoId: "231922923"
+        youtubeId: "Yxx8Q3d7r8s"
       },
       {
         linkLabel: "Final Presentation: Full Show",
         linkUrl: "data/2013/highlights/full_show_2013.mov",
-        vimeoId: "231922966"
+        youtubeId: "M9iBUm9hE7c"
       },
       {
         linkLabel: "Final Presentation Day",
         linkUrl: "data/2013/highlights/finalPresentationDay_2013.mov",
-        vimeoId: "231922950"
+        youtubeId: "9PGy5bySZ4g"
       },
       {
         linkLabel: "Human-powered Vehicles!",
         linkUrl: "data/2013/highlights/challenge_2013mov",
-        vimeoId: "231922937"
+        youtubeId: "fVz38wl7vQc"
       },
       {
         linkLabel: "Orange Team: How did they get there?",
         linkUrl: "data/2013/highlights/orange_team_2013.mov",
-        vimeoId: "231923056"
+        youtubeId: "2t63osUM2pQ"
       },
       {
         linkLabel: "Project Theme of 2013",
@@ -2778,17 +2879,17 @@ DATA = {
       {
         linkLabel: "Course Syllabus",
         linkUrl: "data/2013/highlights/syllabus.mov",
-        vimeoId: "231923077"
+        youtubeId: "qFFfNEc2l0E"
       },
       {
         linkLabel: "Product Teardown Exercise",
         linkUrl: "data/2013/highlights/teardown_2013.mov",
-        vimeoId: "231923083"
+        youtubeId: "VCi05tLT544"
       },
       {
         linkLabel: "Thank you, Prof. Wallace",
         linkUrl: "data/2013/highlights/thankyou_2013mov",
-        vimeoId: "231923094"
+        youtubeId: "Gx3Q3oxqt74"
       },
       {
         linkLabel: "2.009 in The Tech",
@@ -3253,7 +3354,7 @@ DATA = {
       {
         linkLabel: "Student Tribute",
         linkUrl: "data/2012/highlights/student_tribute_2012.mov",
-        vimeoId: "231921921"
+        youtubeId: "ASOFn3mCWek"
       },
       {
         linkLabel: "Final Presentation Program",
@@ -3262,22 +3363,22 @@ DATA = {
       {
         linkLabel: "Final Presentation: 3-min Compendium",
         linkUrl: "data/2012/highlights/3min_web_fs.mov",
-        vimeoId: "231921648"
+        youtubeId: "1OOgrgWsnS8"
       },
       {
         linkLabel: "Final Presentation: Full Show",
         linkUrl: "data/2012/highlights/ShowForPublic.mov",
-        vimeoId: "231921754"
+        youtubeId: "XGlPY1HNNsw"
       },
       {
         linkLabel: "Polar Bears!",
         linkUrl: "data/2012/highlights/challenge_2012mov",
-        vimeoId: "231921714"
+        youtubeId: "r1ItlHuJLhc"
       },
       {
         linkLabel: "Orange Team: How did they get there?",
         linkUrl: "/data/2012/highlights/orange_team_2012.mov",
-        vimeoId: "231921740"
+        youtubeId: "5tTriOmplRM"
       },
       {
         linkLabel: "Project Theme of 2012",
@@ -3286,17 +3387,17 @@ DATA = {
       {
         linkLabel: "Course Syllabus",
         linkUrl: "data/2012/highlights/syllabus.mov",
-        vimeoId: "231921941"
+        youtubeId: "iflsy57VNk4"
       },
       {
         linkLabel: "Product Teardown Exercise",
         linkUrl: "data/2012/highlights/Teardown2012Small.mov",
-        vimeoId: "231921960"
+        youtubeId: "BfKYxbjzLdM"
       },
       {
         linkLabel: "Thank you, Prof. Wallace!",
         linkUrl: "data/2012/highlights/WallaceThankYou2012.mov",
-        vimeoId: "231921986"
+        youtubeId: "t2_Z1LR_YPA"
       },
       {
         linkLabel: "2.009 in The Tech",
@@ -3759,7 +3860,7 @@ DATA = {
       {
         linkLabel: "Student Tribute",
         linkUrl: "data/2011/highlights/tributePublic_sm.mov",
-        vimeoId: "231920853"
+        youtubeId: "3zJudX9f358"
       },
       {
         linkLabel: "Final Presentation Program",
@@ -3768,22 +3869,22 @@ DATA = {
       {
         linkLabel: "Final Presentation: 3-min Compendium",
         linkUrl: "data/2011/highlights/3minWeb.mov",
-        vimeoId: "231920703"
+        youtubeId: "VlVNyuu_P34"
       },
       {
         linkLabel: "Final Presentation: Full Show",
         linkUrl: "data/2011/highlights/ShowForPublic.mov",
-        vimeoId: "231920726"
+        youtubeId: "I2i3hf7soHY"
       },
       {
         linkLabel: "Angry Birds!",
         linkUrl: "data/2011/highlights/AngryBirds.mov",
-        vimeoId: "240994256"
+        youtubeId: "4Mac39NmyKU"
       },
       {
         linkLabel: "Orange Team: How did they get there?",
         linkUrl: "data/2011/highlights/OrangeTeam.mov",
-        vimeoId: "231920714"
+        youtubeId: "Z7VYu_AhP5g"
       },
       {
         linkLabel: "Project Theme of 2011",
@@ -3792,22 +3893,22 @@ DATA = {
       {
         linkLabel: "Course Syllabus",
         linkUrl: "data/2011/highlights/syllabus.mov",
-        vimeoId: "231920822"
+        youtubeId: "u0IXdw1PJxg"
       },
       {
         linkLabel: "Product Teardown Exercise",
         linkUrl: "data/2011/highlights/teardown.mov",
-        vimeoId: "231920830"
+        youtubeId: "h69Q1s9eO7o"
       },
       {
         linkLabel: "Bird Cannon",
         linkUrl: "data/2011/highlights/bird_cannon.mov",
-        vimeoId: "231920724"
+        youtubeId: "l7AIN-Ocb18"
       },
       {
         linkLabel: "Thank you, Prof. Wallace!",
         linkUrl: "data/2011/highlights/WallaceThankYou.mov",
-        vimeoId: "231920872"
+        youtubeId: "ADD9IvsD32k"
       },
       {
         linkLabel: "2.009 in The Tech",
@@ -4271,7 +4372,7 @@ DATA = {
       {
         linkLabel: "Student Tribute",
         linkUrl: "data/2010/highlights/tributePublic_sm.mov",
-        vimeoId: "231919589"
+        youtubeId: "XXXXX"
       },
       {
         linkLabel: "Final Presentation Program",
@@ -4280,22 +4381,22 @@ DATA = {
       {
         linkLabel: "Final Presentation: 8-min Compendium",
         linkUrl: "data/2010/highlights/8minWeb.mov",
-        vimeoId: "231919418"
+        youtubeId: "_ZSwURnHmnQ"
       },
       {
         linkLabel: "Final Presentation: Full Show",
         linkUrl: "data/2010/highlights/ShowForPublic.mov",
-        vimeoId: "231919479"
+        youtubeId: "gQNUskL3Kwc"
       },
       {
         linkLabel: "Human-Powered Fire Starting Devices",
         linkUrl: "data/2010/highlights/firestarting-video-2010-small.mov",
-        vimeoId: "231919453"
+        youtubeId: "-jupf17UYKc"
       },
       {
         linkLabel: "Red Team: How Did They Get There?",
         linkUrl: "data/2010/highlights/red-team-2010-small.mov",
-        vimeoId: "231919472"
+        youtubeId: "zgrQZ7rHqhI"
       },
       {
         linkLabel: "Project Theme of 2010",
@@ -4304,17 +4405,17 @@ DATA = {
       {
         linkLabel: "Product Teardown Exercise",
         linkUrl: "data/2010/highlights/teardown-exercise-2010.mov",
-        vimeoId: "231919560"
+        youtubeId: "ZSEn1pFKUAw"
       },
       {
         linkLabel: "A Tale of Two Critiques",
         linkUrl: "data/2010/highlights/tale-of-two-critiques.mov",
-        vimeoId: "231919554"
+        youtubeId: "xNP4tv5MKQI"
       },
       {
         linkLabel: "Thank You, Prof. Wallace",
         linkUrl: "data/2010/highlights/WallaceThankYou.mov",
-        vimeoId: "231919604"
+        youtubeId: "qWCl1OuUVQE"
       },
       {
         linkLabel: "2.009 in The Tech",
@@ -4777,17 +4878,17 @@ DATA = {
       {
         linkLabel: "Student Tribute",
         linkUrl: "data/2009/highlights/tributePublic_sm.mov",
-        vimeoId: "231918900"
+        youtubeId: "BRDKSM1cnRs"
       },
       {
         linkLabel: "Hovercraft, the Future is Now",
         linkUrl: "data/2009/highlights/hovercraft_sm.mov",
-        vimeoId: "231918885"
+        youtubeId: "P3YpG9hxfn0"
       },
       {
         linkLabel: "Gorilla in the Classroom",
         linkUrl: "data/2009/highlights/banana09.mov",
-        vimeoId: "231918989"
+        youtubeId: "ivkW6iLeLwo"
       },
     ],
     projects: {
@@ -5244,17 +5345,17 @@ DATA = {
       {
         linkLabel: "Student Tribute",
         linkUrl: "data/2008/highlights/studentTribute-NOnames.mov",
-        vimeoId: "231918487"
+        youtubeId: "JRzm_3ro29U"
       },
       {
         linkLabel: "Walking on Water",
         linkUrl: "data/2008/highlights/WOW!.mov",
-        vimeoId: "231918498"
+        youtubeId: "Wc_pX6tM4Rw"
       },
       {
         linkLabel: "Gorilla in the Classroom",
         linkUrl: "data/2008/highlights/largebanana.mov",
-        vimeoId: "231918478"
+        youtubeId: "fOoAIDu7rKA"
       },
       {
         linkLabel: "TechTV Video about the 6dot Braille Labeler",
@@ -5657,12 +5758,12 @@ DATA = {
       {
         linkLabel: "Student Tribute",
         linkUrl: "data/2007/highlights/studentTribute.mov",
-        vimeoId: "231918128"
+        youtubeId: "PBRkKAL6drk"
       },
       {
         linkLabel: "Gorilla in the Classroom",
         linkUrl: "data/2007/highlights/gorilla.mov",
-        vimeoId: "231918120"
+        youtubeId: "-jVW1VdHIsI"
       },
       {
         linkLabel: "MIT News Story about the Projects",
@@ -6464,7 +6565,7 @@ DATA = {
       {
         linkLabel: "DesignNerds!",
         linkUrl: "data/2005/highlights/designerdsSmall.mov",
-        vimeoId: "231917363"
+        vimeoId: "4p82OALqbO0"
       },
       {
         linkLabel: "See the Tech Talk Article",
