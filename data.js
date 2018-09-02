@@ -175,7 +175,7 @@ DATA = {
 
       green: {
         projName: "tachi",
-        projDesc: "assistive game development platformm",
+        projDesc: "assistive game development platform",
         projColor: "green",
         projTeam: "Andres Galindo, Anika Yasmin, Donovan Sienkiewicz, Emily Damato, Eric Ponce, Greg Cartagena, Ishan Meswani, JD Heyns, Jana Saadi, Jeremy Bogle, Josh Woodard, Katherine Paseman, Liza Gaylord, Lucia Liu, Mary Thielking, Pelkins Ajanoh, Yasmin Chavez",
         deliverables: {
@@ -209,7 +209,7 @@ DATA = {
               vimeoId: "237050702"
             },
             B3: {
-              name: "Press n’ Dress",
+              name: "Press n' Dress",
               vimeoId: "237050708"
             }
 
@@ -1654,7 +1654,7 @@ DATA = {
       },
       yellow: {
         projName: "Petra",
-        projDesc: "repelling device",
+        projDesc: "rappelling device",
         projColor: "yellow",
         projTeam: "Faisal Alaskar, Graham Francis, Isabella DiDio, Jonah Hessels, Kate Tatar, Langston Fitts, Lauren St. Hilaire, Milly Helmick, Paul Cohen, Skyler Adams, Tony DiBlasi, Abdulrahman Alhabaidi, Christopher Chapman, Danny Joh, Deron Browne, Emma Steinhardt, James Tsao, Julia Huang, Lena Yang, Paige Grody, Tobi Rudoltz, Victoria Tam",
         projCode: "data/2015/homepage/codeOfEthics/codeOfEthics.html#yellow",
@@ -4893,446 +4893,453 @@ DATA = {
       },
     ],
     projects: {
-      blue: {
-        projName: "Happy Egg",
-        projDesc: "egg washing and drying machine",
-        projColor: "blue",
-        projTeam: "Alyse Cardell, Ari Miller, Brian Doyle, Christina Jaworsky, Conor O'Rourke, Ian Tracy, Lim Wannaphahoon, Michelle Nason, Nick Sisler, Romain Teil, Derek Ho, Derek Li, Grace Kane, Jacky Lau, Jessica Bainbridge-Smith, Keri Dixon, Mitch Kelley, Nicole Teague, Omar Abudayyeh, Orlando Saldivar",
-        deliverables: {
-          ideas: {
+     blue: {
+    projName: “aquAIRius”,
+    projDesc: “adjustable buoyancy backboard”,
+    projColor: "blue",
+    projTeam: "Alexandra Beyer, Hallie Cho, Lisa Schlecht, Shanette Go, Anup Samuel, Christopher Benson, Jordan Meenen, Ryan Morrow, Alice Brooks, Jacqueline Rogoff, Mary DiGenova, Natasha Scolnik, Archimedes Stuk, Ben Burns, Samuel Weiss, Jameslevi Schmidt",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "Souper Cooler",
-              vimeoId: "231463118"
+                name: “Spot-On”,
+                vimeoId: "231461746"
             },
             A2: {
-              name: "FreezeSafe",
-              vimeoId: "231463129"
+                name: “Bedsore”,
+                vimeoId: "231461759"
             },
             B1: {
-              name: "Bar Mate",
-              vimeoId: "231463141"
+                name: “Variable Buoyancy Backboard”,
+                vimeoId: "231461769"
             },
             B2: {
-              name: "Happy Egg Washer",
-              vimeoId: "231463148"
+                name: “EasyLift Stretcher”,
+                vimeoId: "231461775"
             }
-
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "SouperCooler",
-              vimeoId: "231462779"
+                name: “Spot-On“,
+                vimeoId: "231461361"
             },
             B1: {
-              name: "Happy Egg Washer",
-              vimeoId: "231462795"
+                name: “Variable Buoyancy Backboard“,
+                vimeoId: "231461389"
             }
 
-          },
-          assembly: {
-            name: "Happy Egg"
-          },
-          tech: {
-            name: "Happy Egg",
-            vimeoId: "231463483"
-          },
-          final: {
-            name: "Happy Egg",
-            vimeoId: "231462257"
-          }
+        },
+        assembly: {
+            name: "aquAIRius"
+        },
+        tech: {
+            name: "aquAIRius",
+            vimeoId: "231462105"
+        },
+        final: {
+            name: "aquAIRius",
+            vimeoId: "231461198"
         }
-      },
-      green: {
-        projName: "Rensa",
-        projDesc: "water bottle washer and filler",
-        projColor: "green",
-        projTeam: "Allin Resposo, Benjamin Peters, Caroline Hane-Weijman, Jen Tran, Mike Cupelli, Paula Te, Saba Mohsin, Sam Hui, Vazrik Chiloyan, Will Vega-Brown, Annie Kwon, Ben Judge, Caitlin Reyda, Eddie Grinnell, Grant Tomassi, Heather McDonald, Maddie Hickman, Patrick Jupe, Vibin Kundukulam, Yue Li",
-        deliverables: {
-          ideas: {
+    }
+},
+
+green: {
+    projName: “Ascent”,
+    projDesc: “rollator”,
+    projColor: “green”,
+    projTeam: "Elizabeth Tsai, Angharad Porteous, Kevin Plumer, Julio Devora, Keja Rowe, Long Lam, Luis Garay, Adnan Esmail, Neeharika Bhartiya, Theresa Dixon, Albert Wang, Claudio Di Leo, Elliott Perez, Kent Willis, Andrew Nanopoulos, Raphael Moyer",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "Kineto-cup",
-              vimeoId: "231463161"
+                name: “Stair Descending Stretcher”,
+                vimeoId: "231461782"
             },
             A2: {
-              name: "Waste oil converter",
-              vimeoId: "231463169"
+                name: “Flood Bag”,
+                vimeoId: "231461789"
             },
             B1: {
-              name: "Sustain-a-bottle",
-              vimeoId: "231463179"
+                name: “Damped Stretcher”,
+                vimeoId: "231461793"
             },
             B2: {
-              name: "Veggie Washer",
-              vimeoId: "231463187"
+                name: “The Walker Righter”,
+                vimeoId: "231461797"
             }
-
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "Veggiefuel",
-              vimeoId: "231462808"
+                name: “Stair Stretcher“,
+                vimeoId: "231461403"
             },
             B1: {
-              name: "Green Canteen",
-              vimeoId: "231462822"
+                name: “Walker Lift Assist“,
+                vimeoId: "231461419"
             }
 
-          },
-          assembly: {
-            name: "Rensa"
-          },
-          tech: {
-            name: "Rensa",
-            vimeoId: "231463484"
-          },
-          final: {
-            name: "Rensa",
-            vimeoId: "231578617"
-          }
+        },
+        assembly: {
+            name: "Ascent"
+        },
+        tech: {
+            name: "Ascent",
+            vimeoId: "231576505"
+        },
+        final: {
+            name: "Ascent",
+            vimeoId: "231461205"
         }
-      },
-      orange: {
-        projName: "Dash",
-        projDesc: "spice mixer and dispenser",
-        projColor: "orange",
-        projTeam: "Amanda Grue, Amy Qian, Emily Shao, Evan Schneider, Ignacio del Pino, Justin Lan, Melody Kuna, Vrajesh Modi, Wayne Hollman, Wendi Zhang, Amber Houghstow, Anne Shen, Dan Fourie, Grant Kadokura, Jesse Thornburg, Karen Hart, Kevin Boehm, Michelle Burroughs, Mitch Westwood, Travis Tucker",
-        deliverables: {
-          ideas: {
+    }
+},
+
+orange: {
+    projName: “Isis Helmet”,
+    projDesc: “isis helmet”,
+    projColor: “orange”,
+    projTeam: "Jeremy Kuempel, Melissa Kaufman, Katrina Ellison, Minhee Sung, Neha Batra, Corey Harris, Eric Guffey, Joseph Silverman, Erika Sandford, Katharine Binder, Zhechen Hong, Maria Prus, Mark Barineau, Cody Rebholz, James White, Joe Khoury",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "Select-a-Bake",
-              vimeoId: "231463192"
+                name: “AutoVest”,
+                vimeoId: "231461806"
             },
             A2: {
-              name: "Easy Dish",
-              vimeoId: "231463199"
+                name: “StoveSafe”,
+                vimeoId: "231461812"
             },
             B1: {
-              name: "Shape Shifter",
-              vimeoId: "231463204"
+                name: “Helmet 911”,
+                vimeoId: "231461823"
             },
             B2: {
-              name: "Cup 'N Cake",
-              vimeoId: "231463211"
+                name: “HoseGoes”,
+                vimeoId: "231461828"
             }
-
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "Select-a-Spice",
-              vimeoId: "231462841"
+                name: “StoveSafe“,
+                vimeoId: "231461435"
             },
             B1: {
-              name: "Cup 'N Cake",
-              vimeoId: "231462860"
+                name: “Helmet 9-1-1“,
+                vimeoId: "231461457"
             }
 
-          },
-          assembly: {
-            name: "Dash"
-          },
-          tech: {
-            name: "Dash",
-            vimeoId: "231578436"
-          },
-          final: {
-            name: "Dash",
-            vimeoId: "231462271"
-          }
+        },
+        assembly: {
+            name: "Isis Helmet"
+        },
+        tech: {
+            name: "Isis Helmet",
+            vimeoId: "231462113"
+        },
+        final: {
+            name: "Isis Helmet",
+            vimeoId: "231461219"
         }
-      },
-      pink: {
-        projName: "Spence",
-        projDesc: "flour metering device",
-        projColor: "pink",
-        projTeam: "Ade Ogunniyi, Anna Haas, Ben Williams, Bonnie Blackburn, Dan Kubaczyk, Danielle Whited, Elvine Pineda, Julie Henion, Julie Hui, Omar Carrasquillo, Carmen Graves, Joanna Faulk, Jon Reimer, Josh Ramos, Kim Zalatan, Noah Caplan, Parhys Napier, Pete Lu, William Pickeral",
-        deliverables: {
-          ideas: {
+    }
+},
+
+pink: {
+    projName: “Fortrus”,
+    projDesc: “litter”,
+    projColor: “pink”,
+    projTeam: "Stephanie Brown, Jean Theurer, Marguerite Siboni, Adrian Dobson, Arron Acosta, Vu Hong, Yat Ming Victor Li, Robert Boyd, Michelle Ma, Tanya Goldhaber, Akhenaton-Andrew Jones, Yao Luo, Raymond Ma, Kevin A Rustagi, Blake Sessions",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "Waste Wobbler",
-              vimeoId: "231463216"
+                name: “Automatic Battering Ram”,
+                vimeoId: "231461843"
             },
             A2: {
-              name: "Baker's Blaster",
-              vimeoId: "231463232"
+                name: “Fire Extinguisher Pod”,
+                vimeoId: "231461859"
             },
             B1: {
-              name: "Scrumptious Sketcher",
-              vimeoId: "231463238"
+                name: “Metro-Aid”,
+                vimeoId: "231461868"
             },
             B2: {
-              name: "Measure Monster",
-              vimeoId: "231463245"
+                name: “Flitter”,
+                vimeoId: "231461878"
             }
-
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "Baker's Blaster",
-              vimeoId: "231462875"
+                name: “Fire-out“,
+                vimeoId: "231461479"
             },
             B1: {
-              name: "Flour Pot",
-              vimeoId: "231462897"
+                name: “Flitter“,
+                vimeoId: "231461499"
             }
 
-          },
-          assembly: {
-            name: "Spence"
-          },
-          tech: {
-            name: "Spence",
-            vimeoId: "231463493"
-          },
-          final: {
-            name: "Spence",
-            vimeoId: "231462284"
-          }
+        },
+        assembly: {
+            name: "Fortrus"
+        },
+        tech: {
+            name: "Fortrus",
+            vimeoId: "231462115"
+        },
+        final: {
+            name: "Fortrus",
+            vimeoId: "231461242"
         }
-      },
-      purple: {
-        projName: "Grocery Mate",
-        projDesc: "wheelchair tray and grocery basket",
-        projColor: "purple",
-        projTeam: "Benji Moncivaiz, Chris Ohlmacher, Emily Conn, Emily Suter, Juliana Velez, My Vu, Stephanie Schmit, Sun Kim, Ben Bersanti, Clark Davenport, Elli Pula, Meagan Roth, Naomi Zabel, Riley Brandt, Taylor Gilbert, Tiffany Jin",
-        deliverables: {
-          ideas: {
+    }
+},
+
+purple: {
+    projName: “Ixa Walker”,
+    projDesc: “ixa walker”,
+    projColor: “purple”,
+    projTeam: "Jacklyn Holmes, Lisa Tacoronte, Rachel Sharples, Andrew Marecki, Garth Grove, Juan Fernando Rodriguez, Stephen Morton, Julia Day, Mindy Eng, Eric Beecher, Howard Liles, Timothy Robertson II, Adam Goldstein, Luke Cummings, Geng Tan",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "The Eye Pot",
-              vimeoId: "231463256"
+                name: “Organ Vitality System”,
+                vimeoId: "231461897"
             },
             A2: {
-              name: "Lift-n-Lock Oven Rack",
-              vimeoId: "231463274"
+                name: “Electronic Stethoscope”,
+                vimeoId: "231461909"
             },
             B1: {
-              name: "Grocery Mate",
-              vimeoId: "231463285"
+                name: “Walker Lift”,
+                vimeoId: "231461921"
             },
             B2: {
-              name: "Cooking Board",
-              vimeoId: "231463290"
+                name: “Inexpensive, Automatic Ventilator”,
+                vimeoId: "231461928"
             }
-
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "Lift-n-Lock",
-              vimeoId: "231462875"
+                name: “Organ Vitality System“,
+                vimeoId: "231461526"
             },
             B1: {
-              name: "Grocery Mate",
-              vimeoId: "231462897"
+                name: “Lift Rails“,
+                vimeoId: "231461554"
             }
 
-          },
-          assembly: {
-            name: "Grocery Mate"
-          },
-          tech: {
-            name: "Grocery Mate",
-            vimeoId: "231463493"
-          },
-          final: {
-            name: "Grocery Mate",
-            vimeoId: "231462284"
-          }
+        },
+        assembly: {
+            name: "Ixa Walker"
+        },
+        tech: {
+            name: "Ixa Walker",
+            vimeoId: "231462127"
+        },
+        final: {
+            name: "Ixa Walker",
+            vimeoId: "231461249"
         }
-      },
-      red: {
-        projName: "Gaia",
-        projDesc: "powdered milk dryer",
-        projColor: "red",
-        projTeam: "Andrea Blakemore, Brett van Zuiden, Carter Chang, Matthew Rodriguez, Michael Fraser, Moji Jimoh, Stephan Hawthorne, Tim Grejtak, Tommy Ciesielski, Chiedozie Okafor, Jasmine Florentine, Juan Valdez, Maia Bageant, Michael Dobson, Q Harris, Thi Tran, Travis Hery, Trevor Shannon",
-        deliverables: {
-          ideas: {
+    }
+},
+
+red: {
+    projName: “Airware”,
+    projDesc: “breathing apparatus”,
+    projColor: “red”,
+    projTeam: "Aria Reynolds, Carly Cobbold, Ashley Turza, Giorgio Zampierollo, Chris Peters, Michael Demyttenaere, Rastislav Racz, Jarred Schantz, Ashley Green, Taylor Williamson, Eric Reuland, James Torres, Evan Lampe, Paul Miyazaki, Tylor Hess, Allyson Randolph",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "Low-Cost Milk Dryer",
-              vimeoId: "231463298"
+                name: “Lifesaving Belt”,
+                vimeoId: "231461935"
             },
             A2: {
-              name: "Cake Transporter",
-              vimeoId: "231463303"
+                name: “Impact Hardening Wrist Guard”,
+                vimeoId: "231461944"
             },
             B1: {
-              name: "Weed Extractor",
-              vimeoId: "231463315"
+                name: “Shoe Roll-ups”,
+                vimeoId: "231461954"
             },
             B2: {
-              name: "Mechanically Powered UV Water Purifier",
-              vimeoId: "231463324"
+                name: “O-Tube”,
+                vimeoId: "231461968"
             }
-
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "Milk Saver",
-              vimeoId: "231462955"
+                name: “CPR Rescue Can“,
+                vimeoId: "231461570"
             },
             B1: {
-              name: "Lightning Jug",
-              vimeoId: "231462981"
+                name: “AirWare“,
+                vimeoId: "231461593"
             }
 
-          },
-          assembly: {
-            name: "Gaia"
-          },
-          tech: {
-            name: "Gaia",
-            vimeoId: "231463509"
-          },
-          final: {
-            name: "Gaia",
-            vimeoId: "231578625"
-          }
+        },
+        assembly: {
+            name: "Airware"
+        },
+        tech: {
+            name: "Airware",
+            vimeoId: "231462129"
+        },
+        final: {
+            name: "Airware",
+            vimeoId: "231461259"
         }
-      },
-      silver: {
-        projName: "Noribo",
-        projDesc: "sushi deliverying robots",
-        projColor: "silver",
-        projTeam: "Christian Segura-Rivera, Eric Roselli, John Boghossian, Juan Rodriguez, Katy Olesnavage, Kevin Jenks, Lauren Hernley, Liane Fang, Rachel Lewis, Robert Long, Alyssa Roque, Arin Rogers, Charles Guan, Cody Daniel, Jen Rees, Katrina Schoen, Laura Schuhrke, Michael Snively, Yoshi Perez",
-        deliverables: {
-          ideas: {
+    }
+},
+
+silver: {
+    projName: “iceTek Scraper”,
+    projDesc: “mechanical ice scraper”,
+    projColor: “silver”,
+    projTeam: "Katherine Ray, Michaelle Mayalu, Xuefeng Chen, Daniel Beauboeuf, Ian Rust, Matthew Rosario, Anthony McDonald, Aditi Nagaraj, Kathryn Pesce, Roseleigh Taylor, Adrian Adames, Eric Nielsen, Joshua Siegel, Nicholas Pennycooke, Troy Tamas, Cecilia Scott",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "Fryer Fuel",
-              vimeoId: "231463332"
+                name: “GUARD”,
+                vimeoId: "231461973"
             },
             A2: {
-              name: "Tournée-Do",
-              vimeoId: "231463352"
+                name: “Float-EEZE”,
+                vimeoId: "231461988"
             },
             B1: {
-              name: "Wilbur Wake up",
-              vimeoId: "231463373"
+                name: “Vibrating Ice Scraper”,
+                vimeoId: "231462001"
             },
             B2: {
-              name: "Coaster Bot",
-              vimeoId: "231463384"
+                name: “Rescue Launcher”,
+                vimeoId: "231462009"
             }
-
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "Tournée-Do",
-              vimeoId: "231462992"
+                name: “Mechanical Ice Scraper“,
+                vimeoId: "231461619"
             },
             B1: {
-              name: "CoasterBot",
-              vimeoId: "231463012"
+                name: “Hurricane Shutters“,
+                vimeoId: "231461632"
             }
 
-          },
-          assembly: {
-            name: "Noribo"
-          },
-          tech: {
-            name: "Noribo",
-            vimeoId: "231463515"
-          },
-          final: {
-            name: "Noribo",
-            vimeoId: "231462306"
-          }
+        },
+        assembly: {
+            name: "iceTek Scraper"
+        },
+        tech: {
+            name: "iceTek Scraper",
+            vimeoId: "231462131"
+        },
+        final: {
+            name: "iceTek Scraper",
+            vimeoId: "231461289"
         }
-      },
-      yellow: {
-        projName: "True Tourné",
-        projDesc: "tourné potato cutting device",
-        projColor: "yellow",
-        projTeam: "Dan Hyatt, Eliza Eddison, Jamie Curran, Jonathan Mendoza, Justin Myers, Katelyn Snyder, Pall Kornmayer, Phillip Gonzales, Sarah Lichtblau, Stewart Park, Adam Doroski, Garrett Winther, Hazel Briner, Kevin Kleinguetl, Lily Berger, Nick Leonard, Richard Mancco, Stuart Bermack, Wei Sun",
-        deliverables: {
-          ideas: {
+    }
+},
+
+yellow: {
+    projName: “Komera”,
+    projDesc: “banana leaf pad assembler”,
+    projColor: “yellow”,
+    projTeam: "Ariadne Smith, Kamyin Cheng, Nicole Berdy, Adi Asali, Chris Carper, Richard Bates, Justin Schmidt, Tyler Liechty, Laura Aust, Katherine Smyth, Amrita Saigal, Abdulaziz Albahar, Corey Garvey, Robert Kalwarowsky, John Williams, Zachary Rose",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "Press 'n' Test",
-              vimeoId: "231463400"
+                name: “Bloodmobile”,
+                vimeoId: "231462022"
             },
             A2: {
-              name: "The Individual Cookie Maker",
-              vimeoId: "231463408"
+                name: “Water Filtration System”,
+                vimeoId: "231462036"
             },
             B1: {
-              name: "Power Rack Oven",
-              vimeoId: "231463417"
+                name: “EmergiTent”,
+                vimeoId: "231462043"
             },
             B2: {
-              name: "Easy Tournée",
-              vimeoId: "231463441"
+                name: “Banana Leaf Pad Assembler”,
+                vimeoId: "231462054"
             }
-
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "The Press 'N' Test",
-              vimeoId: "231463029"
+                name: “FrostBike“,
+                vimeoId: "231461653"
             },
             B1: {
-              name: "Easy Tournée",
-              vimeoId: "231463056"
+                name: “Banana Leaf Pad Assembler“,
+                vimeoId: "231461671"
             }
 
-          },
-          assembly: {
-            name: "True Tourné"
-          },
-          tech: {
-            name: "True Tourné",
-            vimeoId: "231463521"
-          },
-          final: {
-            name: "True Tourné",
-            vimeoId: "231462320"
-          }
+        },
+        assembly: {
+            name: "Komera"
+        },
+        tech: {
+            name: "Komera",
+            vimeoId: "231462140"
+        },
+        final: {
+            name: "Komera",
+            vimeoId: "231461299"
         }
-      }
+    }
+}
     }
   },
   2008: {
@@ -6041,7 +6048,7 @@ DATA = {
         }
       },
       silver: {
-        projName: "SheaCylce",
+        projName: "SheaCycle",
         projDesc: "shea paste grinder",
         projColor: "silver",
         projTeam: "Anthony Teixeira, David Kirkland, Dayan Paez, Jacquelyn Nowicke, Javier Burgos, Maria Luckyanova, Stephen Steger, Tolga Yazicioglu, Heraclio Hernandez, Brad Stronger, Gavin Cotter, Joseph Dieguez, Karen Noiva, Michael Kozlowski, Nadia Elkordy, Patrick Barragan, Philip Garcia, Basil Khoury",
@@ -6174,381 +6181,397 @@ DATA = {
     ],
     projects: {
       blue: {
-        projName: "Solar Recycl-o-Sort",
-        projDesc: "solar bottle sorter",
-        projColor: "blue",
-        projTeam: "Ali Alhassani, Amanda Poteet, Barnett Koryan, John Vivian, Joyce Gallagher, Nancy Diaz, Samuel Jasinski, Yi Chen, Benjamin Pope, Cynthia Lin, David Kalk, Jonathan Schechter, Katherine Weston, Mark Spadafora, Rosa Rodriguez, Yunzhi Wang",
-        deliverables: {
-          ideas: {
+    projName: “Revolution”,
+    projDesc: “a bike for the disabled”,
+    projColor: "blue",
+    projTeam: “vAndrew Harlan, Albert Hernandez, Courtney N. Greene, Emmanuel Sin, Katherine Rorschach, Mark Cote, Robert Panas, Elysa Wan, Alexander Krull, Diana Sim, Donald Walker, Jorge Renjifo, Nicholas Maietta, Michal Ruchelsman, Helen Tsai, Ulzie Rea,
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "Power Exercise Bike",
-              vimeoId: "231459797"
+                name: “Stabili-Bike”,
+                vimeoId: "231458269"
             },
             A2: {
-              name: "Solar Recycl-o-Sort",
-              vimeoId: "231459802"
+                name: “Super Stair Cart”,
+                vimeoId: "231458275"
             },
             B1: {
-              name: "Motion-Sensing Switchplate",
-              vimeoId: "231459811"
+                name: “Stair Caddy”,
+                vimeoId: "231458283"
             },
             B2: {
-              name: "Water-powered Generator",
-              vimeoId: "231459819"
+                name: “Marco Polo Ball”,
+                vimeoId: "231458291"
             }
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "Solar Recycl-o-Sort",
-              vimeoId: "231459428"
+                name: “Stabili-bike“,
+                vimeoId: "231457704"
             },
             B1: {
-              name: "Grey Water Management",
-              vimeoId: "231459456"
+                name: “Super stair cart“,
+                vimeoId: "231457735"
             }
-          },
-          assembly: {
-            name: "Solar Recycl-o-Sort"
-          },
-          tech: {
-            name: "Solar Recycl-o-Sort",
-            vimeoId: "231460091"
-          },
-          final: {
-            name: "Solar Recycl-o-Sort",
-            vimeoId: "231459092"
-          }
-        }
-      },
-      green: {
-        projName: "Cyclos",
-        projDesc: "oil filter cleaner",
-        projColor: "green",
-        projTeam: "Andrea Greb, Brian Greviskes, Devanie DuFour, Emily Li, Holly Greenberg, Homar Molina Jr., Kimberlee Collins, Lucas Hernandez-Mena, Timothy Pier, Anthony Jones, Connie Yee, David Foster, Denise Law, Gina Angelosanto, Laura Martini, Michael Yoder, Richard Kosoglow, Mona Daniels",
-        deliverables: {
-          ideas: {
-            A1: {},
-            A2: {},
-            B1: {},
-            B2: {}
-          },
-          sketch: {
-            A1: {
-              name: "Marine debris collector",
-              vimeoId: "231459826"
-            },
-            A2: {
-              name: "Oil filter cleaner",
-              vimeoId: "231459830"
-            },
-            B1: {
-              name: "Coffee bean sorter",
-              vimeoId: "231459835"
-            },
-            B2: {
-              name: "Plastic bag rejuvenator",
-              vimeoId: "231459860"
-            }
-          },
-          mockup: {
-            A1: {
-              name: "Oil Filter cleaner",
-              vimeoId: "231459470"
-            },
-            B1: {
-              name: "Plastic Rejuvenator",
-              vimeoId: "231459486"
-            }
-          },
-          assembly: {
-            name: "Cyclos"
-          },
-          tech: {
-            name: "Cyclos",
-            vimeoId: "231567166"
-          },
-          final: {
-            name: "Cyclos",
-            vimeoId: "231459103"
-          }
-        }
-      },
-      orange: {
-        projName: "Coffee bean sorter",
-        projDesc: "human-power coffee bean sorter",
-        projColor: "orange",
-        projTeam: "Ashley Thomas, Erin Koksal, Gregory Schroll, Jessie Jeon, Joshua Garvin, Jusleen Karve, Matthew Humbert, Megan Roberts, Tess Vuethey, Shane Colton, Betar Gallant, Jean Chang, JeffreY Kirby, Jessica Luttkus, Jonathan Hsieh, Juan Pablo Mendieta, Marcus Lopez, Maria Telleria, Robert Truax",
-        deliverables: {
-          ideas: {
-            A1: {},
-            A2: {},
-            B1: {},
-            B2: {}
-          },
-          sketch: {
-            A1: {
-              name: "Interactive recycler",
-              vimeoId: "231459867"
-            },
-            A2: {
-              name: "Coffee bean sorter",
-              vimeoId: "231459874"
-            },
 
-            B1: {
-              name: "Oily water separator",
-              vimeoId: "231459881"
-            },
-            B2: {
-              name: "Veggie oil collection system",
-              vimeoId: "231459884"
-            }
-          },
-          mockup: {
-            A1: {
-              name: "Coffee Bean Sorting",
-              vimeoId: "231459502"
-            },
-            B1: {
-              name: "Green Grease",
-              vimeoId: "231459530"
-            }
-          },
-          assembly: {
-            name: "Coffee Bean Sorter"
-          },
-          tech: {
-            name: "Coffee Bean Sorter",
-            vimeoId: "231460105"
-          },
-          final: {
-            name: "Coffee Bean Sorter",
-            vimeoId: "231459114"
-          }
+        },
+        assembly: {
+            name: "Revolution"
+        },
+        tech: {
+            name: "Revolution",
+            vimeoId: "231458985"
+        },
+        final: {
+            name: "Revolution",
+            vimeoId: "231457377"
         }
-      },
-      purple: {
-        projName: "PowerClick",
-        projDesc: "battery-free remote",
-        projColor: "purple",
-        projTeam: "Donald Lancaster, Doria Holbrook, Howard Kellogg, Ibrahim Kanan, Kimberly SooHoo, Matthew Gilbertson, Qinyuan Liu, Sebastian Castro, Yingdan Gu, Alexander Soo, Andrew Kennett, Eric Gilbertson, Erika R. Cerda, Jacob Muhleman, Jessica Leon, Michael Allshouse, Randal Pope, Vladimir Gordievsky",
-        deliverables: {
-          ideas: {
+    }
+},
+
+green: {
+    projName: “Share chair”,
+    projDesc: “facilitating conversation”,
+    projColor: “green”,
+    projTeam: "Josh Jiricek, Jesse Marsh, Matthew Zedler, Nicola Tan, Ovid Amadi, Arthur Petron, Cynthia Walker, Etienne Toussaint, Gita Srivastava, Julian Getachew, Mark Egan, Omar R. Hernandez, Stephanie Reed, William Etheridge, Alex Cutting",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "Pump-It remote control",
-              vimeoId: "231459889"
+                name: “Vibration Music”,
+                vimeoId: "231458310"
             },
             A2: {
-              name: "Shower surge",
-              vimeoId: "231459903"
+                name: “Eye to Eye Wheelchair”,
+                vimeoId: "231458318"
             },
-
             B1: {
-              name: "PowerStroke",
-              vimeoId: "231459915"
+                name: “Lifting Wheelchair”,
+                vimeoId: "231458329"
             },
             B2: {
-              name: "MowerCycle",
-              vimeoId: "231459925"
+                name: “ShareChair”,
+                vimeoId: "231458339"
             }
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "Battery-Free Remote",
-              vimeoId: "231459559"
+                name: “Self-powered lifting chair“,
+                vimeoId: "231458996"
             },
             B1: {
-              name: "MowerCycle",
-              vimeoId: "231459587"
+                name: “Share chair“,
+                vimeoId: "231457763"
             }
-          },
-          assembly: {
-            name: "PowerClick"
-          },
-          tech: {
-            name: "PowerClick",
-            vimeoId: "231460098"
-          },
-          final: {
-            name: "PowerClick",
-            vimeoId: "231459117"
-          }
+
+        },
+        assembly: {
+            name: "Share chair"
+        },
+        tech: {
+            name: "Share chair",
+            vimeoId: "231458996"
+        },
+        final: {
+            name: "Share chair",
+            vimeoId: "231457395"
         }
-      },
-      red: {
-        projName: "Bottleation",
-        projDesc: "insulation from bottles",
-        projColor: "red",
-        projTeam: "Abby Carey, Alan Cohen, Brian Hack, Christopher Dimitriou, Irina Azu, Kenneth Rosche, Megan Firko, Roderick La Foy, Stephen Ray, Alexander St. Claire, Batya Fellman, Chris Becker, Christopher Desrochers, Ilan Moyer, Kathryn Matlack, Keith Molina, Matthew Robertson, Nicolina Akraboff",
-        deliverables: {
-          ideas: {
+    }
+},
+
+orange: {
+    projName: “U-shower”,
+    projDesc: “a bath and shower seat
+”,
+    projColor: “orange”,
+    projTeam: "Alisha Schor, Erica Pavao, Edgar Torres, Lisa Hopeman, Juan Herrera, Kurt Stiehl, Teresa Liu, Brian LaCrosse, Christina Gomez, Marcus Carson, Justin Lai, Janet Lieberman, Miguel Saez, Sharon Prange",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "Rope weaver",
-              vimeoId: "231459933"
+                name: “Remote Shower Head”,
+                vimeoId: “231458347”
             },
             A2: {
-              name: "Hot rods (plastic sheet)",
-              vimeoId: "231459942"
+                name: “Bathtub Helper”,
+                vimeoId: "231458358"
             },
-
             B1: {
-              name: "The deCAPitator",
-              vimeoId: "231459946"
+                name: “Tilt-a-Toilet”,
+                vimeoId: "231458366"
             },
             B2: {
-              name: "Heated plastic roller",
-              vimeoId: "231459956"
+                name: “One-Handed Scrubber”,
+                vimeoId: "231458380"
             }
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "Rope Weaver",
-              vimeoId: "231459612"
+                name: “Remote control shower head“,
+                vimeoId: "231457780"
             },
             B1: {
-              name: "Bottle Binder",
-              vimeoId: "231459633"
+                name: “Tilt-a-toilet“,
+                vimeoId: "231457803"
             }
-          },
-          assembly: {
-            name: "Bottleation"
-          },
-          tech: {
-            name: "Bottleation",
-            vimeoId: "231460113"
-          },
-          final: {
-            name: "Bottleation",
-            vimeoId: "231459126"
-          }
+
+        },
+        assembly: {
+            name: "U-shower"
+        },
+        tech: {
+            name: "U-shower",
+            vimeoId: "231459005"
+        },
+        final: {
+            name: "U-shower",
+            vimeoId: "231565735"
         }
-      },
-      silver: {
-        projName: "SheaCylce",
-        projDesc: "shea paste grinder",
-        projColor: "silver",
-        projTeam: "Anthony Teixeira, David Kirkland, Dayan Paez, Jacquelyn Nowicke, Javier Burgos, Maria Luckyanova, Stephen Steger, Tolga Yazicioglu, Heraclio Hernandez, Brad Stronger, Gavin Cotter, Joseph Dieguez, Karen Noiva, Michael Kozlowski, Nadia Elkordy, Patrick Barragan, Philip Garcia, Basil Khoury",
-        deliverables: {
-          ideas: {
+    }
+},
+
+purple: {
+    projName: “Stabili-track”,
+    projDesc: “a treadmill for the blind”,
+    projColor: “purple”,
+    projTeam: "Ashlie Brown, Daniel Hernandez-Stewart, Jessica Huang, Joshwa Wang, Michael Shields, Victoria Harris, Bryan Woodruff, Anirban Mazumdar, Eric Adjorlolo, Daipan Lee, Heejay Kang, Martin Segado, Sarah Shivers, Greg Sanz",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "VeggiClean",
-              vimeoId: "231459963"
+                name: “Power Stove”,
+                vimeoId: "231458395"
             },
             A2: {
-              name: "WindBag",
-              vimeoId: "231459978"
+                name: “StabiliTrack”,
+                vimeoId: "231458414"
             },
-
             B1: {
-              name: "Shea nut press",
-              vimeoId: "231459989"
+                name: “SoloShower”,
+                vimeoId: "231458422"
             },
             B2: {
-              name: "Veggie washer",
-              vimeoId: "231459996"
+                name: “The Hinthouse”,
+                vimeoId: "231458435"
             }
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "VeggieClean",
-              vimeoId: "231459650"
+                name: “Stabili-track“,
+                vimeoId: "231457824"
             },
             B1: {
-              name: "Shea Nut Processing",
-              vimeoId: "231459667"
+                name: “Solo shower“,
+                vimeoId: "231457855"
             }
-          },
-          assembly: {
-            name: "SheaCycle"
-          },
-          tech: {
-            name: "SheaCycle",
-            vimeoId: "231460127"
-          },
-          final: {
-            name: "SheaCycle",
-            vimeoId: "231459136"
-          }
+
+        },
+        assembly: {
+            name: "Stabili-track"
+        },
+        tech: {
+            name: "Stabili-track",
+            vimeoId: "231459012"
+        },
+        final: {
+            name: "Stabili-track",
+            vimeoId: "231457417"
         }
-      },
-      yellow: {
-        projName: "Intellishower",
-        projDesc: "a water-saving shower",
-        projColor: "yellow",
-        projTeam: "Andrew Hurwich, Chihjiun Yeh, Diego A. Melani, Ellann Cohen, Kristina Haller, Lisandro Quinones, Nathan Wang, Stuart Rossen, Tristan Lang, Asiri Ediriwickrema, Edward Summers, Holly B. Laird, Iliya Tsekov, Yamilee Toussaint, Ryan Dean, Sergio Navarro, Shane Treadway, Yangfang Wang",
-        deliverables: {
-          ideas: {
+    }
+},
+
+red: {
+    projName: “Micro-golf”,
+    projDesc: “a disability-friendly game”,
+    projColor: “red”,
+    projTeam: "Atiya Hasan, Brad Schiller, Devin Neal, Heather Felix, Michael Beltran, Allan Reyes, Chris Ruggiero, Sam Berberian, Ryan Bavetta, Chris Bateman, Christine Winiarz, Darren Chun, Matthew Blanco, Terianne Hall, Aron Zingman",
+    deliverables: {
+        ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-          },
-          sketch: {
+        },
+        sketch: {
             A1: {
-              name: "Smart shower",
-              vimeoId: "231460012"
+                name: “Golf Ball Launcher”,
+                vimeoId: "231458443"
             },
             A2: {
-              name: "Veggie washer",
-              vimeoId: "231460021"
+                name: “Mini-golf Table”,
+                vimeoId: "231458451"
             },
-
             B1: {
-              name: "Reuse.A.Mug",
-              vimeoId: "231460029"
+                name: “Recumbent Tricycle”,
+                vimeoId: "231458461"
             },
             B2: {
-              name: "Aquatron filter",
-              vimeoId: "231460038"
+                name: “Hands-Free Stroller”,
+                vimeoId: "231458470"
             }
-          },
-          mockup: {
+            
+        },
+        mockup: {
             A1: {
-              name: "Smart Shower",
-              vimeoId: "231459699"
+                name: “Mini-golf table“,
+                vimeoId: "231457888"
             },
             B1: {
-              name: "Reuse-A-Mug",
-              vimeoId: "231459719"
+                name: “Hands-free stroller“,
+                vimeoId: "231457911"
             }
-          },
-          assembly: {
-            name: "IntelliShower"
-          },
-          tech: {
-            name: "IntelliShower",
-            vimeoId: "231460133"
-          },
-          final: {
-            name: "IntelliShower",
-            vimeoId: "231459147"
-          }
+
+        },
+        assembly: {
+            name: "Micro-golf"
+        },
+        tech: {
+            name: "Micro-golf",
+            vimeoId: "231459021"
+        },
+        final: {
+            name: "Micro-golf",
+            vimeoId: "231457410"
         }
-      }
+    }
+},
+
+silver: {
+    projName: “Sure step”,
+    projDesc: “a braking walker”,
+    projColor: “silver”,
+    projTeam: "Christopher Coleman, Darragh Buckley, Ellen Cappo, Kevin DiGenova, Alfredo Morales, Michael Wrick, Ruchi Jain, Brendan Englot, Daniel Cunningham, Joseph Johnson, Michael Jensen, Jennifer Sanchez, Tania Ullah, Timothy Koch",
+    deliverables: {
+        ideas: {
+            A1: {},
+            A2: {},
+            B1: {},
+            B2: {}
+        },
+        sketch: {
+            A1: {
+                name: “Easy-Seater Toilet Assist”,
+                vimeoId: "231458474"
+            },
+            A2: {
+                name: “Up-Down Wheelchair”,
+                vimeoId: "231458489"
+            },
+            B1: {
+                name: “Medicine Bottles”,
+                vimeoId: "231458524"
+            },
+            B2: {
+                name: “Mobility Walker”,
+                vimeoId: "231458559"
+            }
+            
+        },
+        mockup: {
+            A1: {
+                name: “Up-down wheel chair“,
+                vimeoId: "231457933"
+            },
+            B1: {
+                name: “Silver walker“,
+                vimeoId: "231457956"
+            }
+
+        },
+        assembly: {
+            name: "Sure step"
+        },
+        tech: {
+            name: "Sure step",
+            vimeoId: "231459028"
+        },
+        final: {
+            name: "Sure step",
+            vimeoId: "231457426"
+        }
+    }
+},
+
+yellow: {
+    projName: “Slope support”,
+    projDesc: “an uphill wheel chair”,
+    projColor: “yellow”,
+    projTeam: "Brentan Alexander, David Mendiola, Erik Lampe, Inna Koyrakh, Jin Xu, Logan Munro, Phillip Dawson, Aaron Doody, David Lopez, Harmeet Gill, Moneer Helu, Earl Taylor Roan, Adam Leeb, Zachary Reynolds, Mike Lah",
+    deliverables: {
+        ideas: {
+            A1: {},
+            A2: {},
+            B1: {},
+            B2: {}
+        },
+        sketch: {
+            A1: {
+                name: “Uphill wheelchair”,
+                vimeoId: "231458577"
+            },
+            A2: {
+                name: “Knob handler”,
+                vimeoId: "231458588"
+            },
+            B1: {
+                name: “Viscocise”,
+                vimeoId: "231458600"
+            },
+            B2: {
+                name: “RED Rover”,
+                vimeoId: "231458609"
+            }
+            
+        },
+        mockup: {
+            A1: {
+                name: “Geared wheel chair“,
+                vimeoId: "231457980"
+            },
+            B1: {
+                name: “Knob handler“,
+                vimeoId: "231458048"
+            }
+
+        },
+        assembly: {
+            name: "Slope support"
+        },
+        tech: {
+            name: "Slope support",
+            vimeoId: "231459032"
+        },
+        final: {
+            name: "Slope support",
+            vimeoId: "231457434"
+        }
+    }
+}
     }
   },
   2005: {
