@@ -97,7 +97,7 @@ DATA = {
         linkUrl: "data/2017/highlights/halloween_video_2017.mp4",
         youtubeId: "EOX0TAVjw"
       }
-                ],
+    ],
     projects: {
       blue: {
         projName: "Robin",
@@ -2227,19 +2227,19 @@ DATA = {
         youtubeId: "p4LC0LoyHh8"
       },
       {
-          linkLabel: "2014 Syllabus",
-          linkUrl: "data/2014/highlights/syllabus.mov",
-          youtubeId: "4OZCaR4piLw"
+        linkLabel: "2014 Syllabus",
+        linkUrl: "data/2014/highlights/syllabus.mov",
+        youtubeId: "4OZCaR4piLw"
       },
       {
-          linkLabel: "2014 Teardown",
-          linkUrl: "data/2014/highlights/teardown_2014.mov",
-          youtubeId: "WqO_PVORJyQ"
+        linkLabel: "2014 Teardown",
+        linkUrl: "data/2014/highlights/teardown_2014.mov",
+        youtubeId: "WqO_PVORJyQ"
       },
       {
-          linkLabel: "That'll Do, Quad",
-          linkUrl: "data/2014/highlights/that_will_do_quad.mp4",
-          youtubeId: "JE2t2tczUqU"
+        linkLabel: "That'll Do, Quad",
+        linkUrl: "data/2014/highlights/that_will_do_quad.mp4",
+        youtubeId: "JE2t2tczUqU"
       },
       {
         linkLabel: "2.009 in the Boston Globe",
@@ -4893,453 +4893,453 @@ DATA = {
       },
     ],
     projects: {
-     blue: {
-    projName: “aquAIRius”,
-    projDesc: “adjustable buoyancy backboard”,
-    projColor: "blue",
-    projTeam: "Alexandra Beyer, Hallie Cho, Lisa Schlecht, Shanette Go, Anup Samuel, Christopher Benson, Jordan Meenen, Ryan Morrow, Alice Brooks, Jacqueline Rogoff, Mary DiGenova, Natasha Scolnik, Archimedes Stuk, Ben Burns, Samuel Weiss, Jameslevi Schmidt",
-    deliverables: {
-        ideas: {
+      blue: {
+        projName: "aquAIRius",
+        projDesc: "adjustable buoyancy backboard",
+        projColor: "blue",
+        projTeam: "Alexandra Beyer, Hallie Cho, Lisa Schlecht, Shanette Go, Anup Samuel, Christopher Benson, Jordan Meenen, Ryan Morrow, Alice Brooks, Jacqueline Rogoff, Mary DiGenova, Natasha Scolnik, Archimedes Stuk, Ben Burns, Samuel Weiss, Jameslevi Schmidt",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Spot-On”,
-                vimeoId: "231461746"
+              name: "Spot-On",
+              vimeoId: "231461746"
             },
             A2: {
-                name: “Bedsore”,
-                vimeoId: "231461759"
+              name: "Bedsore",
+              vimeoId: "231461759"
             },
             B1: {
-                name: “Variable Buoyancy Backboard”,
-                vimeoId: "231461769"
+              name: "Variable Buoyancy Backboard",
+              vimeoId: "231461769"
             },
             B2: {
-                name: “EasyLift Stretcher”,
-                vimeoId: "231461775"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Spot-On“,
-                vimeoId: "231461361"
-            },
-            B1: {
-                name: “Variable Buoyancy Backboard“,
-                vimeoId: "231461389"
+              name: "EasyLift Stretcher",
+              vimeoId: "231461775"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Spot-On",
+              vimeoId: "231461361"
+            },
+            B1: {
+              name: "Variable Buoyancy Backboard",
+              vimeoId: "231461389"
+            }
+
+          },
+          assembly: {
             name: "aquAIRius"
-        },
-        tech: {
+          },
+          tech: {
             name: "aquAIRius",
             vimeoId: "231462105"
-        },
-        final: {
+          },
+          final: {
             name: "aquAIRius",
             vimeoId: "231461198"
+          }
         }
-    }
-},
+      },
 
-green: {
-    projName: “Ascent”,
-    projDesc: “rollator”,
-    projColor: “green”,
-    projTeam: "Elizabeth Tsai, Angharad Porteous, Kevin Plumer, Julio Devora, Keja Rowe, Long Lam, Luis Garay, Adnan Esmail, Neeharika Bhartiya, Theresa Dixon, Albert Wang, Claudio Di Leo, Elliott Perez, Kent Willis, Andrew Nanopoulos, Raphael Moyer",
-    deliverables: {
-        ideas: {
+      green: {
+        projName: "Ascent",
+        projDesc: "rollator",
+        projColor: "green",
+        projTeam: "Elizabeth Tsai, Angharad Porteous, Kevin Plumer, Julio Devora, Keja Rowe, Long Lam, Luis Garay, Adnan Esmail, Neeharika Bhartiya, Theresa Dixon, Albert Wang, Claudio Di Leo, Elliott Perez, Kent Willis, Andrew Nanopoulos, Raphael Moyer",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Stair Descending Stretcher”,
-                vimeoId: "231461782"
+              name: "Stair Descending Stretcher",
+              vimeoId: "231461782"
             },
             A2: {
-                name: “Flood Bag”,
-                vimeoId: "231461789"
+              name: "Flood Bag",
+              vimeoId: "231461789"
             },
             B1: {
-                name: “Damped Stretcher”,
-                vimeoId: "231461793"
+              name: "Damped Stretcher",
+              vimeoId: "231461793"
             },
             B2: {
-                name: “The Walker Righter”,
-                vimeoId: "231461797"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Stair Stretcher“,
-                vimeoId: "231461403"
-            },
-            B1: {
-                name: “Walker Lift Assist“,
-                vimeoId: "231461419"
+              name: "The Walker Righter",
+              vimeoId: "231461797"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Stair Stretcher",
+              vimeoId: "231461403"
+            },
+            B1: {
+              name: "Walker Lift Assist",
+              vimeoId: "231461419"
+            }
+
+          },
+          assembly: {
             name: "Ascent"
-        },
-        tech: {
+          },
+          tech: {
             name: "Ascent",
             vimeoId: "231576505"
-        },
-        final: {
+          },
+          final: {
             name: "Ascent",
             vimeoId: "231461205"
+          }
         }
-    }
-},
+      },
 
-orange: {
-    projName: “Isis Helmet”,
-    projDesc: “isis helmet”,
-    projColor: “orange”,
-    projTeam: "Jeremy Kuempel, Melissa Kaufman, Katrina Ellison, Minhee Sung, Neha Batra, Corey Harris, Eric Guffey, Joseph Silverman, Erika Sandford, Katharine Binder, Zhechen Hong, Maria Prus, Mark Barineau, Cody Rebholz, James White, Joe Khoury",
-    deliverables: {
-        ideas: {
+      orange: {
+        projName: "Isis Helmet",
+        projDesc: "isis helmet",
+        projColor: "orange",
+        projTeam: "Jeremy Kuempel, Melissa Kaufman, Katrina Ellison, Minhee Sung, Neha Batra, Corey Harris, Eric Guffey, Joseph Silverman, Erika Sandford, Katharine Binder, Zhechen Hong, Maria Prus, Mark Barineau, Cody Rebholz, James White, Joe Khoury",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “AutoVest”,
-                vimeoId: "231461806"
+              name: "AutoVest",
+              vimeoId: "231461806"
             },
             A2: {
-                name: “StoveSafe”,
-                vimeoId: "231461812"
+              name: "StoveSafe",
+              vimeoId: "231461812"
             },
             B1: {
-                name: “Helmet 911”,
-                vimeoId: "231461823"
+              name: "Helmet 911",
+              vimeoId: "231461823"
             },
             B2: {
-                name: “HoseGoes”,
-                vimeoId: "231461828"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “StoveSafe“,
-                vimeoId: "231461435"
-            },
-            B1: {
-                name: “Helmet 9-1-1“,
-                vimeoId: "231461457"
+              name: "HoseGoes",
+              vimeoId: "231461828"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "StoveSafe",
+              vimeoId: "231461435"
+            },
+            B1: {
+              name: "Helmet 9-1-1",
+              vimeoId: "231461457"
+            }
+
+          },
+          assembly: {
             name: "Isis Helmet"
-        },
-        tech: {
+          },
+          tech: {
             name: "Isis Helmet",
             vimeoId: "231462113"
-        },
-        final: {
+          },
+          final: {
             name: "Isis Helmet",
             vimeoId: "231461219"
+          }
         }
-    }
-},
+      },
 
-pink: {
-    projName: “Fortrus”,
-    projDesc: “litter”,
-    projColor: “pink”,
-    projTeam: "Stephanie Brown, Jean Theurer, Marguerite Siboni, Adrian Dobson, Arron Acosta, Vu Hong, Yat Ming Victor Li, Robert Boyd, Michelle Ma, Tanya Goldhaber, Akhenaton-Andrew Jones, Yao Luo, Raymond Ma, Kevin A Rustagi, Blake Sessions",
-    deliverables: {
-        ideas: {
+      pink: {
+        projName: "Fortrus",
+        projDesc: "litter",
+        projColor: "pink",
+        projTeam: "Stephanie Brown, Jean Theurer, Marguerite Siboni, Adrian Dobson, Arron Acosta, Vu Hong, Yat Ming Victor Li, Robert Boyd, Michelle Ma, Tanya Goldhaber, Akhenaton-Andrew Jones, Yao Luo, Raymond Ma, Kevin A Rustagi, Blake Sessions",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Automatic Battering Ram”,
-                vimeoId: "231461843"
+              name: "Automatic Battering Ram",
+              vimeoId: "231461843"
             },
             A2: {
-                name: “Fire Extinguisher Pod”,
-                vimeoId: "231461859"
+              name: "Fire Extinguisher Pod",
+              vimeoId: "231461859"
             },
             B1: {
-                name: “Metro-Aid”,
-                vimeoId: "231461868"
+              name: "Metro-Aid",
+              vimeoId: "231461868"
             },
             B2: {
-                name: “Flitter”,
-                vimeoId: "231461878"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Fire-out“,
-                vimeoId: "231461479"
-            },
-            B1: {
-                name: “Flitter“,
-                vimeoId: "231461499"
+              name: "Flitter",
+              vimeoId: "231461878"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Fire-out",
+              vimeoId: "231461479"
+            },
+            B1: {
+              name: "Flitter",
+              vimeoId: "231461499"
+            }
+
+          },
+          assembly: {
             name: "Fortrus"
-        },
-        tech: {
+          },
+          tech: {
             name: "Fortrus",
             vimeoId: "231462115"
-        },
-        final: {
+          },
+          final: {
             name: "Fortrus",
             vimeoId: "231461242"
+          }
         }
-    }
-},
+      },
 
-purple: {
-    projName: “Ixa Walker”,
-    projDesc: “ixa walker”,
-    projColor: “purple”,
-    projTeam: "Jacklyn Holmes, Lisa Tacoronte, Rachel Sharples, Andrew Marecki, Garth Grove, Juan Fernando Rodriguez, Stephen Morton, Julia Day, Mindy Eng, Eric Beecher, Howard Liles, Timothy Robertson II, Adam Goldstein, Luke Cummings, Geng Tan",
-    deliverables: {
-        ideas: {
+      purple: {
+        projName: "Ixa Walker",
+        projDesc: "ixa walker",
+        projColor: "purple",
+        projTeam: "Jacklyn Holmes, Lisa Tacoronte, Rachel Sharples, Andrew Marecki, Garth Grove, Juan Fernando Rodriguez, Stephen Morton, Julia Day, Mindy Eng, Eric Beecher, Howard Liles, Timothy Robertson II, Adam Goldstein, Luke Cummings, Geng Tan",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Organ Vitality System”,
-                vimeoId: "231461897"
+              name: "Organ Vitality System",
+              vimeoId: "231461897"
             },
             A2: {
-                name: “Electronic Stethoscope”,
-                vimeoId: "231461909"
+              name: "Electronic Stethoscope",
+              vimeoId: "231461909"
             },
             B1: {
-                name: “Walker Lift”,
-                vimeoId: "231461921"
+              name: "Walker Lift",
+              vimeoId: "231461921"
             },
             B2: {
-                name: “Inexpensive, Automatic Ventilator”,
-                vimeoId: "231461928"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Organ Vitality System“,
-                vimeoId: "231461526"
-            },
-            B1: {
-                name: “Lift Rails“,
-                vimeoId: "231461554"
+              name: "Inexpensive, Automatic Ventilator",
+              vimeoId: "231461928"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Organ Vitality System",
+              vimeoId: "231461526"
+            },
+            B1: {
+              name: "Lift Rails",
+              vimeoId: "231461554"
+            }
+
+          },
+          assembly: {
             name: "Ixa Walker"
-        },
-        tech: {
+          },
+          tech: {
             name: "Ixa Walker",
             vimeoId: "231462127"
-        },
-        final: {
+          },
+          final: {
             name: "Ixa Walker",
             vimeoId: "231461249"
+          }
         }
-    }
-},
+      },
 
-red: {
-    projName: “Airware”,
-    projDesc: “breathing apparatus”,
-    projColor: “red”,
-    projTeam: "Aria Reynolds, Carly Cobbold, Ashley Turza, Giorgio Zampierollo, Chris Peters, Michael Demyttenaere, Rastislav Racz, Jarred Schantz, Ashley Green, Taylor Williamson, Eric Reuland, James Torres, Evan Lampe, Paul Miyazaki, Tylor Hess, Allyson Randolph",
-    deliverables: {
-        ideas: {
+      red: {
+        projName: "Airware",
+        projDesc: "breathing apparatus",
+        projColor: "red",
+        projTeam: "Aria Reynolds, Carly Cobbold, Ashley Turza, Giorgio Zampierollo, Chris Peters, Michael Demyttenaere, Rastislav Racz, Jarred Schantz, Ashley Green, Taylor Williamson, Eric Reuland, James Torres, Evan Lampe, Paul Miyazaki, Tylor Hess, Allyson Randolph",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Lifesaving Belt”,
-                vimeoId: "231461935"
+              name: "Lifesaving Belt",
+              vimeoId: "231461935"
             },
             A2: {
-                name: “Impact Hardening Wrist Guard”,
-                vimeoId: "231461944"
+              name: "Impact Hardening Wrist Guard",
+              vimeoId: "231461944"
             },
             B1: {
-                name: “Shoe Roll-ups”,
-                vimeoId: "231461954"
+              name: "Shoe Roll-ups",
+              vimeoId: "231461954"
             },
             B2: {
-                name: “O-Tube”,
-                vimeoId: "231461968"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “CPR Rescue Can“,
-                vimeoId: "231461570"
-            },
-            B1: {
-                name: “AirWare“,
-                vimeoId: "231461593"
+              name: "O-Tube",
+              vimeoId: "231461968"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "CPR Rescue Can",
+              vimeoId: "231461570"
+            },
+            B1: {
+              name: "AirWare",
+              vimeoId: "231461593"
+            }
+
+          },
+          assembly: {
             name: "Airware"
-        },
-        tech: {
+          },
+          tech: {
             name: "Airware",
             vimeoId: "231462129"
-        },
-        final: {
+          },
+          final: {
             name: "Airware",
             vimeoId: "231461259"
+          }
         }
-    }
-},
+      },
 
-silver: {
-    projName: “iceTek Scraper”,
-    projDesc: “mechanical ice scraper”,
-    projColor: “silver”,
-    projTeam: "Katherine Ray, Michaelle Mayalu, Xuefeng Chen, Daniel Beauboeuf, Ian Rust, Matthew Rosario, Anthony McDonald, Aditi Nagaraj, Kathryn Pesce, Roseleigh Taylor, Adrian Adames, Eric Nielsen, Joshua Siegel, Nicholas Pennycooke, Troy Tamas, Cecilia Scott",
-    deliverables: {
-        ideas: {
+      silver: {
+        projName: "iceTek Scraper",
+        projDesc: "mechanical ice scraper",
+        projColor: "silver",
+        projTeam: "Katherine Ray, Michaelle Mayalu, Xuefeng Chen, Daniel Beauboeuf, Ian Rust, Matthew Rosario, Anthony McDonald, Aditi Nagaraj, Kathryn Pesce, Roseleigh Taylor, Adrian Adames, Eric Nielsen, Joshua Siegel, Nicholas Pennycooke, Troy Tamas, Cecilia Scott",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “GUARD”,
-                vimeoId: "231461973"
+              name: "GUARD",
+              vimeoId: "231461973"
             },
             A2: {
-                name: “Float-EEZE”,
-                vimeoId: "231461988"
+              name: "Float-EEZE",
+              vimeoId: "231461988"
             },
             B1: {
-                name: “Vibrating Ice Scraper”,
-                vimeoId: "231462001"
+              name: "Vibrating Ice Scraper",
+              vimeoId: "231462001"
             },
             B2: {
-                name: “Rescue Launcher”,
-                vimeoId: "231462009"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Mechanical Ice Scraper“,
-                vimeoId: "231461619"
-            },
-            B1: {
-                name: “Hurricane Shutters“,
-                vimeoId: "231461632"
+              name: "Rescue Launcher",
+              vimeoId: "231462009"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Mechanical Ice Scraper",
+              vimeoId: "231461619"
+            },
+            B1: {
+              name: "Hurricane Shutters",
+              vimeoId: "231461632"
+            }
+
+          },
+          assembly: {
             name: "iceTek Scraper"
-        },
-        tech: {
+          },
+          tech: {
             name: "iceTek Scraper",
             vimeoId: "231462131"
-        },
-        final: {
+          },
+          final: {
             name: "iceTek Scraper",
             vimeoId: "231461289"
+          }
         }
-    }
-},
+      },
 
-yellow: {
-    projName: “Komera”,
-    projDesc: “banana leaf pad assembler”,
-    projColor: “yellow”,
-    projTeam: "Ariadne Smith, Kamyin Cheng, Nicole Berdy, Adi Asali, Chris Carper, Richard Bates, Justin Schmidt, Tyler Liechty, Laura Aust, Katherine Smyth, Amrita Saigal, Abdulaziz Albahar, Corey Garvey, Robert Kalwarowsky, John Williams, Zachary Rose",
-    deliverables: {
-        ideas: {
+      yellow: {
+        projName: "Komera",
+        projDesc: "banana leaf pad assembler",
+        projColor: "yellow",
+        projTeam: "Ariadne Smith, Kamyin Cheng, Nicole Berdy, Adi Asali, Chris Carper, Richard Bates, Justin Schmidt, Tyler Liechty, Laura Aust, Katherine Smyth, Amrita Saigal, Abdulaziz Albahar, Corey Garvey, Robert Kalwarowsky, John Williams, Zachary Rose",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Bloodmobile”,
-                vimeoId: "231462022"
+              name: "Bloodmobile",
+              vimeoId: "231462022"
             },
             A2: {
-                name: “Water Filtration System”,
-                vimeoId: "231462036"
+              name: "Water Filtration System",
+              vimeoId: "231462036"
             },
             B1: {
-                name: “EmergiTent”,
-                vimeoId: "231462043"
+              name: "EmergiTent",
+              vimeoId: "231462043"
             },
             B2: {
-                name: “Banana Leaf Pad Assembler”,
-                vimeoId: "231462054"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “FrostBike“,
-                vimeoId: "231461653"
-            },
-            B1: {
-                name: “Banana Leaf Pad Assembler“,
-                vimeoId: "231461671"
+              name: "Banana Leaf Pad Assembler",
+              vimeoId: "231462054"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "FrostBike",
+              vimeoId: "231461653"
+            },
+            B1: {
+              name: "Banana Leaf Pad Assembler",
+              vimeoId: "231461671"
+            }
+
+          },
+          assembly: {
             name: "Komera"
-        },
-        tech: {
+          },
+          tech: {
             name: "Komera",
             vimeoId: "231462140"
-        },
-        final: {
+          },
+          final: {
             name: "Komera",
             vimeoId: "231461299"
+          }
         }
-    }
-}
+      }
     }
   },
   2008: {
@@ -6181,397 +6181,396 @@ yellow: {
     ],
     projects: {
       blue: {
-    projName: “Revolution”,
-    projDesc: “a bike for the disabled”,
-    projColor: "blue",
-    projTeam: “vAndrew Harlan, Albert Hernandez, Courtney N. Greene, Emmanuel Sin, Katherine Rorschach, Mark Cote, Robert Panas, Elysa Wan, Alexander Krull, Diana Sim, Donald Walker, Jorge Renjifo, Nicholas Maietta, Michal Ruchelsman, Helen Tsai, Ulzie Rea,
-    deliverables: {
-        ideas: {
+        projName: "Revolution",
+        projDesc: "a bike for the disabled",
+        projColor: "blue",
+        projTeam: "Andrew Harlan, Albert Hernandez, Courtney N. Greene, Emmanuel Sin, Katherine Rorschach, Mark Cote, Robert Panas, Elysa Wan, Alexander Krull, Diana Sim, Donald Walker, Jorge Renjifo, Nicholas Maietta, Michal Ruchelsman, Helen Tsai, Ulzie Rea",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Stabili-Bike”,
-                vimeoId: "231458269"
+              name: "Stabili-Bike",
+              vimeoId: "231458269"
             },
             A2: {
-                name: “Super Stair Cart”,
-                vimeoId: "231458275"
+              name: "Super Stair Cart",
+              vimeoId: "231458275"
             },
             B1: {
-                name: “Stair Caddy”,
-                vimeoId: "231458283"
+              name: "Stair Caddy",
+              vimeoId: "231458283"
             },
             B2: {
-                name: “Marco Polo Ball”,
-                vimeoId: "231458291"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Stabili-bike“,
-                vimeoId: "231457704"
-            },
-            B1: {
-                name: “Super stair cart“,
-                vimeoId: "231457735"
+              name: "Marco Polo Ball",
+              vimeoId: "231458291"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Stabili-bike",
+              vimeoId: "231457704"
+            },
+            B1: {
+              name: "Super stair cart",
+              vimeoId: "231457735"
+            }
+
+          },
+          assembly: {
             name: "Revolution"
-        },
-        tech: {
+          },
+          tech: {
             name: "Revolution",
             vimeoId: "231458985"
-        },
-        final: {
+          },
+          final: {
             name: "Revolution",
             vimeoId: "231457377"
+          }
         }
-    }
-},
+      },
 
-green: {
-    projName: “Share chair”,
-    projDesc: “facilitating conversation”,
-    projColor: “green”,
-    projTeam: "Josh Jiricek, Jesse Marsh, Matthew Zedler, Nicola Tan, Ovid Amadi, Arthur Petron, Cynthia Walker, Etienne Toussaint, Gita Srivastava, Julian Getachew, Mark Egan, Omar R. Hernandez, Stephanie Reed, William Etheridge, Alex Cutting",
-    deliverables: {
-        ideas: {
+      green: {
+        projName: "Share chair",
+        projDesc: "facilitating conversation",
+        projColor: "green",
+        projTeam: "Josh Jiricek, Jesse Marsh, Matthew Zedler, Nicola Tan, Ovid Amadi, Arthur Petron, Cynthia Walker, Etienne Toussaint, Gita Srivastava, Julian Getachew, Mark Egan, Omar R. Hernandez, Stephanie Reed, William Etheridge, Alex Cutting",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Vibration Music”,
-                vimeoId: "231458310"
+              name: "Vibration Music",
+              vimeoId: "231458310"
             },
             A2: {
-                name: “Eye to Eye Wheelchair”,
-                vimeoId: "231458318"
+              name: "Eye to Eye Wheelchair",
+              vimeoId: "231458318"
             },
             B1: {
-                name: “Lifting Wheelchair”,
-                vimeoId: "231458329"
+              name: "Lifting Wheelchair",
+              vimeoId: "231458329"
             },
             B2: {
-                name: “ShareChair”,
-                vimeoId: "231458339"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Self-powered lifting chair“,
-                vimeoId: "231458996"
-            },
-            B1: {
-                name: “Share chair“,
-                vimeoId: "231457763"
+              name: "ShareChair",
+              vimeoId: "231458339"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Self-powered lifting chair",
+              vimeoId: "231458996"
+            },
+            B1: {
+              name: "Share chair",
+              vimeoId: "231457763"
+            }
+
+          },
+          assembly: {
             name: "Share chair"
-        },
-        tech: {
+          },
+          tech: {
             name: "Share chair",
             vimeoId: "231458996"
-        },
-        final: {
+          },
+          final: {
             name: "Share chair",
             vimeoId: "231457395"
+          }
         }
-    }
-},
+      },
 
-orange: {
-    projName: “U-shower”,
-    projDesc: “a bath and shower seat
-”,
-    projColor: “orange”,
-    projTeam: "Alisha Schor, Erica Pavao, Edgar Torres, Lisa Hopeman, Juan Herrera, Kurt Stiehl, Teresa Liu, Brian LaCrosse, Christina Gomez, Marcus Carson, Justin Lai, Janet Lieberman, Miguel Saez, Sharon Prange",
-    deliverables: {
-        ideas: {
+      orange: {
+        projName: "U-shower",
+        projDesc: "a bath and shower seat",
+        projColor: "orange",
+        projTeam: "Alisha Schor, Erica Pavao, Edgar Torres, Lisa Hopeman, Juan Herrera, Kurt Stiehl, Teresa Liu, Brian LaCrosse, Christina Gomez, Marcus Carson, Justin Lai, Janet Lieberman, Miguel Saez, Sharon Prange",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Remote Shower Head”,
-                vimeoId: “231458347”
+              name: "Remote Shower Head",
+              vimeoId: "231458347"
             },
             A2: {
-                name: “Bathtub Helper”,
-                vimeoId: "231458358"
+              name: "Bathtub Helper",
+              vimeoId: "231458358"
             },
             B1: {
-                name: “Tilt-a-Toilet”,
-                vimeoId: "231458366"
+              name: "Tilt-a-Toilet",
+              vimeoId: "231458366"
             },
             B2: {
-                name: “One-Handed Scrubber”,
-                vimeoId: "231458380"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Remote control shower head“,
-                vimeoId: "231457780"
-            },
-            B1: {
-                name: “Tilt-a-toilet“,
-                vimeoId: "231457803"
+              name: "One-Handed Scrubber",
+              vimeoId: "231458380"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Remote control shower head",
+              vimeoId: "231457780"
+            },
+            B1: {
+              name: "Tilt-a-toilet",
+              vimeoId: "231457803"
+            }
+
+          },
+          assembly: {
             name: "U-shower"
-        },
-        tech: {
+          },
+          tech: {
             name: "U-shower",
             vimeoId: "231459005"
-        },
-        final: {
+          },
+          final: {
             name: "U-shower",
             vimeoId: "231565735"
+          }
         }
-    }
-},
+      },
 
-purple: {
-    projName: “Stabili-track”,
-    projDesc: “a treadmill for the blind”,
-    projColor: “purple”,
-    projTeam: "Ashlie Brown, Daniel Hernandez-Stewart, Jessica Huang, Joshwa Wang, Michael Shields, Victoria Harris, Bryan Woodruff, Anirban Mazumdar, Eric Adjorlolo, Daipan Lee, Heejay Kang, Martin Segado, Sarah Shivers, Greg Sanz",
-    deliverables: {
-        ideas: {
+      purple: {
+        projName: "Stabili-track",
+        projDesc: "a treadmill for the blind",
+        projColor: "purple",
+        projTeam: "Ashlie Brown, Daniel Hernandez-Stewart, Jessica Huang, Joshwa Wang, Michael Shields, Victoria Harris, Bryan Woodruff, Anirban Mazumdar, Eric Adjorlolo, Daipan Lee, Heejay Kang, Martin Segado, Sarah Shivers, Greg Sanz",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Power Stove”,
-                vimeoId: "231458395"
+              name: "Power Stove",
+              vimeoId: "231458395"
             },
             A2: {
-                name: “StabiliTrack”,
-                vimeoId: "231458414"
+              name: "StabiliTrack",
+              vimeoId: "231458414"
             },
             B1: {
-                name: “SoloShower”,
-                vimeoId: "231458422"
+              name: "SoloShower",
+              vimeoId: "231458422"
             },
             B2: {
-                name: “The Hinthouse”,
-                vimeoId: "231458435"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Stabili-track“,
-                vimeoId: "231457824"
-            },
-            B1: {
-                name: “Solo shower“,
-                vimeoId: "231457855"
+              name: "The Hinthouse",
+              vimeoId: "231458435"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Stabili-track",
+              vimeoId: "231457824"
+            },
+            B1: {
+              name: "Solo shower",
+              vimeoId: "231457855"
+            }
+
+          },
+          assembly: {
             name: "Stabili-track"
-        },
-        tech: {
+          },
+          tech: {
             name: "Stabili-track",
             vimeoId: "231459012"
-        },
-        final: {
+          },
+          final: {
             name: "Stabili-track",
             vimeoId: "231457417"
+          }
         }
-    }
-},
+      },
 
-red: {
-    projName: “Micro-golf”,
-    projDesc: “a disability-friendly game”,
-    projColor: “red”,
-    projTeam: "Atiya Hasan, Brad Schiller, Devin Neal, Heather Felix, Michael Beltran, Allan Reyes, Chris Ruggiero, Sam Berberian, Ryan Bavetta, Chris Bateman, Christine Winiarz, Darren Chun, Matthew Blanco, Terianne Hall, Aron Zingman",
-    deliverables: {
-        ideas: {
+      red: {
+        projName: "Micro-golf",
+        projDesc: "a disability-friendly game",
+        projColor: "red",
+        projTeam: "Atiya Hasan, Brad Schiller, Devin Neal, Heather Felix, Michael Beltran, Allan Reyes, Chris Ruggiero, Sam Berberian, Ryan Bavetta, Chris Bateman, Christine Winiarz, Darren Chun, Matthew Blanco, Terianne Hall, Aron Zingman",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Golf Ball Launcher”,
-                vimeoId: "231458443"
+              name: "Golf Ball Launcher",
+              vimeoId: "231458443"
             },
             A2: {
-                name: “Mini-golf Table”,
-                vimeoId: "231458451"
+              name: "Mini-golf Table",
+              vimeoId: "231458451"
             },
             B1: {
-                name: “Recumbent Tricycle”,
-                vimeoId: "231458461"
+              name: "Recumbent Tricycle",
+              vimeoId: "231458461"
             },
             B2: {
-                name: “Hands-Free Stroller”,
-                vimeoId: "231458470"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Mini-golf table“,
-                vimeoId: "231457888"
-            },
-            B1: {
-                name: “Hands-free stroller“,
-                vimeoId: "231457911"
+              name: "Hands-Free Stroller",
+              vimeoId: "231458470"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Mini-golf table",
+              vimeoId: "231457888"
+            },
+            B1: {
+              name: "Hands-free stroller",
+              vimeoId: "231457911"
+            }
+
+          },
+          assembly: {
             name: "Micro-golf"
-        },
-        tech: {
+          },
+          tech: {
             name: "Micro-golf",
             vimeoId: "231459021"
-        },
-        final: {
+          },
+          final: {
             name: "Micro-golf",
             vimeoId: "231457410"
+          }
         }
-    }
-},
+      },
 
-silver: {
-    projName: “Sure step”,
-    projDesc: “a braking walker”,
-    projColor: “silver”,
-    projTeam: "Christopher Coleman, Darragh Buckley, Ellen Cappo, Kevin DiGenova, Alfredo Morales, Michael Wrick, Ruchi Jain, Brendan Englot, Daniel Cunningham, Joseph Johnson, Michael Jensen, Jennifer Sanchez, Tania Ullah, Timothy Koch",
-    deliverables: {
-        ideas: {
+      silver: {
+        projName: "Sure step",
+        projDesc: "a braking walker",
+        projColor: "silver",
+        projTeam: "Christopher Coleman, Darragh Buckley, Ellen Cappo, Kevin DiGenova, Alfredo Morales, Michael Wrick, Ruchi Jain, Brendan Englot, Daniel Cunningham, Joseph Johnson, Michael Jensen, Jennifer Sanchez, Tania Ullah, Timothy Koch",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Easy-Seater Toilet Assist”,
-                vimeoId: "231458474"
+              name: "Easy-Seater Toilet Assist",
+              vimeoId: "231458474"
             },
             A2: {
-                name: “Up-Down Wheelchair”,
-                vimeoId: "231458489"
+              name: "Up-Down Wheelchair",
+              vimeoId: "231458489"
             },
             B1: {
-                name: “Medicine Bottles”,
-                vimeoId: "231458524"
+              name: "Medicine Bottles",
+              vimeoId: "231458524"
             },
             B2: {
-                name: “Mobility Walker”,
-                vimeoId: "231458559"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Up-down wheel chair“,
-                vimeoId: "231457933"
-            },
-            B1: {
-                name: “Silver walker“,
-                vimeoId: "231457956"
+              name: "Mobility Walker",
+              vimeoId: "231458559"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Up-down wheel chair",
+              vimeoId: "231457933"
+            },
+            B1: {
+              name: "Silver walker",
+              vimeoId: "231457956"
+            }
+
+          },
+          assembly: {
             name: "Sure step"
-        },
-        tech: {
+          },
+          tech: {
             name: "Sure step",
             vimeoId: "231459028"
-        },
-        final: {
+          },
+          final: {
             name: "Sure step",
             vimeoId: "231457426"
+          }
         }
-    }
-},
+      },
 
-yellow: {
-    projName: “Slope support”,
-    projDesc: “an uphill wheel chair”,
-    projColor: “yellow”,
-    projTeam: "Brentan Alexander, David Mendiola, Erik Lampe, Inna Koyrakh, Jin Xu, Logan Munro, Phillip Dawson, Aaron Doody, David Lopez, Harmeet Gill, Moneer Helu, Earl Taylor Roan, Adam Leeb, Zachary Reynolds, Mike Lah",
-    deliverables: {
-        ideas: {
+      yellow: {
+        projName: "Slope support",
+        projDesc: "an uphill wheel chair",
+        projColor: "yellow",
+        projTeam: "Brentan Alexander, David Mendiola, Erik Lampe, Inna Koyrakh, Jin Xu, Logan Munro, Phillip Dawson, Aaron Doody, David Lopez, Harmeet Gill, Moneer Helu, Earl Taylor Roan, Adam Leeb, Zachary Reynolds, Mike Lah",
+        deliverables: {
+          ideas: {
             A1: {},
             A2: {},
             B1: {},
             B2: {}
-        },
-        sketch: {
+          },
+          sketch: {
             A1: {
-                name: “Uphill wheelchair”,
-                vimeoId: "231458577"
+              name: "Uphill wheelchair",
+              vimeoId: "231458577"
             },
             A2: {
-                name: “Knob handler”,
-                vimeoId: "231458588"
+              name: "Knob handler",
+              vimeoId: "231458588"
             },
             B1: {
-                name: “Viscocise”,
-                vimeoId: "231458600"
+              name: "Viscocise",
+              vimeoId: "231458600"
             },
             B2: {
-                name: “RED Rover”,
-                vimeoId: "231458609"
-            }
-            
-        },
-        mockup: {
-            A1: {
-                name: “Geared wheel chair“,
-                vimeoId: "231457980"
-            },
-            B1: {
-                name: “Knob handler“,
-                vimeoId: "231458048"
+              name: "RED Rover",
+              vimeoId: "231458609"
             }
 
-        },
-        assembly: {
+          },
+          mockup: {
+            A1: {
+              name: "Geared wheel chair",
+              vimeoId: "231457980"
+            },
+            B1: {
+              name: "Knob handler",
+              vimeoId: "231458048"
+            }
+
+          },
+          assembly: {
             name: "Slope support"
-        },
-        tech: {
+          },
+          tech: {
             name: "Slope support",
             vimeoId: "231459032"
-        },
-        final: {
+          },
+          final: {
             name: "Slope support",
             vimeoId: "231457434"
+          }
         }
-    }
-}
+      }
     }
   },
   2005: {
