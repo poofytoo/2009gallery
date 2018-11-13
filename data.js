@@ -45,6 +45,11 @@ DATA = {
         subheading: "Final Presentations"
       },
       {
+        linkLabel: "Compendium",
+        linkUrl: "data/2017/highlights/compendium_2017.mp4",
+        youtubeId: "ncxAP3-L680&"
+      },
+      {
         linkLabel: "Celebrating MIT - Quadcopter",
         linkUrl: "data/2017/highlights/quad_2017.mov",
         youtubeId: "uwMsQqHK2ZY"
@@ -427,7 +432,7 @@ DATA = {
               vimeoId: "237057979"
             },
             B2: {
-              name: "Rock’n Glove",
+              name: "Rock'n Glove",
               vimeoId: "237057988"
             },
             B3: {
