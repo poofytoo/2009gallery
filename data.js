@@ -179,7 +179,7 @@ DATA = {
       },
 
       green: {
-        projName: "tachi",
+        projName: "tatchî",
         projDesc: "assistive game development platform",
         projColor: "green",
         projTeam: "Andres Galindo, Anika Yasmin, Donovan Sienkiewicz, Emily Damato, Eric Ponce, Greg Cartagena, Ishan Meswani, JD Heyns, Jana Saadi, Jeremy Bogle, Josh Woodard, Katherine Paseman, Liza Gaylord, Lucia Liu, Mary Thielking, Pelkins Ajanoh, Yasmin Chavez",
@@ -239,14 +239,14 @@ DATA = {
 
           },
           assembly: {
-            name: "tachî"
+            name: "tatchî"
           },
           tech: {
-            name: "tachî",
+            name: "tatchî",
             vimeoId: "243242159"
           },
           final: {
-            name: "tachî",
+            name: "tatchî",
             vimeoId: "281270826"
           }
         }
